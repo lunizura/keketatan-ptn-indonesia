@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indeks &amp; Kalkulator Keketatan PTN Top Indonesia | SNBP &amp; SNBT</title>
+  <meta name="description" content="Basis data analitis dan kalkulator strategi keketatan program studi pada PTN top Indonesia jalur SNBP dan SNBT. Data resmi daya tampung, peminat, dan rasio persaingan.">
+  <meta name="keywords" content="keketatan ptn, snbp, snbt, daya tampung ptn, peminat snbt, kalkulator snbt, ui, itb, ugm, unair, its, undip, unpad, ub, uns">
+  <meta name="author" content="izu">
+
+  <!-- Open Graph / Social Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Indeks &amp; Kalkulator Keketatan PTN Top Indonesia">
+  <meta property="og:description" content="Eksplorasi data daya tampung, peminat, tingkat keketatan, dan simulator strategi pilihan 1 &amp; 2 SNBP/SNBT untuk 15 PTN terbaik di Indonesia.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .badge-sangat-ketat {
+      background-color: #fff1f2;
+      color: #9f1239;
+      border: 1px solid #fecdd3;
+    }
+    .badge-ketat {
+      background-color: #fffbeb;
+      color: #92400e;
+      border: 1px solid #fde68a;
+    }
+    .badge-sedang {
+      background-color: #eff6ff;
+      color: #1e40af;
+      border: 1px solid #bfdbfe;
+    }
+    .badge-terbuka {
+      background-color: #ecfdf5;
+      color: #065f46;
+      border: 1px solid #a7f3d0;
+    }
+    .badge-saintek {
+      background-color: #f0fdf4;
+      color: #166534;
+      border: 1px solid #bbf7d0;
+    }
+    .badge-soshum {
+      background-color: #fdf4ff;
+      color: #86198f;
+      border: 1px solid #f5d0fe;
+    }
+    .tab-active {
+      border-bottom-color: #0284c7;
+      color: #0284c7;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col font-sans">
+
+  <!-- Top Announcement Bar -->
+  <header class="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400"></span>
+        <span id="announcement-text">Basis Data Resmi SNPMB BPPP Kemendikbudristek &bull; 15 PTN Klaster Utama</span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span class="text-slate-400" id="announcement-updated">Diperbarui: 02 Oktober 2026</span>
+        <button id="lang-toggle-btn" class="inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition" title="Ganti Bahasa / Switch Language">
+          <svg class="w-3.5 h-3.5 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/></svg>
+          <span id="lang-label-id" class="font-bold text-sky-400">ID</span>
+          <span class="text-slate-500">|</span>
+          <span id="lang-label-en" class="font-normal text-slate-400">EN</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Navbar -->
+  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-700 to-sky-500 flex items-center justify-center text-white shadow-sm font-black text-lg tracking-wider">
+            PTN
+          </div>
+          <div>
+            <h1 id="nav-title" class="text-base sm:text-lg font-extrabold text-slate-900 leading-tight">
+              Indeks Keketatan PTN Top Indonesia
+            </h1>
+            <p id="nav-subtitle" class="text-xs text-slate-500 hidden sm:block">
+              Analisis Daya Tampung &bull; Peminat &bull; Kalkulator Strategi Portofolio
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-2">
+          <a href="https://github.com/lunizura/keketatan-ptn-indonesia" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 px-3 py-1.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition border border-slate-200">
+            <svg class="w-4 h-4 text-slate-800" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            <span class="hidden sm:inline">GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero & Quick Stats Section -->
+  <section class="bg-gradient-to-b from-sky-50/70 via-white to-slate-50 border-b border-slate-200 py-8 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-6">
+        <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-sky-100 text-sky-800 border border-sky-200 mb-3">
+          <span class="w-1.5 h-1.5 rounded-full bg-sky-600"></span>
+          <span id="hero-pill">Seleksi Nasional Penerimaan Mahasiswa Baru</span>
+        </div>
+        <h2 id="hero-title" class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+          Panduan Keketatan &amp; Peluang Masuk PTN Favorit
+        </h2>
+        <p id="hero-desc" class="mt-2 text-sm sm:text-base text-slate-600 leading-relaxed">
+          Ketahui tingkat persaingan riil program studi impian Anda di 15 universitas negeri terkemuka. Hitung rasio persaingan (1 : N), persentase keketatan, dan uji kombinasi strategi pilihan Anda secara objektif.
+        </p>
+      </div>
+
+      <!-- Quick Metrics Cards -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+        <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
+          <p id="stat-ptn-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Cakupan PTN</p>
+          <div class="mt-1 flex items-baseline space-x-2">
+            <span class="text-2xl sm:text-3xl font-extrabold text-slate-900" id="stat-ptn-val">15</span>
+            <span class="text-xs text-slate-500">Kampus Unggulan</span>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
+          <p id="stat-prodi-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Total Program Studi</p>
+          <div class="mt-1 flex items-baseline space-x-2">
+            <span class="text-2xl sm:text-3xl font-extrabold text-sky-700" id="stat-prodi-val">113</span>
+            <span class="text-xs text-slate-500">Jurusan Favorit</span>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
+          <p id="stat-extreme-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Keketatan Tertinggi</p>
+          <div class="mt-1 flex items-baseline space-x-2">
+            <span class="text-2xl sm:text-3xl font-extrabold text-rose-600" id="stat-extreme-val">&lt; 1.3%</span>
+            <span class="text-xs text-slate-500" id="stat-extreme-sub">Rasio 1 : 80</span>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
+          <p id="stat-track-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Jalur Seleksi</p>
+          <div class="mt-1 flex items-baseline space-x-2">
+            <span class="text-xl sm:text-2xl font-extrabold text-slate-800">SNBP &bull; SNBT</span>
+          </div>
+          <p class="text-[11px] text-slate-400 mt-0.5">Prestasi &amp; Tes Tertulis UTBK</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Primary Tab Navigation -->
+  <section class="bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="flex space-x-4 sm:space-x-8 overflow-x-auto text-sm font-semibold" aria-label="Tabs">
+        <button id="tab-btn-leaderboard" onclick="switchTab('leaderboard')" class="py-4 px-1 border-b-2 tab-active transition whitespace-nowrap flex items-center space-x-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+          <span id="tab-lbl-leaderboard">Peringkat Terketat Nasional</span>
+        </button>
+        <button id="tab-btn-compare" onclick="switchTab('compare')" class="py-4 px-1 border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition whitespace-nowrap flex items-center space-x-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          <span id="tab-lbl-compare">Komparasi Antar-Kampus</span>
+        </button>
+        <button id="tab-btn-simulator" onclick="switchTab('simulator')" class="py-4 px-1 border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition whitespace-nowrap flex items-center space-x-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+          <span id="tab-lbl-simulator">Kalkulator Strategi Pilihan</span>
+        </button>
+        <button id="tab-btn-directory" onclick="switchTab('directory')" class="py-4 px-1 border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition whitespace-nowrap flex items-center space-x-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+          <span id="tab-lbl-directory">Direktori Semua Jurusan</span>
+        </button>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Main Content Area -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+
+    <!-- ========================================== -->
+    <!-- TAB 1: LEADERBOARD NASIONAL TERKETAT       -->
+    <!-- ========================================== -->
+    <div id="section-leaderboard" class="space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h3 id="lb-title" class="text-xl font-bold text-slate-900">Peringkat Program Studi Paling Ketat di Indonesia</h3>
+          <p id="lb-subtitle" class="text-xs sm:text-sm text-slate-500">Diurutkan berdasarkan persentase keketatan terendah (rasio persaingan tertinggi).</p>
+        </div>
+        
+        <!-- Controls: Jalur Toggle & Rumpun Filter -->
+        <div class="flex flex-wrap items-center gap-2.5">
+          <div class="inline-flex rounded-xl bg-slate-200/80 p-1 border border-slate-200 text-xs font-semibold">
+            <button id="lb-track-snbt" onclick="setLeaderboardTrack('snbt')" class="px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition">SNBT (UTBK)</button>
+            <button id="lb-track-snbp" onclick="setLeaderboardTrack('snbp')" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition">SNBP (Rapor)</button>
+          </div>
+          <select id="lb-rumpun-select" onchange="renderLeaderboard()" class="px-3 py-1.5 rounded-xl border border-slate-200 bg-white text-xs font-medium text-slate-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-500">
+            <option value="ALL">Semua Rumpun</option>
+            <option value="Saintek">Saintek (IPA)</option>
+            <option value="Soshum">Soshum (IPS)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Leaderboard Table -->
+      <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse text-xs">
+            <thead>
+              <tr class="bg-slate-100 text-slate-700 border-b border-slate-200 font-semibold">
+                <th class="p-3.5 w-12 text-center">Rank</th>
+                <th class="p-3.5">Program Studi</th>
+                <th class="p-3.5">Perguruan Tinggi (PTN)</th>
+                <th class="p-3.5">Rumpun</th>
+                <th class="p-3.5 text-right">Daya Tampung</th>
+                <th class="p-3.5 text-right">Peminat</th>
+                <th class="p-3.5 text-center">Persentase Keketatan</th>
+                <th class="p-3.5 text-center">Rasio Persaingan</th>
+                <th class="p-3.5 text-center">Tingkat Risiko</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body" class="divide-y divide-slate-100 text-slate-700">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 2: KOMPARASI ANTAR-KAMPUS              -->
+    <!-- ========================================== -->
+    <div id="section-compare" class="hidden space-y-6">
+      <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+        <div>
+          <h3 id="comp-title" class="text-xl font-bold text-slate-900">Komparasi Prodi Sejenis Lintas Kampus</h3>
+          <p id="comp-subtitle" class="text-xs sm:text-sm text-slate-500">Bandingkan daya tampung, rasio peminat, dan keketatan jurusan yang sama di berbagai PTN top Indonesia.</p>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3">
+          <div class="w-full sm:w-auto">
+            <label id="comp-lbl-select" class="block text-xs font-semibold text-slate-600 mb-1">Pilih Program Studi:</label>
+            <select id="compare-prodi-select" onchange="renderComparison()" class="w-full sm:w-72 px-3 py-2 rounded-xl border border-slate-200 bg-white text-xs font-semibold text-slate-800 shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-500">
+              <!-- Dynamically populated prodi options -->
+            </select>
+          </div>
+          <div class="w-full sm:w-auto">
+            <label id="comp-lbl-track" class="block text-xs font-semibold text-slate-600 mb-1">Jalur Seleksi:</label>
+            <div class="inline-flex rounded-xl bg-slate-100 p-1 border border-slate-200 text-xs font-semibold">
+              <button id="comp-track-snbt" onclick="setCompareTrack('snbt')" class="px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition">SNBT</button>
+              <button id="comp-track-snbp" onclick="setCompareTrack('snbp')" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition">SNBP</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparison Visual Cards & Table -->
+      <div id="compare-results-container" class="space-y-6">
+        <!-- Dynamically injected comparison cards -->
+      </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 3: SIMULATOR STRATEGI PILIHAN          -->
+    <!-- ========================================== -->
+    <div id="section-simulator" class="hidden space-y-6">
+      <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+        <div>
+          <h3 id="sim-title" class="text-xl font-bold text-slate-900">Simulator Portofolio Pilihan 1 &amp; Pilihan 2</h3>
+          <p id="sim-subtitle" class="text-xs sm:text-sm text-slate-500">Uji kelayakan kombinasi pilihan jurusan Anda. Algoritma kami menganalisis tingkat risiko agar peluang lolos Anda optimal.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Pilihan 1 Box -->
+          <div class="p-5 rounded-2xl bg-sky-50/60 border border-sky-100 space-y-3">
+            <div class="flex items-center justify-between">
+              <span id="sim-choice1-badge" class="px-2.5 py-0.5 rounded-md text-xs font-bold bg-sky-700 text-white">Pilihan 1 (Prioritas Utama)</span>
+              <span class="text-xs text-sky-800 font-semibold" id="sim-p1-ptn-count"></span>
+            </div>
+            <div>
+              <label id="sim-lbl-p1-ptn" class="block text-xs font-medium text-slate-700 mb-1">Perguruan Tinggi (PTN):</label>
+              <select id="sim-p1-ptn" onchange="updateSimProdiOptions(1)" class="w-full px-3 py-2 rounded-xl border border-slate-200 bg-white text-xs font-medium shadow-sm"></select>
+            </div>
+            <div>
+              <label id="sim-lbl-p1-prodi" class="block text-xs font-medium text-slate-700 mb-1">Program Studi:</label>
+              <select id="sim-p1-prodi" onchange="runSimulation()" class="w-full px-3 py-2 rounded-xl border border-slate-200 bg-white text-xs font-medium shadow-sm"></select>
+            </div>
+            <div id="sim-p1-preview" class="p-3 bg-white rounded-xl border border-sky-200 text-xs text-slate-600">
+              <!-- Dynamically populated summary -->
+            </div>
+          </div>
+
+          <!-- Pilihan 2 Box -->
+          <div class="p-5 rounded-2xl bg-slate-100/70 border border-slate-200 space-y-3">
+            <div class="flex items-center justify-between">
+              <span id="sim-choice2-badge" class="px-2.5 py-0.5 rounded-md text-xs font-bold bg-slate-700 text-white">Pilihan 2 (Cadangan / Penyelamat)</span>
+              <span class="text-xs text-slate-600 font-semibold" id="sim-p2-ptn-count"></span>
+            </div>
+            <div>
+              <label id="sim-lbl-p2-ptn" class="block text-xs font-medium text-slate-700 mb-1">Perguruan Tinggi (PTN):</label>
+              <select id="sim-p2-ptn" onchange="updateSimProdiOptions(2)" class="w-full px-3 py-2 rounded-xl border border-slate-200 bg-white text-xs font-medium shadow-sm"></select>
+            </div>
+            <div>
+              <label id="sim-lbl-p2-prodi" class="block text-xs font-medium text-slate-700 mb-1">Program Studi:</label>
+              <select id="sim-p2-prodi" onchange="runSimulation()" class="w-full px-3 py-2 rounded-xl border border-slate-200 bg-white text-xs font-medium shadow-sm"></select>
+            </div>
+            <div id="sim-p2-preview" class="p-3 bg-white rounded-xl border border-slate-200 text-xs text-slate-600">
+              <!-- Dynamically populated summary -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Jalur Toggle for Simulation -->
+        <div class="pt-2 flex items-center justify-between flex-wrap gap-2">
+          <div class="flex items-center space-x-2">
+            <span id="sim-lbl-evaltrack" class="text-xs font-semibold text-slate-600">Evaluasi Jalur:</span>
+            <div class="inline-flex rounded-xl bg-slate-100 p-1 border border-slate-200 text-xs font-semibold">
+              <button id="sim-track-snbt" onclick="setSimTrack('snbt')" class="px-3 py-1 rounded-lg bg-white text-slate-900 shadow-sm transition">SNBT (UTBK)</button>
+              <button id="sim-track-snbp" onclick="setSimTrack('snbp')" class="px-3 py-1 rounded-lg text-slate-600 hover:text-slate-900 transition">SNBP</button>
+            </div>
+          </div>
+          <button onclick="runSimulation()" class="px-4 py-2 rounded-xl bg-sky-700 hover:bg-sky-800 text-white font-semibold text-xs transition shadow-sm">
+            <span id="sim-btn-analyze">Analisis Portofolio Sekarang</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Simulation Evaluation Output Result Card -->
+      <div id="simulation-output-card" class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+        <!-- Dynamically injected evaluation result -->
+      </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 4: DIREKTORI SEMUA JURUSAN             -->
+    <!-- ========================================== -->
+    <div id="section-directory" class="hidden space-y-6">
+      
+      <!-- Filter Bar -->
+      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <!-- Search input -->
+          <div>
+            <label id="dir-lbl-search" class="block text-xs font-semibold text-slate-600 mb-1">Cari Jurusan / Kampus:</label>
+            <input type="text" id="dir-search" oninput="renderDirectory()" placeholder="Contoh: Kedokteran, UI, Bandung..." class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs focus:outline-none focus:ring-2 focus:ring-sky-500">
+          </div>
+          <!-- Filter PTN -->
+          <div>
+            <label id="dir-lbl-ptn" class="block text-xs font-semibold text-slate-600 mb-1">Perguruan Tinggi:</label>
+            <select id="dir-ptn-select" onchange="renderDirectory()" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-sky-500">
+              <option value="ALL">Semua Kampus (15 PTN)</option>
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+          <!-- Filter Rumpun -->
+          <div>
+            <label id="dir-lbl-rumpun" class="block text-xs font-semibold text-slate-600 mb-1">Rumpun Ilmu:</label>
+            <select id="dir-rumpun-select" onchange="renderDirectory()" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-sky-500">
+              <option value="ALL">Semua Rumpun</option>
+              <option value="Saintek">Saintek (IPA)</option>
+              <option value="Soshum">Soshum (IPS)</option>
+            </select>
+          </div>
+          <!-- Filter Kategori Keketatan -->
+          <div>
+            <label id="dir-lbl-cat" class="block text-xs font-semibold text-slate-600 mb-1">Tingkat Keketatan:</label>
+            <select id="dir-cat-select" onchange="renderDirectory()" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-sky-500">
+              <option value="ALL">Semua Tingkat</option>
+              <option value="Sangat Ketat">Sangat Ketat (&lt; 2.5%)</option>
+              <option value="Ketat">Ketat (2.5% - 5%)</option>
+              <option value="Sedang">Sedang (5% - 10%)</option>
+              <option value="Terbuka">Terbuka (&gt; 10%)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-2 border-t border-slate-100 flex-wrap gap-2 text-xs">
+          <div class="text-slate-500">
+            <span id="dir-lbl-showing">Menampilkan</span> <strong id="dir-count-val" class="text-slate-800">0</strong> <span id="dir-lbl-of">dari</span> <strong id="dir-total-val" class="text-slate-800">0</strong> program studi.
+          </div>
+          <div class="flex items-center space-x-2">
+            <div class="inline-flex rounded-xl bg-slate-100 p-1 border border-slate-200 font-semibold">
+              <button id="dir-view-grid" onclick="setDirView('grid')" class="px-2.5 py-1 rounded-lg bg-white text-slate-900 shadow-sm transition">Kartu</button>
+              <button id="dir-view-table" onclick="setDirView('table')" class="px-2.5 py-1 rounded-lg text-slate-600 transition">Tabel</button>
+            </div>
+            <button onclick="resetDirFilters()" id="dir-btn-reset" class="px-3 py-1 text-slate-600 hover:text-rose-600 transition font-medium">Reset Filter</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Directory Grid Container -->
+      <div id="dir-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Dynamically injected prodi cards -->
+      </div>
+
+      <!-- Directory Table Container -->
+      <div id="dir-table-container" class="hidden bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse text-xs">
+            <thead>
+              <tr class="bg-slate-100 text-slate-700 border-b border-slate-200 font-semibold">
+                <th class="p-3 w-10 text-center">No</th>
+                <th class="p-3">Program Studi</th>
+                <th class="p-3">PTN</th>
+                <th class="p-3">Rumpun</th>
+                <th class="p-3 text-right">DT (SNBT)</th>
+                <th class="p-3 text-right">Peminat</th>
+                <th class="p-3 text-center">Keketatan</th>
+                <th class="p-3 text-center">Rasio</th>
+                <th class="p-3 text-center">Tautan</th>
+              </tr>
+            </thead>
+            <tbody id="dir-table-body" class="divide-y divide-slate-100 text-slate-700">
+              <!-- Dynamically populated table rows -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ========================================== -->
+  <!-- MODAL DIALOG: DETAIL PROFIL PRODI          -->
+  <!-- ========================================== -->
+  <div id="prodi-modal" class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/60 backdrop-blur-sm hidden" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="modal-prodi-name">
+    <div id="modal-card" class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-slate-200 flex flex-col relative">
+      
+      <!-- Modal Header -->
+      <div class="p-5 sm:p-6 border-b border-slate-100 relative bg-gradient-to-r from-sky-50/60 via-slate-50 to-white">
+        <button id="modal-close-btn" onclick="closeProdiModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition absolute top-4 right-4" title="Tutup / Close">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+
+        <div class="pr-8 space-y-1.5">
+          <div class="flex items-center space-x-2 flex-wrap gap-y-1">
+            <span id="modal-ptn-badge" class="px-2.5 py-0.5 rounded-md text-xs font-bold text-white bg-sky-700"></span>
+            <span id="modal-kode" class="text-xs font-mono text-slate-400"></span>
+            <span id="modal-rumpun" class="px-2 py-0.5 rounded text-[11px] font-semibold"></span>
+          </div>
+          <h2 id="modal-prodi-name" class="text-xl sm:text-2xl font-extrabold text-slate-900 leading-tight"></h2>
+          <p id="modal-ptn-full" class="text-xs sm:text-sm text-slate-600 font-medium"></p>
+        </div>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-5 sm:p-6 space-y-5 text-sm text-slate-700">
+        
+        <!-- Metrics Comparison: SNBT vs SNBP -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
+            <span class="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Jalur SNBT (UTBK)</span>
+            <div class="flex items-baseline justify-between">
+              <span class="text-xs text-slate-600">Daya Tampung: <strong id="modal-snbt-dt" class="text-slate-900"></strong></span>
+              <span class="text-xs text-slate-600">Peminat: <strong id="modal-snbt-pm" class="text-slate-900"></strong></span>
+            </div>
+            <div class="flex items-center justify-between pt-1 border-t border-slate-200">
+              <span id="modal-snbt-ratio" class="font-bold text-sm text-slate-900"></span>
+              <span id="modal-snbt-pct" class="px-2 py-0.5 rounded text-xs font-bold"></span>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
+            <span class="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Jalur SNBP (Prestasi)</span>
+            <div class="flex items-baseline justify-between">
+              <span class="text-xs text-slate-600">Daya Tampung: <strong id="modal-snbp-dt" class="text-slate-900"></strong></span>
+              <span class="text-xs text-slate-600">Peminat: <strong id="modal-snbp-pm" class="text-slate-900"></strong></span>
+            </div>
+            <div class="flex items-center justify-between pt-1 border-t border-slate-200">
+              <span id="modal-snbp-ratio" class="font-bold text-sm text-slate-900"></span>
+              <span id="modal-snbp-pct" class="px-2 py-0.5 rounded text-xs font-bold"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3-Year Historical Trend Bars -->
+        <div class="space-y-2">
+          <h4 id="modal-sec-trend" class="text-xs font-bold text-sky-800 tracking-wider uppercase">Riwayat Tren Peminat 3 Tahun (SNBT)</h4>
+          <div id="modal-trend-bars" class="space-y-2 bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <!-- Dynamically injected bars -->
+          </div>
+        </div>
+
+        <!-- About Description -->
+        <div class="space-y-1.5">
+          <h4 id="modal-sec-about" class="text-xs font-bold text-sky-800 tracking-wider uppercase">Tentang Program Studi</h4>
+          <p id="modal-desc" class="text-xs sm:text-sm text-slate-600 leading-relaxed bg-slate-50/70 p-3.5 rounded-xl border border-slate-100"></p>
+        </div>
+
+        <!-- Curriculum Focus -->
+        <div class="space-y-2">
+          <h4 id="modal-sec-focus" class="text-xs font-bold text-sky-800 tracking-wider uppercase">Fokus Pembelajaran &amp; Keilmuan</h4>
+          <ul id="modal-focus-list" class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs"></ul>
+        </div>
+
+        <!-- Career Opportunities -->
+        <div class="space-y-2">
+          <h4 id="modal-sec-career" class="text-xs font-bold text-sky-800 tracking-wider uppercase">Prospek Karir Lulusan</h4>
+          <div id="modal-career-tags" class="flex flex-wrap gap-1.5"></div>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 sm:p-5 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-2 text-xs font-semibold">
+        <button id="modal-btn-copy" onclick="copyModalLink()" class="px-3.5 py-2 rounded-xl bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 transition shadow-sm inline-flex items-center space-x-1.5">
+          <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+          <span id="modal-lbl-copy">Salin Tautan</span>
+        </button>
+        <div class="flex items-center space-x-2">
+          <a id="modal-btn-spmb" href="#" target="_blank" class="px-3.5 py-2 rounded-xl bg-sky-700 hover:bg-sky-800 text-white transition shadow-sm inline-flex items-center space-x-1">
+            <span id="modal-lbl-spmb">Portal SPMB Kampus</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+          <button onclick="closeProdiModal()" class="px-4 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-slate-700 transition">
+            Tutup
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition duration-300 ease-out bg-slate-900 text-white text-xs px-4 py-2.5 rounded-xl shadow-lg flex items-center space-x-2 pointer-events-none">
+    <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+    <span id="toast-message">Tautan berhasil disalin</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 space-y-1.5">
+      <p id="footer-source">Data dihimpun dari portal resmi <strong>BPPP Kemendikbudristek (SNPMB)</strong> dan pusat penerimaan 15 PTN utama.</p>
+      <p class="text-slate-400"><span id="footer-license">Dirilis untuk kepentingan publik dan edukasi calon mahasiswa baru se-Indonesia.</span></p>
+    </div>
+  </footer>
+
+  <!-- Data Script -->
+  <script src="data/ptn_keketatan.js"></script>
+
+  <!-- Application Logic -->
+  <script>
+    // I18N Dictionary
+    const I18N = {
+      id: {
+        announcement_text: "Basis Data Resmi SNPMB BPPP Kemendikbudristek • 15 PTN Klaster Utama",
+        announcement_updated: "Diperbarui: 02 Oktober 2026",
+        nav_title: "Indeks Keketatan PTN Top Indonesia",
+        nav_subtitle: "Analisis Daya Tampung • Peminat • Kalkulator Strategi Portofolio",
+        hero_pill: "Seleksi Nasional Penerimaan Mahasiswa Baru",
+        hero_title: "Panduan Keketatan & Peluang Masuk PTN Favorit",
+        hero_desc: "Ketahui tingkat persaingan riil program studi impian Anda di 15 universitas negeri terkemuka. Hitung rasio persaingan (1 : N), persentase keketatan, dan uji kombinasi strategi pilihan Anda secara objektif.",
+        stat_ptn_lbl: "Cakupan PTN",
+        stat_prodi_lbl: "Total Program Studi",
+        stat_extreme_lbl: "Keketatan Tertinggi",
+        stat_track_lbl: "Jalur Seleksi",
+        tab_leaderboard: "Peringkat Terketat Nasional",
+        tab_compare: "Komparasi Antar-Kampus",
+        tab_simulator: "Kalkulator Strategi Pilihan",
+        tab_directory: "Direktori Semua Jurusan",
+        lb_title: "Peringkat Program Studi Paling Ketat di Indonesia",
+        lb_subtitle: "Diurutkan berdasarkan persentase keketatan terendah (rasio persaingan tertinggi).",
+        comp_title: "Komparasi Prodi Sejenis Lintas Kampus",
+        comp_subtitle: "Bandingkan daya tampung, rasio peminat, dan keketatan jurusan yang sama di berbagai PTN top Indonesia.",
+        comp_lbl_select: "Pilih Program Studi:",
+        comp_lbl_track: "Jalur Seleksi:",
+        sim_title: "Simulator Portofolio Pilihan 1 & Pilihan 2",
+        sim_subtitle: "Uji kelayakan kombinasi pilihan jurusan Anda. Algoritma kami menganalisis tingkat risiko agar peluang lolos Anda optimal.",
+        sim_btn_analyze: "Analisis Portofolio Sekarang",
+        toast_copied: "Tautan permanen berhasil disalin!",
+        toast_failed: "Gagal menyalin tautan",
+        risk_sangat_ketat: "Sangat Ketat",
+        risk_ketat: "Ketat",
+        risk_sedang: "Sedang",
+        risk_terbuka: "Terbuka"
+      },
+      en: {
+        announcement_text: "Official BPPP SNPMB Indonesian Ministry of Education Data • Top 15 Universities",
+        announcement_updated: "Updated: October 02, 2026",
+        nav_title: "Indonesian Top Universities Selectivity Index",
+        nav_subtitle: "Quota Analysis • Applicant Analytics • Choice Portfolio Simulator",
+        hero_pill: "National Selection for Higher Education Admission",
+        hero_title: "Selectivity & Admission Probability Guide",
+        hero_desc: "Explore real-world competition rates across 15 premier Indonesian public universities. Evaluate applicant-to-quota ratios (1 : N), selectivity percentages, and simulate two-choice strategies objectively.",
+        stat_ptn_lbl: "Top Universities",
+        stat_prodi_lbl: "Flagship Programs",
+        stat_extreme_lbl: "Peak Selectivity",
+        stat_track_lbl: "Admission Tracks",
+        tab_leaderboard: "National Leaderboard",
+        tab_compare: "Multi-Campus Comparison",
+        tab_simulator: "Choice Strategy Simulator",
+        tab_directory: "Full Directory",
+        lb_title: "Most Competitive Study Programs in Indonesia",
+        lb_subtitle: "Ranked by lowest selectivity percentage (highest competition ratio).",
+        comp_title: "Cross-Campus Program Comparison",
+        comp_subtitle: "Side-by-side comparison of quotas, applicants, and competition ratios for equivalent majors across top universities.",
+        comp_lbl_select: "Select Program:",
+        comp_lbl_track: "Admission Track:",
+        sim_title: "Choice 1 & Choice 2 Portfolio Simulator",
+        sim_subtitle: "Evaluate your study program choice pair. Our algorithm inspects risk balance to optimize your overall admission chances.",
+        sim_btn_analyze: "Analyze Portfolio Now",
+        toast_copied: "Permalink copied to clipboard!",
+        toast_failed: "Failed to copy link",
+        risk_sangat_ketat: "Very Competitive",
+        risk_ketat: "Competitive",
+        risk_sedang: "Moderate",
+        risk_terbuka: "Open"
+      }
+    };
+
+    // State
+    let currentLang = localStorage.getItem('ptn_sel_lang') || 'id';
+    let currentTab = 'leaderboard';
+    let ptnData = window.PTN_KEKETATAN_DATA || [];
+    let ptnCatalog = window.PTN_CATALOG || {};
+    let activeModalProdi = null;
+    let lbTrack = 'snbt';
+    let compTrack = 'snbt';
+    let simTrack = 'snbt';
+    let dirView = 'grid';
+
+    // Init App
+    document.addEventListener('DOMContentLoaded', () => {
+      initApp();
+    });
+
+    function initApp() {
+      applyLanguage(currentLang);
+      populateFilterDropdowns();
+      renderLeaderboard();
+      renderComparisonOptions();
+      initSimulator();
+      renderDirectory();
+      handleUrlParams();
+    }
+
+    function applyLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem('ptn_sel_lang', lang);
+      const t = I18N[lang];
+
+      document.getElementById('lang-label-id').className = lang === 'id' ? "font-bold text-sky-400" : "font-normal text-slate-400";
+      document.getElementById('lang-label-en').className = lang === 'en' ? "font-bold text-sky-400" : "font-normal text-slate-400";
+
+      document.getElementById('announcement-text').textContent = t.announcement_text;
+      document.getElementById('announcement-updated').textContent = t.announcement_updated;
+      document.getElementById('nav-title').textContent = t.nav_title;
+      document.getElementById('nav-subtitle').textContent = t.nav_subtitle;
+      document.getElementById('hero-pill').textContent = t.hero_pill;
+      document.getElementById('hero-title').textContent = t.hero_title;
+      document.getElementById('hero-desc').textContent = t.hero_desc;
+
+      document.getElementById('stat-ptn-lbl').textContent = t.stat_ptn_lbl;
+      document.getElementById('stat-prodi-lbl').textContent = t.stat_prodi_lbl;
+      document.getElementById('stat-extreme-lbl').textContent = t.stat_extreme_lbl;
+      document.getElementById('stat-track-lbl').textContent = t.stat_track_lbl;
+
+      document.getElementById('tab-lbl-leaderboard').textContent = t.tab_leaderboard;
+      document.getElementById('tab-lbl-compare').textContent = t.tab_compare;
+      document.getElementById('tab-lbl-simulator').textContent = t.tab_simulator;
+      document.getElementById('tab-lbl-directory').textContent = t.tab_directory;
+
+      document.getElementById('lb-title').textContent = t.lb_title;
+      document.getElementById('lb-subtitle').textContent = t.lb_subtitle;
+      document.getElementById('comp-title').textContent = t.comp_title;
+      document.getElementById('comp-subtitle').textContent = t.comp_subtitle;
+      document.getElementById('comp-lbl-select').textContent = t.comp_lbl_select;
+      document.getElementById('comp-lbl-track').textContent = t.comp_lbl_track;
+
+      document.getElementById('sim-title').textContent = t.sim_title;
+      document.getElementById('sim-subtitle').textContent = t.sim_subtitle;
+      document.getElementById('sim-btn-analyze').textContent = t.sim_btn_analyze;
+
+      renderLeaderboard();
+      if (currentTab === 'compare') renderComparison();
+      if (currentTab === 'simulator') runSimulation();
+      if (currentTab === 'directory') renderDirectory();
+    }
+
+    document.getElementById('lang-toggle-btn').addEventListener('click', () => {
+      const nextLang = currentLang === 'id' ? 'en' : 'id';
+      applyLanguage(nextLang);
+    });
+
+    function switchTab(tab) {
+      currentTab = tab;
+      const tabs = ['leaderboard', 'compare', 'simulator', 'directory'];
+      tabs.forEach(t => {
+        const sec = document.getElementById(`section-${t}`);
+        const btn = document.getElementById(`tab-btn-${t}`);
+        if (t === tab) {
+          sec.classList.remove('hidden');
+          btn.classList.add('tab-active');
+          btn.classList.remove('border-transparent', 'text-slate-500');
+        } else {
+          sec.classList.add('hidden');
+          btn.classList.remove('tab-active');
+          btn.classList.add('border-transparent', 'text-slate-500');
+        }
+      });
+
+      if (tab === 'compare') renderComparison();
+      if (tab === 'simulator') runSimulation();
+      if (tab === 'directory') renderDirectory();
+
+      syncUrl();
+    }
+
+    // ==========================================
+    // LEADERBOARD LOGIC
+    // ==========================================
+    function setLeaderboardTrack(track) {
+      lbTrack = track;
+      document.getElementById('lb-track-snbt').className = track === 'snbt' ? "px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition" : "px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition";
+      document.getElementById('lb-track-snbp').className = track === 'snbp' ? "px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition" : "px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition";
+      renderLeaderboard();
+    }
+
+    function renderLeaderboard() {
+      const rumpun = document.getElementById('lb-rumpun-select').value;
+      let list = [...ptnData];
+
+      if (rumpun !== 'ALL') {
+        list = list.filter(p => p.rumpun === rumpun);
+      }
+
+      // Sort by chosen track selectivity percentage ascending (lowest % = most competitive)
+      list.sort((a, b) => a[lbTrack].keketatan_persen - b[lbTrack].keketatan_persen);
+
+      const top50 = list.slice(0, 50);
+      const tbody = document.getElementById('leaderboard-body');
+      
+      tbody.innerHTML = top50.map((item, idx) => {
+        const m = item[lbTrack];
+        const prodiTitle = currentLang === 'en' ? item.nama_prodi_en : item.nama_prodi;
+        const katTitle = currentLang === 'en' ? m.kategori_en : m.kategori;
+
+        let rankBadge = `${idx + 1}`;
+        if (idx === 0) rankBadge = `<span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-amber-400 text-slate-900 font-extrabold text-xs shadow-sm">1</span>`;
+        else if (idx === 1) rankBadge = `<span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-slate-300 text-slate-900 font-extrabold text-xs shadow-sm">2</span>`;
+        else if (idx === 2) rankBadge = `<span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-amber-600 text-white font-extrabold text-xs shadow-sm">3</span>`;
+        else rankBadge = `<span class="font-mono text-slate-400 text-xs">${idx + 1}</span>`;
+
+        return `
+          <tr onclick="openProdiModal('${item.id}')" class="hover:bg-sky-50/50 cursor-pointer transition">
+            <td class="p-3.5 text-center">${rankBadge}</td>
+            <td class="p-3.5 font-bold text-slate-900 hover:text-sky-700">${prodiTitle}</td>
+            <td class="p-3.5">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold text-white" style="background-color: ${ptnCatalog[item.ptn_id]?.warna || '#0284c7'}">
+                ${item.ptn_singkatan}
+              </span>
+              <span class="text-slate-500 ml-1.5 text-[11px]">${item.ptn_kota}</span>
+            </td>
+            <td class="p-3.5">
+              <span class="px-2 py-0.5 rounded text-[11px] font-semibold ${item.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}">
+                ${item.rumpun}
+              </span>
+            </td>
+            <td class="p-3.5 text-right font-medium text-slate-700">${m.daya_tampung}</td>
+            <td class="p-3.5 text-right font-bold text-slate-800">${m.peminat.toLocaleString()}</td>
+            <td class="p-3.5 text-center">
+              <span class="font-extrabold text-xs ${m.keketatan_persen < 2.5 ? 'text-rose-700' : 'text-slate-900'}">
+                ${m.keketatan_persen}%
+              </span>
+            </td>
+            <td class="p-3.5 text-center">
+              <span class="px-2.5 py-0.5 rounded-lg text-xs font-mono font-bold bg-slate-100 text-slate-800 border border-slate-200">
+                ${m.rasio_persaingan}
+              </span>
+            </td>
+            <td class="p-3.5 text-center">
+              <span class="px-2.5 py-0.5 rounded-md text-[11px] font-bold ${m.badge_class}">
+                ${katTitle}
+              </span>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    // ==========================================
+    // COMPARISON LOGIC
+    // ==========================================
+    function setCompareTrack(track) {
+      compTrack = track;
+      document.getElementById('comp-track-snbt').className = track === 'snbt' ? "px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition" : "px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition";
+      document.getElementById('comp-track-snbp').className = track === 'snbp' ? "px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition" : "px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition";
+      renderComparison();
+    }
+
+    function renderComparisonOptions() {
+      // Find prodi names that exist in 2 or more universities
+      const prodiCounts = {};
+      ptnData.forEach(p => {
+        prodiCounts[p.nama_prodi] = (prodiCounts[p.nama_prodi] || 0) + 1;
+      });
+
+      const multiCampus = Object.keys(prodiCounts).filter(k => prodiCounts[k] >= 2).sort();
+      const sel = document.getElementById('compare-prodi-select');
+      sel.innerHTML = multiCampus.map(name => {
+        return `<option value="${name}">${name} (${prodiCounts[name]} PTN)</option>`;
+      }).join('');
+    }
+
+    function renderComparison() {
+      const selectedName = document.getElementById('compare-prodi-select').value;
+      if (!selectedName) return;
+
+      const matched = ptnData.filter(p => p.nama_prodi === selectedName);
+      // Sort from lowest % (most competitive) to highest %
+      matched.sort((a, b) => a[compTrack].keketatan_persen - b[compTrack].keketatan_persen);
+
+      const maxPeminat = Math.max(...matched.map(m => m[compTrack].peminat));
+      const container = document.getElementById('compare-results-container');
+
+      container.innerHTML = `
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+          <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+            <div>
+              <h4 class="text-lg font-bold text-slate-900">${selectedName}</h4>
+              <p class="text-xs text-slate-500">Tersedia di ${matched.length} PTN terkemuka &bull; Jalur ${compTrack.toUpperCase()}</p>
+            </div>
+            <span class="px-2.5 py-1 rounded text-xs font-semibold ${matched[0]?.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}">${matched[0]?.rumpun}</span>
+          </div>
+
+          <div class="space-y-3">
+            ${matched.map(item => {
+              const m = item[compTrack];
+              const ptn = ptnCatalog[item.ptn_id];
+              const pctWidth = Math.max(12, Math.round((m.peminat / maxPeminat) * 100));
+              const kat = currentLang === 'en' ? m.kategori_en : m.kategori;
+
+              return `
+                <div onclick="openProdiModal('${item.id}')" class="p-4 rounded-xl border border-slate-200 hover:border-sky-300 hover:shadow-md transition cursor-pointer bg-slate-50/50">
+                  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+                    <div class="flex items-center space-x-2">
+                      <span class="px-2.5 py-1 rounded-md text-xs font-bold text-white" style="background-color: ${ptn?.warna || '#0284c7'}">
+                        ${item.ptn_singkatan}
+                      </span>
+                      <strong class="text-sm text-slate-900">${item.ptn_nama}</strong>
+                      <span class="text-xs text-slate-400">(${item.ptn_kota})</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <span class="px-2.5 py-0.5 rounded text-xs font-bold ${m.badge_class}">${kat}</span>
+                      <span class="font-mono text-xs font-extrabold text-slate-800 bg-white px-2 py-0.5 rounded border border-slate-200">
+                        ${m.rasio_persaingan}
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- Bar visualizer -->
+                  <div class="w-full bg-slate-200 rounded-full h-3.5 overflow-hidden flex items-center mb-1.5">
+                    <div class="bg-gradient-to-r from-sky-600 to-sky-400 h-full rounded-full transition-all duration-500" style="width: ${pctWidth}%"></div>
+                  </div>
+
+                  <div class="flex items-center justify-between text-xs text-slate-600">
+                    <div>Peminat: <strong class="text-slate-800">${m.peminat.toLocaleString()}</strong> peserta</div>
+                    <div>Daya Tampung: <strong class="text-slate-800">${m.daya_tampung}</strong> kursi</div>
+                    <div>Peluang Lolos: <strong class="${m.keketatan_persen < 2.5 ? 'text-rose-600' : 'text-emerald-700'} font-bold">${m.keketatan_persen}%</strong></div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    // ==========================================
+    // SIMULATOR LOGIC
+    // ==========================================
+    function setSimTrack(track) {
+      simTrack = track;
+      document.getElementById('sim-track-snbt').className = track === 'snbt' ? "px-3 py-1 rounded-lg bg-white text-slate-900 shadow-sm transition" : "px-3 py-1 rounded-lg text-slate-600 hover:text-slate-900 transition";
+      document.getElementById('sim-track-snbp').className = track === 'snbp' ? "px-3 py-1 rounded-lg bg-white text-slate-900 shadow-sm transition" : "px-3 py-1 rounded-lg text-slate-600 hover:text-slate-900 transition";
+      runSimulation();
+    }
+
+    function initSimulator() {
+      const ptnKeys = Object.keys(ptnCatalog);
+      const selP1 = document.getElementById('sim-p1-ptn');
+      const selP2 = document.getElementById('sim-p2-ptn');
+
+      selP1.innerHTML = ptnKeys.map(k => `<option value="${k}">${k} - ${ptnCatalog[k].nama}</option>`).join('');
+      selP2.innerHTML = ptnKeys.map(k => `<option value="${k}">${k} - ${ptnCatalog[k].nama}</option>`).join('');
+
+      // Default selections: P1 UI, P2 UGM
+      selP1.value = 'UI';
+      selP2.value = 'UGM';
+
+      updateSimProdiOptions(1);
+      updateSimProdiOptions(2);
+      runSimulation();
+    }
+
+    function updateSimProdiOptions(choiceNum) {
+      const ptnKey = document.getElementById(`sim-p${choiceNum}-ptn`).value;
+      const prodiList = ptnData.filter(p => p.ptn_id === ptnKey);
+      const selProdi = document.getElementById(`sim-p${choiceNum}-prodi`);
+
+      selProdi.innerHTML = prodiList.map(p => {
+        return `<option value="${p.id}">${p.nama_prodi} (${p.rumpun})</option>`;
+      }).join('');
+
+      runSimulation();
+    }
+
+    function runSimulation() {
+      const id1 = document.getElementById('sim-p1-prodi').value;
+      const id2 = document.getElementById('sim-p2-prodi').value;
+
+      const p1 = ptnData.find(p => p.id === id1);
+      const p2 = ptnData.find(p => p.id === id2);
+
+      if (!p1 || !p2) return;
+
+      const m1 = p1[simTrack];
+      const m2 = p2[simTrack];
+
+      // Update previews
+      document.getElementById('sim-p1-preview').innerHTML = `
+        <div class="flex items-center justify-between font-semibold">
+          <span>Keketatan: <strong>${m1.keketatan_persen}%</strong></span>
+          <span class="font-mono">${m1.rasio_persaingan}</span>
+          <span class="px-2 py-0.5 rounded text-[10px] ${m1.badge_class}">${m1.kategori}</span>
+        </div>
+      `;
+      document.getElementById('sim-p2-preview').innerHTML = `
+        <div class="flex items-center justify-between font-semibold">
+          <span>Keketatan: <strong>${m2.keketatan_persen}%</strong></span>
+          <span class="font-mono">${m2.rasio_persaingan}</span>
+          <span class="px-2 py-0.5 rounded text-[10px] ${m2.badge_class}">${m2.kategori}</span>
+        </div>
+      `;
+
+      // Portfolio evaluation algorithm
+      let statusColor = "emerald";
+      let statusTitle = "Strategi Seimbang &amp; Rasional (Optimal Balanced Portfolio)";
+      let statusDesc = "Kombinasi pilihan Anda memiliki struktur portofolio yang baik. Pilihan 1 menargetkan prodi prioritas, sementara Pilihan 2 memberikan mitigasi peluang yang lebih rasional.";
+      let recommendations = [];
+
+      // Case 1: Inverted selectivity (Choice 2 harder than Choice 1)
+      if (m2.keketatan_persen < m1.keketatan_persen) {
+        statusColor = "amber";
+        statusTitle = "Peringatan: Urutan Keketatan Terbalik (Inverted Selectivity)";
+        statusDesc = `Pilihan 2 (${p2.nama_prodi} di ${p2.ptn_singkatan}) memiliki tingkat persaingan lebih ketat (${m2.keketatan_persen}%) dibandingkan Pilihan 1 (${m1.keketatan_persen}%).`;
+        recommendations.push("Pada sistem seleksi nasional, jika Anda tidak lolos di Pilihan 1, шанс cadangan di Pilihan 2 yang lebih ketat akan jauh lebih kecil.");
+        recommendations.push("Tukar posisi: Letakkan prodi dengan keketatan lebih tinggi di Pilihan 1, dan prodi yang relatif lebih terbuka di Pilihan 2.");
+      }
+      // Case 2: Extreme Risk (Both < 2.5%)
+      else if (m1.keketatan_persen < 2.5 && m2.keketatan_persen < 2.5) {
+        statusColor = "rose";
+        statusTitle = "Risiko Ekstrem: Kedua Pilihan Sangat Ketat (High Risk Portfolio)";
+        statusDesc = "Kedua jurusan yang Anda pilih berada pada zona persaingan puncak nasional (< 2.5% atau rasio di atas 1:40). Jika nilai tidak mencapai persentil teratas, ada risiko tinggi gugur di kedua pilihan.";
+        recommendations.push("Pertahankan Pilihan 1 untuk memperjuangkan prodi impian Anda.");
+        recommendations.push("Pertimbangkan mengganti Pilihan 2 dengan prodi yang memiliki persentase keketatan moderat/sedang (> 5% atau rasio < 1:20) sebagai jaring pengaman realistis.");
+      }
+      // Case 3: Balanced
+      else {
+        statusColor = "emerald";
+        statusTitle = "Strategi Ideal: Target Ambisius &amp; Jaring Pengaman Tersedia";
+        statusDesc = "Portofolio pilihan Anda terdistribusi sehat. Pilihan 1 menampung aspirasi tinggi, sedangkan Pilihan 2 berfungsi efektif sebagai penyelamat peluang masuk perguruan tinggi negeri.";
+        recommendations.push("Fokus maksimalkan persiapan skor UTBK atau bobot portofolio prestasi Anda.");
+        recommendations.push("Pastikan linieritas mata pelajaran pendukung tetap terpenuhi untuk kedua jurusan.");
+      }
+
+      // Render output card
+      const card = document.getElementById('simulation-output-card');
+      card.innerHTML = `
+        <div class="border-l-4 border-${statusColor}-500 pl-4 py-1 space-y-2">
+          <span class="px-2.5 py-0.5 rounded text-xs font-bold bg-${statusColor}-100 text-${statusColor}-800">
+            Hasil Evaluasi Portofolio
+          </span>
+          <h4 class="text-lg font-bold text-slate-900">${statusTitle}</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">${statusDesc}</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-3 border-t border-slate-100">
+          <div class="p-3 bg-slate-50 rounded-xl">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Pilihan 1 (${p1.ptn_singkatan})</span>
+            <p class="font-bold text-sm text-slate-900">${p1.nama_prodi}</p>
+            <p class="text-xs text-slate-500">Keketatan: <strong>${m1.keketatan_persen}%</strong> &bull; Rasio <strong>${m1.rasio_persaingan}</strong></p>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-xl">
+            <span class="text-[11px] font-bold text-slate-500 uppercase">Pilihan 2 (${p2.ptn_singkatan})</span>
+            <p class="font-bold text-sm text-slate-900">${p2.nama_prodi}</p>
+            <p class="text-xs text-slate-500">Keketatan: <strong>${m2.keketatan_persen}%</strong> &bull; Rasio <strong>${m2.rasio_persaingan}</strong></p>
+          </div>
+        </div>
+
+        <div class="space-y-1.5 pt-2">
+          <h5 class="text-xs font-bold text-slate-700 uppercase tracking-wider">Rekomendasi Strategis:</h5>
+          <ul class="space-y-1.5 text-xs text-slate-600">
+            ${recommendations.map(r => `
+              <li class="flex items-start">
+                <svg class="w-4 h-4 text-sky-600 mr-2 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                <span>${r}</span>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+      `;
+    }
+
+    // ==========================================
+    // DIRECTORY LOGIC
+    // ==========================================
+    function populateFilterDropdowns() {
+      const ptnSelect = document.getElementById('dir-ptn-select');
+      const ptnKeys = Object.keys(ptnCatalog);
+      ptnSelect.innerHTML = `<option value="ALL">Semua Kampus (15 PTN)</option>` + 
+        ptnKeys.map(k => `<option value="${k}">${k} - ${ptnCatalog[k].nama}</option>`).join('');
+    }
+
+    function setDirView(view) {
+      dirView = view;
+      document.getElementById('dir-view-grid').className = view === 'grid' ? "px-2.5 py-1 rounded-lg bg-white text-slate-900 shadow-sm transition" : "px-2.5 py-1 rounded-lg text-slate-600 transition";
+      document.getElementById('dir-view-table').className = view === 'table' ? "px-2.5 py-1 rounded-lg bg-white text-slate-900 shadow-sm transition" : "px-2.5 py-1 rounded-lg text-slate-600 transition";
+
+      if (view === 'grid') {
+        document.getElementById('dir-grid-container').classList.remove('hidden');
+        document.getElementById('dir-table-container').classList.add('hidden');
+      } else {
+        document.getElementById('dir-grid-container').classList.add('hidden');
+        document.getElementById('dir-table-container').classList.remove('hidden');
+      }
+    }
+
+    function resetDirFilters() {
+      document.getElementById('dir-search').value = '';
+      document.getElementById('dir-ptn-select').value = 'ALL';
+      document.getElementById('dir-rumpun-select').value = 'ALL';
+      document.getElementById('dir-cat-select').value = 'ALL';
+      renderDirectory();
+    }
+
+    function renderDirectory() {
+      const q = document.getElementById('dir-search').value.toLowerCase().trim();
+      const ptn = document.getElementById('dir-ptn-select').value;
+      const rumpun = document.getElementById('dir-rumpun-select').value;
+      const cat = document.getElementById('dir-cat-select').value;
+
+      let filtered = ptnData.filter(item => {
+        if (q) {
+          const matchName = item.nama_prodi.toLowerCase().includes(q);
+          const matchEn = item.nama_prodi_en.toLowerCase().includes(q);
+          const matchPtn = item.ptn_nama.toLowerCase().includes(q) || item.ptn_singkatan.toLowerCase().includes(q);
+          const matchCity = item.ptn_kota.toLowerCase().includes(q);
+          if (!matchName && !matchEn && !matchPtn && !matchCity) return false;
+        }
+
+        if (ptn !== 'ALL' && item.ptn_id !== ptn) return false;
+        if (rumpun !== 'ALL' && item.rumpun !== rumpun) return false;
+        if (cat !== 'ALL' && item.snbt.kategori !== cat) return false;
+
+        return true;
+      });
+
+      document.getElementById('dir-count-val').textContent = filtered.length;
+      document.getElementById('dir-total-val').textContent = ptnData.length;
+
+      // Render Cards
+      const grid = document.getElementById('dir-grid-container');
+      grid.innerHTML = filtered.map(item => {
+        const m = item.snbt;
+        const prodiName = currentLang === 'en' ? item.nama_prodi_en : item.nama_prodi;
+        const kat = currentLang === 'en' ? m.kategori_en : m.kategori;
+
+        return `
+          <div onclick="openProdiModal('${item.id}')" class="bg-white rounded-2xl border border-slate-200/90 shadow-sm hover:shadow-md hover:border-sky-300 transition p-5 flex flex-col justify-between group cursor-pointer">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="px-2.5 py-0.5 rounded-md text-xs font-bold text-white" style="background-color: ${ptnCatalog[item.ptn_id]?.warna || '#0284c7'}">
+                  ${item.ptn_singkatan}
+                </span>
+                <span class="px-2 py-0.5 rounded text-[11px] font-bold ${m.badge_class}">${kat}</span>
+              </div>
+
+              <h4 class="text-base font-bold text-slate-900 group-hover:text-sky-700 transition leading-snug">
+                ${prodiName}
+              </h4>
+              <p class="text-xs text-slate-500 mt-1">${item.ptn_nama} &bull; ${item.ptn_kota}</p>
+
+              <div class="mt-3 flex items-center space-x-1.5 flex-wrap gap-y-1">
+                <span class="px-2 py-0.5 rounded text-[10px] font-semibold ${item.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}">${item.rumpun}</span>
+                <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-100 text-slate-600 border border-slate-200">Akreditasi ${item.akreditasi_prodi}</span>
+              </div>
+            </div>
+
+            <div class="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs">
+              <div>
+                <span class="text-slate-400">Rasio:</span> <strong class="font-mono text-slate-800">${m.rasio_persaingan}</strong>
+              </div>
+              <div>
+                <span class="text-slate-400">Peluang:</span> <strong class="text-slate-900">${m.keketatan_persen}%</strong>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Render Table
+      const tbody = document.getElementById('dir-table-body');
+      tbody.innerHTML = filtered.map((item, idx) => {
+        const m = item.snbt;
+        const prodiName = currentLang === 'en' ? item.nama_prodi_en : item.nama_prodi;
+
+        return `
+          <tr onclick="openProdiModal('${item.id}')" class="hover:bg-sky-50/50 cursor-pointer transition">
+            <td class="p-3 text-center text-slate-400 font-mono">${idx + 1}</td>
+            <td class="p-3 font-bold text-slate-900">${prodiName}</td>
+            <td class="p-3 font-semibold text-slate-700">${item.ptn_singkatan}</td>
+            <td class="p-3"><span class="px-1.5 py-0.5 rounded text-[10px] font-semibold ${item.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}">${item.rumpun}</span></td>
+            <td class="p-3 text-right font-medium">${m.daya_tampung}</td>
+            <td class="p-3 text-right font-bold">${m.peminat.toLocaleString()}</td>
+            <td class="p-3 text-center font-bold text-slate-900">${m.keketatan_persen}%</td>
+            <td class="p-3 text-center font-mono font-semibold">${m.rasio_persaingan}</td>
+            <td class="p-3 text-center" onclick="event.stopPropagation()">
+              <a href="${item.ptn_spmb_url}" target="_blank" class="p-1 text-sky-700 hover:text-sky-900" title="SPMB"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg></a>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    // ==========================================
+    // MODAL DIALOG LOGIC
+    // ==========================================
+    function openProdiModal(id) {
+      const item = ptnData.find(p => p.id === id);
+      if (!item) return;
+      activeModalProdi = item;
+
+      const prodiName = currentLang === 'en' ? item.nama_prodi_en : item.nama_prodi;
+      document.getElementById('modal-prodi-name').textContent = prodiName;
+      document.getElementById('modal-ptn-full').textContent = `${item.ptn_nama} (${item.ptn_kota}, ${item.ptn_provinsi})`;
+      document.getElementById('modal-ptn-badge').textContent = item.ptn_singkatan;
+      document.getElementById('modal-kode').textContent = item.kode_prodi ? `#${item.kode_prodi}` : '';
+      
+      const rumpunBadge = document.getElementById('modal-rumpun');
+      rumpunBadge.textContent = item.rumpun;
+      rumpunBadge.className = `px-2 py-0.5 rounded text-[11px] font-semibold ${item.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}`;
+
+      // SNBT Metrics
+      document.getElementById('modal-snbt-dt').textContent = item.snbt.daya_tampung;
+      document.getElementById('modal-snbt-pm').textContent = item.snbt.peminat.toLocaleString();
+      document.getElementById('modal-snbt-ratio').textContent = item.snbt.rasio_persaingan;
+      const snbtPct = document.getElementById('modal-snbt-pct');
+      snbtPct.textContent = `${item.snbt.keketatan_persen}%`;
+      snbtPct.className = `px-2 py-0.5 rounded text-xs font-bold ${item.snbt.badge_class}`;
+
+      // SNBP Metrics
+      document.getElementById('modal-snbp-dt').textContent = item.snbp.daya_tampung;
+      document.getElementById('modal-snbp-pm').textContent = item.snbp.peminat.toLocaleString();
+      document.getElementById('modal-snbp-ratio').textContent = item.snbp.rasio_persaingan;
+      const snbpPct = document.getElementById('modal-snbp-pct');
+      snbpPct.textContent = `${item.snbp.keketatan_persen}%`;
+      snbpPct.className = `px-2 py-0.5 rounded text-xs font-bold ${item.snbp.badge_class}`;
+
+      // Historical Bars
+      const history = item.snbt.riwayat_peminat || {};
+      const maxVal = Math.max(...Object.values(history), 100);
+      const barsDiv = document.getElementById('modal-trend-bars');
+      barsDiv.innerHTML = Object.keys(history).sort().reverse().map(year => {
+        const val = history[year];
+        const barWidth = Math.max(10, Math.round((val / maxVal) * 100));
+        return `
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs font-semibold text-slate-700">
+              <span>Tahun ${year}</span>
+              <span><strong>${val.toLocaleString()}</strong> peminat</span>
+            </div>
+            <div class="w-full bg-slate-200 rounded-full h-2.5 overflow-hidden">
+              <div class="bg-sky-600 h-full rounded-full" style="width: ${barWidth}%"></div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Description & Knowledge
+      const prof = item.profil || {};
+      const descObj = prof.deskripsi || {};
+      document.getElementById('modal-desc').textContent = descObj[currentLang] || descObj['id'] || '';
+
+      const fokusObj = prof.fokus || {};
+      const fokusList = fokusObj[currentLang] || fokusObj['id'] || [];
+      document.getElementById('modal-focus-list').innerHTML = fokusList.map(f => `
+        <li class="flex items-start bg-slate-50 border border-slate-200/80 rounded-lg p-2 text-slate-700">
+          <svg class="w-3.5 h-3.5 text-sky-600 mr-1.5 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+          <span>${f}</span>
+        </li>
+      `).join('');
+
+      const careerObj = prof.karir || {};
+      const careerList = careerObj[currentLang] || careerObj['id'] || [];
+      document.getElementById('modal-career-tags').innerHTML = careerList.map(c => `
+        <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-sky-50 text-sky-800 border border-sky-200">
+          ${c}
+        </span>
+      `).join('');
+
+      // Actions
+      const spmbBtn = document.getElementById('modal-btn-spmb');
+      spmbBtn.href = item.ptn_spmb_url;
+
+      const modal = document.getElementById('prodi-modal');
+      modal.classList.remove('hidden');
+      modal.style.display = 'flex';
+      document.body.classList.add('overflow-hidden');
+
+      syncUrl();
+    }
+    window.openProdiModal = openProdiModal;
+
+    function closeProdiModal() {
+      const modal = document.getElementById('prodi-modal');
+      activeModalProdi = null;
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.style.display = 'none';
+      }
+      document.body.classList.remove('overflow-hidden');
+      syncUrl();
+    }
+    window.closeProdiModal = closeProdiModal;
+
+    function copyModalLink() {
+      if (!activeModalProdi) return;
+      const url = window.location.origin + window.location.pathname + '?prodi=' + encodeURIComponent(activeModalProdi.id);
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => showToast(I18N[currentLang].toast_copied));
+      }
+    }
+    window.copyModalLink = copyModalLink;
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toast-message').textContent = msg;
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.add('translate-y-20', 'opacity-0');
+        toast.classList.remove('translate-y-0', 'opacity-100');
+      }, 2000);
+    }
+
+    // URL Sync
+    function syncUrl() {
+      try {
+        const params = new URLSearchParams();
+        if (currentTab !== 'leaderboard') params.set('tab', currentTab);
+        if (activeModalProdi) params.set('prodi', activeModalProdi.id);
+        if (currentLang !== 'id') params.set('lang', currentLang);
+        const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+        window.history.replaceState({}, '', newUrl);
+      } catch (e) {}
+    }
+
+    function handleUrlParams() {
+      try {
+        const params = new URLSearchParams(window.location.search);
+        if (params.has('tab')) switchTab(params.get('tab'));
+        if (params.has('lang')) applyLanguage(params.get('lang'));
+        if (params.has('prodi')) openProdiModal(params.get('prodi'));
+      } catch (e) {}
+    }
+
+    // Modal background click and Escape key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && activeModalProdi) closeProdiModal();
+    });
+    document.getElementById('prodi-modal').addEventListener('click', (e) => {
+      if (e.target === document.getElementById('prodi-modal')) closeProdiModal();
+    });
+  </script>
+</body>
+</html>
