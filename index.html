@@ -291,6 +291,20 @@
           <p id="sim-subtitle" class="text-xs sm:text-sm text-slate-500">Uji kelayakan kombinasi pilihan jurusan Anda. Algoritma kami menganalisis tingkat risiko agar peluang lolos Anda optimal.</p>
         </div>
 
+        <!-- Quick Preset Scenarios -->
+        <div class="flex items-center space-x-2 flex-wrap gap-y-1.5 pt-1">
+          <span class="text-xs font-semibold text-slate-500">Contoh Skenario Cepat:</span>
+          <button onclick="applySimPreset('extreme')" class="px-2.5 py-1 rounded-lg text-xs font-medium bg-rose-50 text-rose-700 border border-rose-200 hover:bg-rose-100 transition">
+            Kedokteran (UI + UGM) &bull; Risiko Tinggi
+          </button>
+          <button onclick="applySimPreset('tech')" class="px-2.5 py-1 rounded-lg text-xs font-medium bg-sky-50 text-sky-700 border border-sky-200 hover:bg-sky-100 transition">
+            Informatika &amp; SI (ITB + ITS) &bull; Ambisius
+          </button>
+          <button onclick="applySimPreset('balanced')" class="px-2.5 py-1 rounded-lg text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200 hover:bg-emerald-100 transition">
+            Psikologi &amp; Komunikasi (UGM + UNS) &bull; Seimbang
+          </button>
+        </div>
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <!-- Pilihan 1 Box -->
           <div class="p-5 rounded-2xl bg-sky-50/60 border border-sky-100 space-y-3">
@@ -435,6 +449,24 @@
               <!-- Dynamically populated table rows -->
             </tbody>
           </table>
+        </div>
+      </div>
+
+      <!-- Open Data Export Section -->
+      <div class="bg-gradient-to-r from-slate-900 to-sky-950 text-white p-6 rounded-2xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-4 mt-6">
+        <div>
+          <h4 class="text-base font-bold">Unduh Dataset Terbuka (Open Data)</h4>
+          <p class="text-xs text-slate-300 mt-1">Data lengkap 113 program studi pada 15 PTN utama tersedia secara gratis dalam format terbuka untuk riset dan edukasi.</p>
+        </div>
+        <div class="flex items-center space-x-2.5 shrink-0">
+          <a href="data/ptn_keketatan.json" download class="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold text-xs transition inline-flex items-center space-x-1.5">
+            <svg class="w-4 h-4 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            <span>Unduh JSON</span>
+          </a>
+          <a href="data/ptn_keketatan.csv" download class="px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-600 text-white font-semibold text-xs transition shadow-sm inline-flex items-center space-x-1.5">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            <span>Unduh CSV</span>
+          </a>
         </div>
       </div>
 
@@ -837,12 +869,16 @@
 
       container.innerHTML = `
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
-          <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-100 pb-3 gap-2">
             <div>
               <h4 class="text-lg font-bold text-slate-900">${selectedName}</h4>
               <p class="text-xs text-slate-500">Tersedia di ${matched.length} PTN terkemuka &bull; Jalur ${compTrack.toUpperCase()}</p>
             </div>
-            <span class="px-2.5 py-1 rounded text-xs font-semibold ${matched[0]?.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}">${matched[0]?.rumpun}</span>
+            <div class="flex items-center space-x-2 flex-wrap gap-y-1">
+              <span class="px-2.5 py-1 rounded text-xs font-semibold ${matched[0]?.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}">${matched[0]?.rumpun}</span>
+              <span class="px-2.5 py-0.5 rounded text-[11px] font-bold badge-sangat-ketat">Paling Ketat: ${matched[0].ptn_singkatan} (${matched[0][compTrack].keketatan_persen}%)</span>
+              <span class="px-2.5 py-0.5 rounded text-[11px] font-bold badge-sedang">Peluang Terbaik: ${matched[matched.length - 1].ptn_singkatan} (${matched[matched.length - 1][compTrack].keketatan_persen}%)</span>
+            </div>
           </div>
 
           <div class="space-y-3">
@@ -926,6 +962,36 @@
 
       runSimulation();
     }
+
+    function applySimPreset(preset) {
+      if (preset === 'extreme') {
+        document.getElementById('sim-p1-ptn').value = 'UI';
+        updateSimProdiOptions(1);
+        document.getElementById('sim-p1-prodi').value = 'ui-kedokteran';
+
+        document.getElementById('sim-p2-ptn').value = 'UGM';
+        updateSimProdiOptions(2);
+        document.getElementById('sim-p2-prodi').value = 'ugm-kedokteran';
+      } else if (preset === 'tech') {
+        document.getElementById('sim-p1-ptn').value = 'ITB';
+        updateSimProdiOptions(1);
+        document.getElementById('sim-p1-prodi').value = 'itb-teknik-informatika';
+
+        document.getElementById('sim-p2-ptn').value = 'ITS';
+        updateSimProdiOptions(2);
+        document.getElementById('sim-p2-prodi').value = 'its-sistem-informasi';
+      } else if (preset === 'balanced') {
+        document.getElementById('sim-p1-ptn').value = 'UGM';
+        updateSimProdiOptions(1);
+        document.getElementById('sim-p1-prodi').value = 'ugm-psikologi';
+
+        document.getElementById('sim-p2-ptn').value = 'UNS';
+        updateSimProdiOptions(2);
+        document.getElementById('sim-p2-prodi').value = 'uns-ilmu-komunikasi';
+      }
+      runSimulation();
+    }
+    window.applySimPreset = applySimPreset;
 
     function runSimulation() {
       const id1 = document.getElementById('sim-p1-prodi').value;
