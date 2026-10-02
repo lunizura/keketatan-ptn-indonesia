@@ -1,0 +1,27 @@
+{
+  "title": "Indonesian Top Universities Selectivity & Quota Index",
+  "description": "Basis data komprehensif tingkat keketatan, daya tampung, dan riwayat peminat SNBP dan SNBT PTN top Indonesia.",
+  "last_updated_iso": "2026-10-02T16:48:13.847407",
+  "last_updated_date": "02 October 2026",
+  "total_prodi": 113,
+  "total_ptn": 15,
+  "ptn_list": [
+    "UI",
+    "ITB",
+    "UGM",
+    "IPB",
+    "UNAIR",
+    "ITS",
+    "UNDIP",
+    "UB",
+    "UNPAD",
+    "UNS",
+    "UPI",
+    "USU",
+    "UNHAS",
+    "UNAND",
+    "UNUD"
+  ],
+  "source": "Balai Pengelolaan Pengujian Pendidikan (BPPP) Kemendikbudristek & Portal Resmi PTN",
+  "license": "Open Data Commons / Educational Public Use"
+}
