@@ -219,12 +219,25 @@
           <p id="lb-subtitle" class="text-xs sm:text-sm text-slate-500">Diurutkan berdasarkan persentase keketatan terendah (rasio persaingan tertinggi).</p>
         </div>
         
-        <!-- Controls: Jalur Toggle & Rumpun Filter -->
+        <!-- Controls: Jalur Toggle & Filter -->
         <div class="flex flex-wrap items-center gap-2.5">
           <div class="inline-flex rounded-xl bg-slate-200/80 p-1 border border-slate-200 text-xs font-semibold">
             <button id="lb-track-snbt" onclick="setLeaderboardTrack('snbt')" class="px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition">SNBT (UTBK)</button>
             <button id="lb-track-snbp" onclick="setLeaderboardTrack('snbp')" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition">SNBP (Rapor)</button>
           </div>
+          <select id="lb-tipe-select" onchange="renderLeaderboard()" class="px-3 py-1.5 rounded-xl border border-slate-200 bg-white text-xs font-medium text-slate-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-500">
+            <option value="ALL">Semua Jenis (PTN &amp; PTS)</option>
+            <option value="PTN">PTN (Negeri)</option>
+            <option value="PTS">PTS (Swasta)</option>
+          </select>
+          <select id="lb-wilayah-select" onchange="renderLeaderboard()" class="px-3 py-1.5 rounded-xl border border-slate-200 bg-white text-xs font-medium text-slate-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-500">
+            <option value="ALL">Semua Wilayah</option>
+            <option value="Jawa">Jawa</option>
+            <option value="Sumatera">Sumatera</option>
+            <option value="Kalimantan">Kalimantan</option>
+            <option value="Sulawesi">Sulawesi</option>
+            <option value="Bali-Nusa Tenggara">Bali-Nusa Tenggara</option>
+          </select>
           <select id="lb-rumpun-select" onchange="renderLeaderboard()" class="px-3 py-1.5 rounded-xl border border-slate-200 bg-white text-xs font-medium text-slate-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-500">
             <option value="ALL">Semua Rumpun</option>
             <option value="Saintek">Saintek (IPA)</option>
@@ -241,7 +254,7 @@
               <tr class="bg-slate-100 text-slate-700 border-b border-slate-200 font-semibold">
                 <th class="p-3.5 w-12 text-center">Rank</th>
                 <th class="p-3.5">Program Studi</th>
-                <th class="p-3.5">Perguruan Tinggi (PTN)</th>
+                <th class="p-3.5">Perguruan Tinggi (PTN &amp; PTS)</th>
                 <th class="p-3.5">Rumpun</th>
                 <th class="p-3.5 text-right">Daya Tampung</th>
                 <th class="p-3.5 text-right">Peminat</th>
@@ -792,10 +805,19 @@
 
     function renderLeaderboard() {
       const rumpun = document.getElementById('lb-rumpun-select').value;
+      const tipe = document.getElementById('lb-tipe-select') ? document.getElementById('lb-tipe-select').value : 'ALL';
+      const wilayah = document.getElementById('lb-wilayah-select') ? document.getElementById('lb-wilayah-select').value : 'ALL';
+
       let list = [...ptnData];
 
       if (rumpun !== 'ALL') {
         list = list.filter(p => p.rumpun === rumpun);
+      }
+      if (tipe !== 'ALL') {
+        list = list.filter(p => p.ptn_tipe === tipe);
+      }
+      if (wilayah !== 'ALL') {
+        list = list.filter(p => p.ptn_wilayah === wilayah);
       }
 
       // Sort by chosen track selectivity percentage ascending (lowest % = most competitive)
@@ -820,10 +842,16 @@
             <td class="p-3.5 text-center">${rankBadge}</td>
             <td class="p-3.5 font-bold text-slate-900 hover:text-sky-700">${prodiTitle}</td>
             <td class="p-3.5">
-              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold text-white" style="background-color: ${ptnCatalog[item.ptn_id]?.warna || '#0284c7'}">
-                ${item.ptn_singkatan}
-              </span>
-              <span class="text-slate-500 ml-1.5 text-[11px]">${item.ptn_kota}</span>
+              <div class="flex items-center space-x-1.5 flex-wrap gap-y-1">
+                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold text-white" style="background-color: ${ptnCatalog[item.ptn_id]?.warna || '#0284c7'}">
+                  ${item.ptn_singkatan}
+                </span>
+                <span class="px-1.5 py-0.2 rounded text-[10px] font-bold ${item.ptn_tipe === 'PTN' ? 'badge-ptn' : 'badge-pts'}">
+                  ${item.ptn_tipe}
+                </span>
+                <span class="text-slate-500 text-[11px]">${item.ptn_kota}</span>
+              </div>
+              <div class="text-[10px] text-slate-400 mt-0.5">${item.ptn_wilayah}</div>
             </td>
             <td class="p-3.5">
               <span class="px-2 py-0.5 rounded text-[11px] font-semibold ${item.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}">
