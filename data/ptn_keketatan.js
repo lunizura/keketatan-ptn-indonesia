@@ -1,10 +1,12 @@
 window.KEKETATAN_METADATA = {
   "title": "Indonesian Top Universities Selectivity & Quota Index",
-  "description": "Basis data komprehensif tingkat keketatan, daya tampung, dan riwayat peminat SNBP dan SNBT PTN top Indonesia.",
-  "last_updated_iso": "2026-10-02T16:48:13.847407",
-  "last_updated_date": "02 October 2026",
-  "total_prodi": 113,
-  "total_ptn": 15,
+  "description": "Basis data komprehensif tingkat keketatan, daya tampung, dan riwayat peminat SNBP dan SNBT PTN dan PTS top Indonesia.",
+  "last_updated_iso": "2026-10-03T22:40:15.770492",
+  "last_updated_date": "03 October 2026",
+  "total_prodi": 295,
+  "total_universitas": 50,
+  "total_ptn": 35,
+  "total_pts": 15,
   "ptn_list": [
     "UI",
     "ITB",
@@ -17,12 +19,47 @@ window.KEKETATAN_METADATA = {
     "UNPAD",
     "UNS",
     "UPI",
+    "UNSOED",
+    "UNY",
+    "UNNES",
+    "UNESA",
+    "UM",
+    "UNJ",
+    "UPNVJ",
+    "UPNVYK",
+    "UPNVJT",
+    "UNTIRTA",
     "USU",
-    "UNHAS",
     "UNAND",
-    "UNUD"
+    "UNSRI",
+    "UNILA",
+    "UNP",
+    "USK",
+    "UNRI",
+    "UNMUL",
+    "ULM",
+    "UNTAN",
+    "UNHAS",
+    "UNSRAT",
+    "UNUD",
+    "UNRAM",
+    "TELKOM",
+    "BINUS",
+    "UII",
+    "UMY",
+    "UNPAR",
+    "ATMAJAYA",
+    "UPH",
+    "TRISAKTI",
+    "UNTAR",
+    "UMN",
+    "PETRA",
+    "UMS",
+    "PRESUNIV",
+    "USD",
+    "MERCU"
   ],
-  "source": "Balai Pengelolaan Pengujian Pendidikan (BPPP) Kemendikbudristek & Portal Resmi PTN",
+  "source": "Balai Pengelolaan Pengujian Pendidikan (BPPP) Kemendikbudristek & Portal Resmi Perguruan Tinggi",
   "license": "Open Data Commons / Educational Public Use"
 };
 window.PTN_CATALOG = {
@@ -33,6 +70,8 @@ window.PTN_CATALOG = {
     "singkatan": "UI",
     "kota": "Depok",
     "provinsi": "Jawa Barat / DKI Jakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1849,
@@ -47,6 +86,8 @@ window.PTN_CATALOG = {
     "singkatan": "ITB",
     "kota": "Bandung",
     "provinsi": "Jawa Barat",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1920,
@@ -61,6 +102,8 @@ window.PTN_CATALOG = {
     "singkatan": "UGM",
     "kota": "Sleman / Yogyakarta",
     "provinsi": "D.I. Yogyakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1949,
@@ -75,6 +118,8 @@ window.PTN_CATALOG = {
     "singkatan": "IPB",
     "kota": "Bogor",
     "provinsi": "Jawa Barat",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1963,
@@ -89,6 +134,8 @@ window.PTN_CATALOG = {
     "singkatan": "UNAIR",
     "kota": "Surabaya",
     "provinsi": "Jawa Timur",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1954,
@@ -103,6 +150,8 @@ window.PTN_CATALOG = {
     "singkatan": "ITS",
     "kota": "Surabaya",
     "provinsi": "Jawa Timur",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1957,
@@ -117,6 +166,8 @@ window.PTN_CATALOG = {
     "singkatan": "UNDIP",
     "kota": "Semarang",
     "provinsi": "Jawa Tengah",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1957,
@@ -131,6 +182,8 @@ window.PTN_CATALOG = {
     "singkatan": "UB",
     "kota": "Malang",
     "provinsi": "Jawa Timur",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1963,
@@ -145,6 +198,8 @@ window.PTN_CATALOG = {
     "singkatan": "UNPAD",
     "kota": "Sumedang / Bandung",
     "provinsi": "Jawa Barat",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1957,
@@ -159,6 +214,8 @@ window.PTN_CATALOG = {
     "singkatan": "UNS",
     "kota": "Surakarta",
     "provinsi": "Jawa Tengah",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1976,
@@ -173,12 +230,174 @@ window.PTN_CATALOG = {
     "singkatan": "UPI",
     "kota": "Bandung",
     "provinsi": "Jawa Barat",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1954,
     "website": "https://upi.edu",
     "spmb_url": "https://pmb.upi.edu",
     "warna": "#DC2626"
+  },
+  "UNSOED": {
+    "id": "UNSOED",
+    "nama": "Universitas Jenderal Soedirman",
+    "nama_en": "Jenderal Soedirman University",
+    "singkatan": "UNSOED",
+    "kota": "Purwokerto",
+    "provinsi": "Jawa Tengah",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1963,
+    "website": "https://unsoed.ac.id",
+    "spmb_url": "https://spmb.unsoed.ac.id",
+    "warna": "#EAB308"
+  },
+  "UNY": {
+    "id": "UNY",
+    "nama": "Universitas Negeri Yogyakarta",
+    "nama_en": "Yogyakarta State University",
+    "singkatan": "UNY",
+    "kota": "Yogyakarta",
+    "provinsi": "D.I. Yogyakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BH",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1964,
+    "website": "https://uny.ac.id",
+    "spmb_url": "https://pmb.uny.ac.id",
+    "warna": "#0284C7"
+  },
+  "UNNES": {
+    "id": "UNNES",
+    "nama": "Universitas Negeri Semarang",
+    "nama_en": "Semarang State University",
+    "singkatan": "UNNES",
+    "kota": "Semarang",
+    "provinsi": "Jawa Tengah",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BH",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1965,
+    "website": "https://unnes.ac.id",
+    "spmb_url": "https://spmb.unnes.ac.id",
+    "warna": "#EAB308"
+  },
+  "UNESA": {
+    "id": "UNESA",
+    "nama": "Universitas Negeri Surabaya",
+    "nama_en": "Surabaya State University",
+    "singkatan": "UNESA",
+    "kota": "Surabaya",
+    "provinsi": "Jawa Timur",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BH",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1964,
+    "website": "https://unesa.ac.id",
+    "spmb_url": "https://admisi.unesa.ac.id",
+    "warna": "#2563EB"
+  },
+  "UM": {
+    "id": "UM",
+    "nama": "Universitas Negeri Malang",
+    "nama_en": "State University of Malang",
+    "singkatan": "UM",
+    "kota": "Malang",
+    "provinsi": "Jawa Timur",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BH",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1954,
+    "website": "https://um.ac.id",
+    "spmb_url": "https://seleksi.um.ac.id",
+    "warna": "#1D4ED8"
+  },
+  "UNJ": {
+    "id": "UNJ",
+    "nama": "Universitas Negeri Jakarta",
+    "nama_en": "State University of Jakarta",
+    "singkatan": "UNJ",
+    "kota": "Jakarta Timur",
+    "provinsi": "DKI Jakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BH",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1964,
+    "website": "https://unj.ac.id",
+    "spmb_url": "https://penmaba.unj.ac.id",
+    "warna": "#16A34A"
+  },
+  "UPNVJ": {
+    "id": "UPNVJ",
+    "nama": "UPN Veteran Jakarta",
+    "nama_en": "UPN Veteran Jakarta",
+    "singkatan": "UPNVJ",
+    "kota": "Jakarta Selatan",
+    "provinsi": "DKI Jakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1967,
+    "website": "https://upnvj.ac.id",
+    "spmb_url": "https://penmaru.upnvj.ac.id",
+    "warna": "#16A34A"
+  },
+  "UPNVYK": {
+    "id": "UPNVYK",
+    "nama": "UPN Veteran Yogyakarta",
+    "nama_en": "UPN Veteran Yogyakarta",
+    "singkatan": "UPNVYK",
+    "kota": "Sleman",
+    "provinsi": "D.I. Yogyakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1958,
+    "website": "https://upnyk.ac.id",
+    "spmb_url": "https://pmb.upnyk.ac.id",
+    "warna": "#15803D"
+  },
+  "UPNVJT": {
+    "id": "UPNVJT",
+    "nama": "UPN Veteran Jawa Timur",
+    "nama_en": "UPN Veteran East Java",
+    "singkatan": "UPNVJT",
+    "kota": "Surabaya",
+    "provinsi": "Jawa Timur",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1959,
+    "website": "https://upnjatim.ac.id",
+    "spmb_url": "https://simaba.upnjatim.ac.id",
+    "warna": "#166534"
+  },
+  "UNTIRTA": {
+    "id": "UNTIRTA",
+    "nama": "Universitas Sultan Ageng Tirtayasa",
+    "nama_en": "Sultan Ageng Tirtayasa University",
+    "singkatan": "UNTIRTA",
+    "kota": "Serang",
+    "provinsi": "Banten",
+    "wilayah": "Jawa",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1981,
+    "website": "https://untirta.ac.id",
+    "spmb_url": "https://spmb.untirta.ac.id",
+    "warna": "#B45309"
   },
   "USU": {
     "id": "USU",
@@ -187,11 +406,157 @@ window.PTN_CATALOG = {
     "singkatan": "USU",
     "kota": "Medan",
     "provinsi": "Sumatera Utara",
+    "wilayah": "Sumatera",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1952,
     "website": "https://usu.ac.id",
     "spmb_url": "https://penerimaan.usu.ac.id",
+    "warna": "#16A34A"
+  },
+  "UNAND": {
+    "id": "UNAND",
+    "nama": "Universitas Andalas",
+    "nama_en": "Andalas University",
+    "singkatan": "UNAND",
+    "kota": "Padang",
+    "provinsi": "Sumatera Barat",
+    "wilayah": "Sumatera",
+    "tipe": "PTN",
+    "klaster": "PTN-BH",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1955,
+    "website": "https://unand.ac.id",
+    "spmb_url": "https://pmb.unand.ac.id",
+    "warna": "#15803D"
+  },
+  "UNSRI": {
+    "id": "UNSRI",
+    "nama": "Universitas Sriwijaya",
+    "nama_en": "Sriwijaya University",
+    "singkatan": "UNSRI",
+    "kota": "Palembang / Indralaya",
+    "provinsi": "Sumatera Selatan",
+    "wilayah": "Sumatera",
+    "tipe": "PTN",
+    "klaster": "PTN-BH",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1960,
+    "website": "https://unsri.ac.id",
+    "spmb_url": "https://usm.unsri.ac.id",
+    "warna": "#D97706"
+  },
+  "UNILA": {
+    "id": "UNILA",
+    "nama": "Universitas Lampung",
+    "nama_en": "Lampung University",
+    "singkatan": "UNILA",
+    "kota": "Bandar Lampung",
+    "provinsi": "Lampung",
+    "wilayah": "Sumatera",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1965,
+    "website": "https://unila.ac.id",
+    "spmb_url": "https://simanila.unila.ac.id",
+    "warna": "#2563EB"
+  },
+  "UNP": {
+    "id": "UNP",
+    "nama": "Universitas Negeri Padang",
+    "nama_en": "Padang State University",
+    "singkatan": "UNP",
+    "kota": "Padang",
+    "provinsi": "Sumatera Barat",
+    "wilayah": "Sumatera",
+    "tipe": "PTN",
+    "klaster": "PTN-BH",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1954,
+    "website": "https://unp.ac.id",
+    "spmb_url": "https://spmb.unp.ac.id",
+    "warna": "#E11D48"
+  },
+  "USK": {
+    "id": "USK",
+    "nama": "Universitas Syiah Kuala",
+    "nama_en": "Syiah Kuala University",
+    "singkatan": "USK",
+    "kota": "Banda Aceh",
+    "provinsi": "Aceh",
+    "wilayah": "Sumatera",
+    "tipe": "PTN",
+    "klaster": "PTN-BH",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1961,
+    "website": "https://usk.ac.id",
+    "spmb_url": "https://penerimaan.usk.ac.id",
+    "warna": "#F59E0B"
+  },
+  "UNRI": {
+    "id": "UNRI",
+    "nama": "Universitas Riau",
+    "nama_en": "Riau University",
+    "singkatan": "UNRI",
+    "kota": "Pekanbaru",
+    "provinsi": "Riau",
+    "wilayah": "Sumatera",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1962,
+    "website": "https://unri.ac.id",
+    "spmb_url": "https://um.unri.ac.id",
+    "warna": "#0D9488"
+  },
+  "UNMUL": {
+    "id": "UNMUL",
+    "nama": "Universitas Mulawarman",
+    "nama_en": "Mulawarman University",
+    "singkatan": "UNMUL",
+    "kota": "Samarinda",
+    "provinsi": "Kalimantan Timur",
+    "wilayah": "Kalimantan",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1962,
+    "website": "https://unmul.ac.id",
+    "spmb_url": "https://spmb.unmul.ac.id",
+    "warna": "#0284C7"
+  },
+  "ULM": {
+    "id": "ULM",
+    "nama": "Universitas Lambung Mangkurat",
+    "nama_en": "Lambung Mangkurat University",
+    "singkatan": "ULM",
+    "kota": "Banjarmasin",
+    "provinsi": "Kalimantan Selatan",
+    "wilayah": "Kalimantan",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1958,
+    "website": "https://ulm.ac.id",
+    "spmb_url": "https://admisi.ulm.ac.id",
+    "warna": "#EAB308"
+  },
+  "UNTAN": {
+    "id": "UNTAN",
+    "nama": "Universitas Tanjungpura",
+    "nama_en": "Tanjungpura University",
+    "singkatan": "UNTAN",
+    "kota": "Pontianak",
+    "provinsi": "Kalimantan Barat",
+    "wilayah": "Kalimantan",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1959,
+    "website": "https://untan.ac.id",
+    "spmb_url": "https://scmb.untan.ac.id",
     "warna": "#16A34A"
   },
   "UNHAS": {
@@ -201,6 +566,8 @@ window.PTN_CATALOG = {
     "singkatan": "UNHAS",
     "kota": "Makassar",
     "provinsi": "Sulawesi Selatan",
+    "wilayah": "Sulawesi",
+    "tipe": "PTN",
     "klaster": "PTN-BH",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1956,
@@ -208,19 +575,21 @@ window.PTN_CATALOG = {
     "spmb_url": "https://regpmb.unhas.ac.id",
     "warna": "#DC2626"
   },
-  "UNAND": {
-    "id": "UNAND",
-    "nama": "Universitas Andalas",
-    "nama_en": "Andalas University",
-    "singkatan": "UNAND",
-    "kota": "Padang",
-    "provinsi": "Sumatera Barat",
-    "klaster": "PTN-BH",
+  "UNSRAT": {
+    "id": "UNSRAT",
+    "nama": "Universitas Sam Ratulangi",
+    "nama_en": "Sam Ratulangi University",
+    "singkatan": "UNSRAT",
+    "kota": "Manado",
+    "provinsi": "Sulawesi Utara",
+    "wilayah": "Sulawesi",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
     "akreditasi": "Unggul",
-    "tahun_berdiri": 1955,
-    "website": "https://unand.ac.id",
-    "spmb_url": "https://pmb.unand.ac.id",
-    "warna": "#16A34A"
+    "tahun_berdiri": 1965,
+    "website": "https://unsrat.ac.id",
+    "spmb_url": "https://pmb.unsrat.ac.id",
+    "warna": "#2563EB"
   },
   "UNUD": {
     "id": "UNUD",
@@ -229,12 +598,270 @@ window.PTN_CATALOG = {
     "singkatan": "UNUD",
     "kota": "Badung / Denpasar",
     "provinsi": "Bali",
+    "wilayah": "Bali-Nusa Tenggara",
+    "tipe": "PTN",
     "klaster": "PTN-BLU",
     "akreditasi": "Unggul",
     "tahun_berdiri": 1962,
     "website": "https://unud.ac.id",
     "spmb_url": "https://utbk.unud.ac.id",
     "warna": "#9333EA"
+  },
+  "UNRAM": {
+    "id": "UNRAM",
+    "nama": "Universitas Mataram",
+    "nama_en": "University of Mataram",
+    "singkatan": "UNRAM",
+    "kota": "Mataram",
+    "provinsi": "Nusa Tenggara Barat",
+    "wilayah": "Bali-Nusa Tenggara",
+    "tipe": "PTN",
+    "klaster": "PTN-BLU",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1962,
+    "website": "https://unram.ac.id",
+    "spmb_url": "https://pmb.unram.ac.id",
+    "warna": "#0284C7"
+  },
+  "TELKOM": {
+    "id": "TELKOM",
+    "nama": "Telkom University",
+    "nama_en": "Telkom University",
+    "singkatan": "TELKOM",
+    "kota": "Bandung",
+    "provinsi": "Jawa Barat",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1990,
+    "website": "https://telkomuniversity.ac.id",
+    "spmb_url": "https://smb.telkomuniversity.ac.id",
+    "warna": "#DC2626"
+  },
+  "BINUS": {
+    "id": "BINUS",
+    "nama": "Bina Nusantara University",
+    "nama_en": "Bina Nusantara University",
+    "singkatan": "BINUS",
+    "kota": "Jakarta Barat",
+    "provinsi": "DKI Jakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1981,
+    "website": "https://binus.ac.id",
+    "spmb_url": "https://binus.ac.id/admissions",
+    "warna": "#EA580C"
+  },
+  "UII": {
+    "id": "UII",
+    "nama": "Universitas Islam Indonesia",
+    "nama_en": "Universitas Islam Indonesia",
+    "singkatan": "UII",
+    "kota": "Sleman",
+    "provinsi": "D.I. Yogyakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1945,
+    "website": "https://uii.ac.id",
+    "spmb_url": "https://pmb.uii.ac.id",
+    "warna": "#1D4ED8"
+  },
+  "UMY": {
+    "id": "UMY",
+    "nama": "Universitas Muhammadiyah Yogyakarta",
+    "nama_en": "Muhammadiyah University of Yogyakarta",
+    "singkatan": "UMY",
+    "kota": "Bantul",
+    "provinsi": "D.I. Yogyakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1981,
+    "website": "https://umy.ac.id",
+    "spmb_url": "https://admisi.umy.ac.id",
+    "warna": "#CA8A04"
+  },
+  "UNPAR": {
+    "id": "UNPAR",
+    "nama": "Universitas Katolik Parahyangan",
+    "nama_en": "Parahyangan Catholic University",
+    "singkatan": "UNPAR",
+    "kota": "Bandung",
+    "provinsi": "Jawa Barat",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1955,
+    "website": "https://unpar.ac.id",
+    "spmb_url": "https://pmb.unpar.ac.id",
+    "warna": "#0369A1"
+  },
+  "ATMAJAYA": {
+    "id": "ATMAJAYA",
+    "nama": "Unika Atma Jaya",
+    "nama_en": "Atma Jaya Catholic University of Indonesia",
+    "singkatan": "ATMAJAYA",
+    "kota": "Jakarta Selatan",
+    "provinsi": "DKI Jakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1960,
+    "website": "https://atmajaya.ac.id",
+    "spmb_url": "https://pmb.atmajaya.ac.id",
+    "warna": "#1E3A8A"
+  },
+  "UPH": {
+    "id": "UPH",
+    "nama": "Universitas Pelita Harapan",
+    "nama_en": "Pelita Harapan University",
+    "singkatan": "UPH",
+    "kota": "Tangerang",
+    "provinsi": "Banten",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1994,
+    "website": "https://uph.edu",
+    "spmb_url": "https://admission.uph.edu",
+    "warna": "#1D4ED8"
+  },
+  "TRISAKTI": {
+    "id": "TRISAKTI",
+    "nama": "Universitas Trisakti",
+    "nama_en": "Trisakti University",
+    "singkatan": "TRISAKTI",
+    "kota": "Jakarta Barat",
+    "provinsi": "DKI Jakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1965,
+    "website": "https://trisakti.ac.id",
+    "spmb_url": "https://spmb.trisakti.ac.id",
+    "warna": "#0284C7"
+  },
+  "UNTAR": {
+    "id": "UNTAR",
+    "nama": "Universitas Tarumanagara",
+    "nama_en": "Tarumanagara University",
+    "singkatan": "UNTAR",
+    "kota": "Jakarta Barat",
+    "provinsi": "DKI Jakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1959,
+    "website": "https://untar.ac.id",
+    "spmb_url": "https://admisi.untar.ac.id",
+    "warna": "#B91C1C"
+  },
+  "UMN": {
+    "id": "UMN",
+    "nama": "Universitas Multimedia Nusantara",
+    "nama_en": "Multimedia Nusantara University",
+    "singkatan": "UMN",
+    "kota": "Tangerang",
+    "provinsi": "Banten",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 2006,
+    "website": "https://umn.ac.id",
+    "spmb_url": "https://pmb.umn.ac.id",
+    "warna": "#0284C7"
+  },
+  "PETRA": {
+    "id": "PETRA",
+    "nama": "Universitas Kristen Petra",
+    "nama_en": "Petra Christian University",
+    "singkatan": "PETRA",
+    "kota": "Surabaya",
+    "provinsi": "Jawa Timur",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1961,
+    "website": "https://petra.ac.id",
+    "spmb_url": "https://admission.petra.ac.id",
+    "warna": "#1E40AF"
+  },
+  "UMS": {
+    "id": "UMS",
+    "nama": "Universitas Muhammadiyah Surakarta",
+    "nama_en": "Muhammadiyah University of Surakarta",
+    "singkatan": "UMS",
+    "kota": "Surakarta",
+    "provinsi": "Jawa Tengah",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1981,
+    "website": "https://ums.ac.id",
+    "spmb_url": "https://pmb.ums.ac.id",
+    "warna": "#2563EB"
+  },
+  "PRESUNIV": {
+    "id": "PRESUNIV",
+    "nama": "President University",
+    "nama_en": "President University",
+    "singkatan": "PRESUNIV",
+    "kota": "Cikarang",
+    "provinsi": "Jawa Barat",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 2001,
+    "website": "https://president.ac.id",
+    "spmb_url": "https://admission.president.ac.id",
+    "warna": "#991B1B"
+  },
+  "USD": {
+    "id": "USD",
+    "nama": "Universitas Sanata Dharma",
+    "nama_en": "Sanata Dharma University",
+    "singkatan": "USD",
+    "kota": "Sleman / Yogyakarta",
+    "provinsi": "D.I. Yogyakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1955,
+    "website": "https://usd.ac.id",
+    "spmb_url": "https://pmb.usd.ac.id",
+    "warna": "#047857"
+  },
+  "MERCU": {
+    "id": "MERCU",
+    "nama": "Universitas Mercu Buana",
+    "nama_en": "Mercu Buana University",
+    "singkatan": "MERCU",
+    "kota": "Jakarta Barat",
+    "provinsi": "DKI Jakarta",
+    "wilayah": "Jawa",
+    "tipe": "PTS",
+    "klaster": "PTS Unggul",
+    "akreditasi": "Unggul",
+    "tahun_berdiri": 1985,
+    "website": "https://mercubuana.ac.id",
+    "spmb_url": "https://pendaftaran.mercubuana.ac.id",
+    "warna": "#0369A1"
   }
 };
 window.PTN_KEKETATAN_DATA = [
@@ -251,6 +878,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -338,6 +968,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "IPB",
     "ptn_kota": "Bogor",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ipb.ac.id",
@@ -425,6 +1058,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -512,6 +1148,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -597,6 +1236,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -684,6 +1326,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -769,6 +1414,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -856,6 +1504,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNPAD",
     "ptn_kota": "Sumedang / Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F97316",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unpad.ac.id",
@@ -931,6 +1582,364 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unj-ilmu-komunikasi",
+    "kode_prodi": "312005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNJ",
+    "ptn_nama": "Universitas Negeri Jakarta",
+    "ptn_nama_en": "State University of Jakarta",
+    "ptn_singkatan": "UNJ",
+    "ptn_kota": "Jakarta Timur",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unj.ac.id",
+    "ptn_spmb_url": "https://penmaba.unj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 32,
+      "peminat": 2280,
+      "riwayat_peminat": {
+        "2024": 2280,
+        "2023": 2140,
+        "2022": 2020
+      },
+      "keketatan_persen": 1.4,
+      "rasio_persaingan": "1 : 71",
+      "rasio_angka": 71,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 55,
+      "peminat": 3650,
+      "riwayat_peminat": {
+        "2024": 3650,
+        "2023": 3440,
+        "2022": 3270
+      },
+      "keketatan_persen": 1.51,
+      "rasio_persaingan": "1 : 66",
+      "rasio_angka": 66,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uny-teknik-informatika",
+    "kode_prodi": "342001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNY",
+    "ptn_nama": "Universitas Negeri Yogyakarta",
+    "ptn_nama_en": "Yogyakarta State University",
+    "ptn_singkatan": "UNY",
+    "ptn_kota": "Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uny.ac.id",
+    "ptn_spmb_url": "https://pmb.uny.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 24,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1200,
+        "2022": 1120
+      },
+      "keketatan_persen": 1.88,
+      "rasio_persaingan": "1 : 53",
+      "rasio_angka": 53,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 40,
+      "peminat": 2580,
+      "riwayat_peminat": {
+        "2024": 2580,
+        "2023": 2430,
+        "2022": 2300
+      },
+      "keketatan_persen": 1.55,
+      "rasio_persaingan": "1 : 64",
+      "rasio_angka": 64,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "upnvj-kedokteran",
+    "kode_prodi": "313001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPNVJ",
+    "ptn_nama": "UPN Veteran Jakarta",
+    "ptn_nama_en": "UPN Veteran Jakarta",
+    "ptn_singkatan": "UPNVJ",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnvj.ac.id",
+    "ptn_spmb_url": "https://penmaru.upnvj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 1480,
+      "riwayat_peminat": {
+        "2024": 1480,
+        "2023": 1390,
+        "2022": 1310
+      },
+      "keketatan_persen": 2.03,
+      "rasio_persaingan": "1 : 49",
+      "rasio_angka": 49,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 3150,
+      "riwayat_peminat": {
+        "2024": 3150,
+        "2023": 2960,
+        "2022": 2810
+      },
+      "keketatan_persen": 1.59,
+      "rasio_persaingan": "1 : 63",
+      "rasio_angka": 63,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unj-ilmu-komputer",
+    "kode_prodi": "312001",
+    "nama_prodi": "Ilmu Komputer",
+    "nama_prodi_en": "Ilmu Komputer",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNJ",
+    "ptn_nama": "Universitas Negeri Jakarta",
+    "ptn_nama_en": "State University of Jakarta",
+    "ptn_singkatan": "UNJ",
+    "ptn_kota": "Jakarta Timur",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unj.ac.id",
+    "ptn_spmb_url": "https://penmaba.unj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 28,
+      "peminat": 1380,
+      "riwayat_peminat": {
+        "2024": 1380,
+        "2023": 1290,
+        "2022": 1210
+      },
+      "keketatan_persen": 2.03,
+      "rasio_persaingan": "1 : 49",
+      "rasio_angka": 49,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 7.0
+    },
+    "snbt": {
+      "daya_tampung": 45,
+      "peminat": 2780,
+      "riwayat_peminat": {
+        "2024": 2780,
+        "2023": 2620,
+        "2022": 2480
+      },
+      "keketatan_persen": 1.62,
+      "rasio_persaingan": "1 : 62",
+      "rasio_angka": 62,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Program studi Ilmu Komputer di Universitas Negeri Jakarta dengan kurikulum berstandar nasional dan keunggulan riset unggul.",
+        "en": "The Ilmu Komputer program at State University of Jakarta featuring accredited curricula and leading academic research."
+      },
+      "fokus": {
+        "id": [
+          "Fondasi Keilmuan",
+          "Penerapan Praktik",
+          "Riset & Analisis",
+          "Etika Profesi"
+        ],
+        "en": [
+          "Core Foundations",
+          "Applied Practice",
+          "Research & Analytics",
+          "Professional Ethics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Praktisi Profesional",
+          "Akademisi / Peneliti",
+          "Konsultan Spesialis",
+          "Wirausahawan"
+        ],
+        "en": [
+          "Professional Practitioner",
+          "Academic / Researcher",
+          "Specialist Consultant",
+          "Entrepreneur"
+        ]
+      }
+    }
+  },
+  {
     "id": "unpad-ilmu-komunikasi",
     "kode_prodi": "331007",
     "nama_prodi": "Ilmu Komunikasi",
@@ -943,6 +1952,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNPAD",
     "ptn_kota": "Sumedang / Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F97316",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unpad.ac.id",
@@ -1018,6 +2030,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "uny-psikologi",
+    "kode_prodi": "342003",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNY",
+    "ptn_nama": "Universitas Negeri Yogyakarta",
+    "ptn_nama_en": "Yogyakarta State University",
+    "ptn_singkatan": "UNY",
+    "ptn_kota": "Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uny.ac.id",
+    "ptn_spmb_url": "https://pmb.uny.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 36,
+      "peminat": 2180,
+      "riwayat_peminat": {
+        "2024": 2180,
+        "2023": 2050,
+        "2022": 1940
+      },
+      "keketatan_persen": 1.65,
+      "rasio_persaingan": "1 : 61",
+      "rasio_angka": 61,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 3650,
+      "riwayat_peminat": {
+        "2024": 3650,
+        "2023": 3450,
+        "2022": 3280
+      },
+      "keketatan_persen": 1.64,
+      "rasio_persaingan": "1 : 61",
+      "rasio_angka": 61,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
     "id": "unpad-psikologi",
     "kode_prodi": "331004",
     "nama_prodi": "Psikologi",
@@ -1030,6 +2132,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNPAD",
     "ptn_kota": "Sumedang / Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F97316",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unpad.ac.id",
@@ -1117,6 +2222,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UPI",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://upi.edu",
@@ -1204,6 +2312,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITB",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.itb.ac.id",
@@ -1291,6 +2402,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "IPB",
     "ptn_kota": "Bogor",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ipb.ac.id",
@@ -1378,6 +2492,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNHAS",
     "ptn_kota": "Makassar",
     "ptn_provinsi": "Sulawesi Selatan",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unhas.ac.id",
@@ -1453,6 +2570,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "uny-ilmu-komunikasi",
+    "kode_prodi": "342005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNY",
+    "ptn_nama": "Universitas Negeri Yogyakarta",
+    "ptn_nama_en": "Yogyakarta State University",
+    "ptn_singkatan": "UNY",
+    "ptn_kota": "Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uny.ac.id",
+    "ptn_spmb_url": "https://pmb.uny.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 32,
+      "peminat": 1920,
+      "riwayat_peminat": {
+        "2024": 1920,
+        "2023": 1810,
+        "2022": 1710
+      },
+      "keketatan_persen": 1.67,
+      "rasio_persaingan": "1 : 60",
+      "rasio_angka": 60,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 55,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 3010,
+        "2022": 2860
+      },
+      "keketatan_persen": 1.73,
+      "rasio_persaingan": "1 : 58",
+      "rasio_angka": 58,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.6
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
     "id": "uns-ilmu-komunikasi",
     "kode_prodi": "352008",
     "nama_prodi": "Ilmu Komunikasi",
@@ -1465,6 +2672,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNS",
     "ptn_kota": "Surakarta",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://uns.ac.id",
@@ -1552,6 +2762,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITB",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.itb.ac.id",
@@ -1639,6 +2852,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UPI",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://upi.edu",
@@ -1726,6 +2942,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNS",
     "ptn_kota": "Surakarta",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://uns.ac.id",
@@ -1801,6 +3020,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "um-teknik-informatika",
+    "kode_prodi": "383001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UM",
+    "ptn_nama": "Universitas Negeri Malang",
+    "ptn_nama_en": "State University of Malang",
+    "ptn_singkatan": "UM",
+    "ptn_kota": "Malang",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://um.ac.id",
+    "ptn_spmb_url": "https://seleksi.um.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 1410,
+      "riwayat_peminat": {
+        "2024": 1410,
+        "2023": 1320,
+        "2022": 1250
+      },
+      "keketatan_persen": 2.13,
+      "rasio_persaingan": "1 : 47",
+      "rasio_angka": 47,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.8
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 2820,
+      "riwayat_peminat": {
+        "2024": 2820,
+        "2023": 2650,
+        "2022": 2510
+      },
+      "keketatan_persen": 1.77,
+      "rasio_persaingan": "1 : 56",
+      "rasio_angka": 56,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "unair-ilmu-komunikasi",
     "kode_prodi": "381008",
     "nama_prodi": "Ilmu Komunikasi",
@@ -1813,6 +3122,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAIR",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unair.ac.id",
@@ -1900,6 +3212,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITB",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.itb.ac.id",
@@ -1987,6 +3302,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNDIP",
     "ptn_kota": "Semarang",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1E40AF",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://undip.ac.id",
@@ -2074,6 +3392,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -2149,6 +3470,186 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unj-psikologi",
+    "kode_prodi": "312003",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNJ",
+    "ptn_nama": "Universitas Negeri Jakarta",
+    "ptn_nama_en": "State University of Jakarta",
+    "ptn_singkatan": "UNJ",
+    "ptn_kota": "Jakarta Timur",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unj.ac.id",
+    "ptn_spmb_url": "https://penmaba.unj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 2580,
+      "riwayat_peminat": {
+        "2024": 2580,
+        "2023": 2430,
+        "2022": 2300
+      },
+      "keketatan_persen": 1.74,
+      "rasio_persaingan": "1 : 57",
+      "rasio_angka": 57,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 75,
+      "peminat": 4150,
+      "riwayat_peminat": {
+        "2024": 4150,
+        "2023": 3920,
+        "2022": 3720
+      },
+      "keketatan_persen": 1.81,
+      "rasio_persaingan": "1 : 55",
+      "rasio_angka": 55,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unnes-psikologi",
+    "kode_prodi": "352003",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNNES",
+    "ptn_nama": "Universitas Negeri Semarang",
+    "ptn_nama_en": "Semarang State University",
+    "ptn_singkatan": "UNNES",
+    "ptn_kota": "Semarang",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unnes.ac.id",
+    "ptn_spmb_url": "https://spmb.unnes.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 2240,
+      "riwayat_peminat": {
+        "2024": 2240,
+        "2023": 2110,
+        "2022": 1990
+      },
+      "keketatan_persen": 1.79,
+      "rasio_persaingan": "1 : 56",
+      "rasio_angka": 56,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 65,
+      "peminat": 3580,
+      "riwayat_peminat": {
+        "2024": 3580,
+        "2023": 3380,
+        "2022": 3210
+      },
+      "keketatan_persen": 1.82,
+      "rasio_persaingan": "1 : 55",
+      "rasio_angka": 55,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
     "id": "itb-desain-komunikasi-visual",
     "kode_prodi": "332009",
     "nama_prodi": "Desain Komunikasi Visual",
@@ -2161,6 +3662,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITB",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.itb.ac.id",
@@ -2248,6 +3752,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNS",
     "ptn_kota": "Surakarta",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://uns.ac.id",
@@ -2323,6 +3830,94 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvyk-teknik-pertambangan",
+    "kode_prodi": "343002",
+    "nama_prodi": "Teknik Pertambangan",
+    "nama_prodi_en": "Teknik Pertambangan",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPNVYK",
+    "ptn_nama": "UPN Veteran Yogyakarta",
+    "ptn_nama_en": "UPN Veteran Yogyakarta",
+    "ptn_singkatan": "UPNVYK",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnyk.ac.id",
+    "ptn_spmb_url": "https://pmb.upnyk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1580,
+      "riwayat_peminat": {
+        "2024": 1580,
+        "2023": 1490,
+        "2022": 1410
+      },
+      "keketatan_persen": 2.22,
+      "rasio_persaingan": "1 : 45",
+      "rasio_angka": 45,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 3280,
+      "riwayat_peminat": {
+        "2024": 3280,
+        "2023": 3090,
+        "2022": 2930
+      },
+      "keketatan_persen": 1.83,
+      "rasio_persaingan": "1 : 55",
+      "rasio_angka": 55,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Program studi Teknik Pertambangan di UPN Veteran Yogyakarta dengan kurikulum berstandar nasional dan keunggulan riset unggul.",
+        "en": "The Teknik Pertambangan program at UPN Veteran Yogyakarta featuring accredited curricula and leading academic research."
+      },
+      "fokus": {
+        "id": [
+          "Fondasi Keilmuan",
+          "Penerapan Praktik",
+          "Riset & Analisis",
+          "Etika Profesi"
+        ],
+        "en": [
+          "Core Foundations",
+          "Applied Practice",
+          "Research & Analytics",
+          "Professional Ethics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Praktisi Profesional",
+          "Akademisi / Peneliti",
+          "Konsultan Spesialis",
+          "Wirausahawan"
+        ],
+        "en": [
+          "Professional Practitioner",
+          "Academic / Researcher",
+          "Specialist Consultant",
+          "Entrepreneur"
+        ]
+      }
+    }
+  },
+  {
     "id": "ui-sistem-informasi",
     "kode_prodi": "311003",
     "nama_prodi": "Sistem Informasi",
@@ -2335,6 +3930,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -2422,6 +4020,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNDIP",
     "ptn_kota": "Semarang",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1E40AF",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://undip.ac.id",
@@ -2509,6 +4110,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UPI",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://upi.edu",
@@ -2584,6 +4188,186 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unj-sistem-informasi",
+    "kode_prodi": "312002",
+    "nama_prodi": "Sistem Informasi",
+    "nama_prodi_en": "Information Systems",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNJ",
+    "ptn_nama": "Universitas Negeri Jakarta",
+    "ptn_nama_en": "State University of Jakarta",
+    "ptn_singkatan": "UNJ",
+    "ptn_kota": "Jakarta Timur",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unj.ac.id",
+    "ptn_spmb_url": "https://penmaba.unj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 24,
+      "peminat": 1050,
+      "riwayat_peminat": {
+        "2024": 1050,
+        "2023": 980,
+        "2022": 920
+      },
+      "keketatan_persen": 2.29,
+      "rasio_persaingan": "1 : 44",
+      "rasio_angka": 44,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 7.1
+    },
+    "snbt": {
+      "daya_tampung": 40,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2020,
+        "2022": 1910
+      },
+      "keketatan_persen": 1.86,
+      "rasio_persaingan": "1 : 54",
+      "rasio_angka": 54,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Integrasi teknologi informasi dengan strategi bisnis, tata kelola TI perusahaan, rekayasa kebutuhan, dan analisis data bisnis.",
+        "en": "Integration of information technology with business strategy, enterprise IT governance, requirements engineering, and business data analytics."
+      },
+      "fokus": {
+        "id": [
+          "Analisis & Perancangan Sistem",
+          "Enterprise Resource Planning",
+          "Manajemen Basis Data",
+          "Business Intelligence"
+        ],
+        "en": [
+          "Systems Analysis & Design",
+          "Enterprise Resource Planning",
+          "Database Management",
+          "Business Intelligence"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ],
+        "en": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untirta-kedokteran",
+    "kode_prodi": "361001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNTIRTA",
+    "ptn_nama": "Universitas Sultan Ageng Tirtayasa",
+    "ptn_nama_en": "Sultan Ageng Tirtayasa University",
+    "ptn_singkatan": "UNTIRTA",
+    "ptn_kota": "Serang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#B45309",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untirta.ac.id",
+    "ptn_spmb_url": "https://spmb.untirta.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 25,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 870
+      },
+      "keketatan_persen": 2.55,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 40,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2020,
+        "2022": 1910
+      },
+      "keketatan_persen": 1.86,
+      "rasio_persaingan": "1 : 54",
+      "rasio_angka": 54,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
     "id": "undip-teknik-informatika",
     "kode_prodi": "351002",
     "nama_prodi": "Teknik Informatika",
@@ -2596,6 +4380,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNDIP",
     "ptn_kota": "Semarang",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1E40AF",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://undip.ac.id",
@@ -2683,6 +4470,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNPAD",
     "ptn_kota": "Sumedang / Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F97316",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unpad.ac.id",
@@ -2756,6 +4546,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unp-psikologi",
+    "kode_prodi": "132003",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNP",
+    "ptn_nama": "Universitas Negeri Padang",
+    "ptn_nama_en": "Padang State University",
+    "ptn_singkatan": "UNP",
+    "ptn_kota": "Padang",
+    "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#E11D48",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unp.ac.id",
+    "ptn_spmb_url": "https://spmb.unp.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1890,
+      "riwayat_peminat": {
+        "2024": 1890,
+        "2023": 1780,
+        "2022": 1680
+      },
+      "keketatan_persen": 1.85,
+      "rasio_persaingan": "1 : 54",
+      "rasio_angka": 54,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 3120,
+      "riwayat_peminat": {
+        "2024": 3120,
+        "2023": 2940,
+        "2022": 2790
+      },
+      "keketatan_persen": 1.92,
+      "rasio_persaingan": "1 : 52",
+      "rasio_angka": 52,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
     "id": "ui-psikologi",
     "kode_prodi": "311009",
     "nama_prodi": "Psikologi",
@@ -2768,6 +4648,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -2843,6 +4726,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unj-manajemen",
+    "kode_prodi": "312004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNJ",
+    "ptn_nama": "Universitas Negeri Jakarta",
+    "ptn_nama_en": "State University of Jakarta",
+    "ptn_singkatan": "UNJ",
+    "ptn_kota": "Jakarta Timur",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unj.ac.id",
+    "ptn_spmb_url": "https://penmaba.unj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 2720,
+      "riwayat_peminat": {
+        "2024": 2720,
+        "2023": 2560,
+        "2022": 2420
+      },
+      "keketatan_persen": 1.84,
+      "rasio_persaingan": "1 : 54",
+      "rasio_angka": 54,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 85,
+      "peminat": 4380,
+      "riwayat_peminat": {
+        "2024": 4380,
+        "2023": 4130,
+        "2022": 3920
+      },
+      "keketatan_persen": 1.94,
+      "rasio_persaingan": "1 : 52",
+      "rasio_angka": 52,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "ui-kedokteran",
     "kode_prodi": "311001",
     "nama_prodi": "Kedokteran",
@@ -2855,6 +4828,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -2930,6 +4906,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvj-teknik-informatika",
+    "kode_prodi": "313003",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPNVJ",
+    "ptn_nama": "UPN Veteran Jakarta",
+    "ptn_nama_en": "UPN Veteran Jakarta",
+    "ptn_singkatan": "UPNVJ",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnvj.ac.id",
+    "ptn_spmb_url": "https://penmaru.upnvj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 32,
+      "peminat": 1350,
+      "riwayat_peminat": {
+        "2024": 1350,
+        "2023": 1270,
+        "2022": 1190
+      },
+      "keketatan_persen": 2.37,
+      "rasio_persaingan": "1 : 42",
+      "rasio_angka": 42,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 55,
+      "peminat": 2820,
+      "riwayat_peminat": {
+        "2024": 2820,
+        "2023": 2650,
+        "2022": 2510
+      },
+      "keketatan_persen": 1.95,
+      "rasio_persaingan": "1 : 51",
+      "rasio_angka": 51,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "unand-teknik-informatika",
     "kode_prodi": "131003",
     "nama_prodi": "Teknik Informatika",
@@ -2942,6 +5008,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAND",
     "ptn_kota": "Padang",
     "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unand.ac.id",
@@ -3029,6 +5098,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAIR",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unair.ac.id",
@@ -3116,6 +5188,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNS",
     "ptn_kota": "Surakarta",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://uns.ac.id",
@@ -3191,6 +5266,186 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvyk-teknik-informatika",
+    "kode_prodi": "343003",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPNVYK",
+    "ptn_nama": "UPN Veteran Yogyakarta",
+    "ptn_nama_en": "UPN Veteran Yogyakarta",
+    "ptn_singkatan": "UPNVYK",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnyk.ac.id",
+    "ptn_spmb_url": "https://pmb.upnyk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 1240,
+      "riwayat_peminat": {
+        "2024": 1240,
+        "2023": 1160,
+        "2022": 1090
+      },
+      "keketatan_persen": 2.42,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.9
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 2540,
+      "riwayat_peminat": {
+        "2024": 2540,
+        "2023": 2390,
+        "2022": 2260
+      },
+      "keketatan_persen": 1.97,
+      "rasio_persaingan": "1 : 51",
+      "rasio_angka": 51,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unnes-teknik-informatika",
+    "kode_prodi": "352001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNNES",
+    "ptn_nama": "Universitas Negeri Semarang",
+    "ptn_nama_en": "Semarang State University",
+    "ptn_singkatan": "UNNES",
+    "ptn_kota": "Semarang",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unnes.ac.id",
+    "ptn_spmb_url": "https://spmb.unnes.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 32,
+      "peminat": 1350,
+      "riwayat_peminat": {
+        "2024": 1350,
+        "2023": 1260,
+        "2022": 1180
+      },
+      "keketatan_persen": 2.37,
+      "rasio_persaingan": "1 : 42",
+      "rasio_angka": 42,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 7.1
+    },
+    "snbt": {
+      "daya_tampung": 55,
+      "peminat": 2750,
+      "riwayat_peminat": {
+        "2024": 2750,
+        "2023": 2590,
+        "2022": 2450
+      },
+      "keketatan_persen": 2.0,
+      "rasio_persaingan": "1 : 50",
+      "rasio_angka": 50,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "usu-teknik-informatika",
     "kode_prodi": "121003",
     "nama_prodi": "Teknik Informatika",
@@ -3203,6 +5458,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "USU",
     "ptn_kota": "Medan",
     "ptn_provinsi": "Sumatera Utara",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://usu.ac.id",
@@ -3278,6 +5536,544 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "uny-manajemen",
+    "kode_prodi": "342004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNY",
+    "ptn_nama": "Universitas Negeri Yogyakarta",
+    "ptn_nama_en": "Yogyakarta State University",
+    "ptn_singkatan": "UNY",
+    "ptn_kota": "Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uny.ac.id",
+    "ptn_spmb_url": "https://pmb.uny.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 48,
+      "peminat": 2480,
+      "riwayat_peminat": {
+        "2024": 2480,
+        "2023": 2340,
+        "2022": 2210
+      },
+      "keketatan_persen": 1.94,
+      "rasio_persaingan": "1 : 52",
+      "rasio_angka": 52,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 3980,
+      "riwayat_peminat": {
+        "2024": 3980,
+        "2023": 3760,
+        "2022": 3560
+      },
+      "keketatan_persen": 2.01,
+      "rasio_persaingan": "1 : 50",
+      "rasio_angka": 50,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "upnvj-ilmu-komunikasi",
+    "kode_prodi": "313004",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPNVJ",
+    "ptn_nama": "UPN Veteran Jakarta",
+    "ptn_nama_en": "UPN Veteran Jakarta",
+    "ptn_singkatan": "UPNVJ",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnvj.ac.id",
+    "ptn_spmb_url": "https://penmaru.upnvj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 48,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2180
+      },
+      "keketatan_persen": 1.96,
+      "rasio_persaingan": "1 : 51",
+      "rasio_angka": 51,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 3980,
+      "riwayat_peminat": {
+        "2024": 3980,
+        "2023": 3760,
+        "2022": 3570
+      },
+      "keketatan_persen": 2.01,
+      "rasio_persaingan": "1 : 50",
+      "rasio_angka": 50,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "upnvyk-teknik-perminyakan",
+    "kode_prodi": "343001",
+    "nama_prodi": "Teknik Perminyakan",
+    "nama_prodi_en": "Teknik Perminyakan",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPNVYK",
+    "ptn_nama": "UPN Veteran Yogyakarta",
+    "ptn_nama_en": "UPN Veteran Yogyakarta",
+    "ptn_singkatan": "UPNVYK",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnyk.ac.id",
+    "ptn_spmb_url": "https://pmb.upnyk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1420,
+      "riwayat_peminat": {
+        "2024": 1420,
+        "2023": 1340,
+        "2022": 1260
+      },
+      "keketatan_persen": 2.46,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 2980,
+      "riwayat_peminat": {
+        "2024": 2980,
+        "2023": 2810,
+        "2022": 2660
+      },
+      "keketatan_persen": 2.01,
+      "rasio_persaingan": "1 : 50",
+      "rasio_angka": 50,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Program studi Teknik Perminyakan di UPN Veteran Yogyakarta dengan kurikulum berstandar nasional dan keunggulan riset unggul.",
+        "en": "The Teknik Perminyakan program at UPN Veteran Yogyakarta featuring accredited curricula and leading academic research."
+      },
+      "fokus": {
+        "id": [
+          "Fondasi Keilmuan",
+          "Penerapan Praktik",
+          "Riset & Analisis",
+          "Etika Profesi"
+        ],
+        "en": [
+          "Core Foundations",
+          "Applied Practice",
+          "Research & Analytics",
+          "Professional Ethics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Praktisi Profesional",
+          "Akademisi / Peneliti",
+          "Konsultan Spesialis",
+          "Wirausahawan"
+        ],
+        "en": [
+          "Professional Practitioner",
+          "Academic / Researcher",
+          "Specialist Consultant",
+          "Entrepreneur"
+        ]
+      }
+    }
+  },
+  {
+    "id": "upnvj-farmasi",
+    "kode_prodi": "313002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPNVJ",
+    "ptn_nama": "UPN Veteran Jakarta",
+    "ptn_nama_en": "UPN Veteran Jakarta",
+    "ptn_singkatan": "UPNVJ",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnvj.ac.id",
+    "ptn_spmb_url": "https://penmaru.upnvj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 24,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 860
+      },
+      "keketatan_persen": 2.45,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 40,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1860,
+        "2022": 1760
+      },
+      "keketatan_persen": 2.02,
+      "rasio_persaingan": "1 : 50",
+      "rasio_angka": 50,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unesa-ilmu-komunikasi",
+    "kode_prodi": "382005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNESA",
+    "ptn_nama": "Universitas Negeri Surabaya",
+    "ptn_nama_en": "Surabaya State University",
+    "ptn_singkatan": "UNESA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unesa.ac.id",
+    "ptn_spmb_url": "https://admisi.unesa.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 38,
+      "peminat": 1820,
+      "riwayat_peminat": {
+        "2024": 1820,
+        "2023": 1710,
+        "2022": 1620
+      },
+      "keketatan_persen": 2.09,
+      "rasio_persaingan": "1 : 48",
+      "rasio_angka": 48,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 2950,
+      "riwayat_peminat": {
+        "2024": 2950,
+        "2023": 2780,
+        "2022": 2640
+      },
+      "keketatan_persen": 2.03,
+      "rasio_persaingan": "1 : 49",
+      "rasio_angka": 49,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsoed-kedokteran",
+    "kode_prodi": "351001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNSOED",
+    "ptn_nama": "Universitas Jenderal Soedirman",
+    "ptn_nama_en": "Jenderal Soedirman University",
+    "ptn_singkatan": "UNSOED",
+    "ptn_kota": "Purwokerto",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsoed.ac.id",
+    "ptn_spmb_url": "https://spmb.unsoed.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1520,
+      "riwayat_peminat": {
+        "2024": 1520,
+        "2023": 1430,
+        "2022": 1350
+      },
+      "keketatan_persen": 2.63,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 65,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 2980,
+        "2022": 2840
+      },
+      "keketatan_persen": 2.04,
+      "rasio_persaingan": "1 : 49",
+      "rasio_angka": 49,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
     "id": "its-desain-komunikasi-visual",
     "kode_prodi": "382008",
     "nama_prodi": "Desain Komunikasi Visual",
@@ -3290,6 +6086,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITS",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.its.ac.id",
@@ -3377,6 +6176,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -3464,6 +6266,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAIR",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unair.ac.id",
@@ -3539,6 +6344,186 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "um-psikologi",
+    "kode_prodi": "383003",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UM",
+    "ptn_nama": "Universitas Negeri Malang",
+    "ptn_nama_en": "State University of Malang",
+    "ptn_singkatan": "UM",
+    "ptn_kota": "Malang",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://um.ac.id",
+    "ptn_spmb_url": "https://seleksi.um.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 2080,
+      "riwayat_peminat": {
+        "2024": 2080,
+        "2023": 1960,
+        "2022": 1850
+      },
+      "keketatan_persen": 1.92,
+      "rasio_persaingan": "1 : 52",
+      "rasio_angka": 52,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 70,
+      "peminat": 3390,
+      "riwayat_peminat": {
+        "2024": 3390,
+        "2023": 3200,
+        "2022": 3040
+      },
+      "keketatan_persen": 2.06,
+      "rasio_persaingan": "1 : 48",
+      "rasio_angka": 48,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uii-kedokteran",
+    "kode_prodi": "051001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UII",
+    "ptn_nama": "Universitas Islam Indonesia",
+    "ptn_nama_en": "Universitas Islam Indonesia",
+    "ptn_singkatan": "UII",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uii.ac.id",
+    "ptn_spmb_url": "https://pmb.uii.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1890,
+      "riwayat_peminat": {
+        "2024": 1890,
+        "2023": 1780,
+        "2022": 1680
+      },
+      "keketatan_persen": 2.12,
+      "rasio_persaingan": "1 : 47",
+      "rasio_angka": 47,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 3890,
+      "riwayat_peminat": {
+        "2024": 3890,
+        "2023": 3670,
+        "2022": 3470
+      },
+      "keketatan_persen": 2.06,
+      "rasio_persaingan": "1 : 49",
+      "rasio_angka": 49,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
     "id": "unpad-manajemen",
     "kode_prodi": "331006",
     "nama_prodi": "Manajemen",
@@ -3551,6 +6536,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNPAD",
     "ptn_kota": "Sumedang / Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F97316",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unpad.ac.id",
@@ -3638,6 +6626,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UPI",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://upi.edu",
@@ -3713,6 +6704,184 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvj-hubungan-internasional",
+    "kode_prodi": "313006",
+    "nama_prodi": "Hubungan Internasional",
+    "nama_prodi_en": "International Relations",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPNVJ",
+    "ptn_nama": "UPN Veteran Jakarta",
+    "ptn_nama_en": "UPN Veteran Jakarta",
+    "ptn_singkatan": "UPNVJ",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnvj.ac.id",
+    "ptn_spmb_url": "https://penmaru.upnvj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 28,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1200,
+        "2022": 1130
+      },
+      "keketatan_persen": 2.19,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 45,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2030,
+        "2022": 1920
+      },
+      "keketatan_persen": 2.09,
+      "rasio_persaingan": "1 : 48",
+      "rasio_angka": 48,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian diplomasi global, negosiasi multilateral, keamanan regional, ekonomi politik internasional, dan resolusi konflik.",
+        "en": "Study of global diplomacy, multilateral negotiations, regional security, international political economy, and conflict resolution."
+      },
+      "fokus": {
+        "id": [
+          "Diplomasi & Negosiasi",
+          "Ekonomi Politik Global",
+          "Keamanan Internasional",
+          "Hukum & Organisasi Multilateral"
+        ],
+        "en": [
+          "Diplomacy & Negotiation",
+          "Global Political Economy",
+          "International Security",
+          "International Organizations & Law"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Diplomat Kementerian Luar Negeri",
+          "Petugas Lembaga Internasional (UN/ASEAN)",
+          "Risk & Intelligence Analyst",
+          "Jurnalis Luar Negeri"
+        ],
+        "en": [
+          "Foreign Service Diplomat",
+          "UN/ASEAN International Officer",
+          "Risk & Geopolitical Analyst",
+          "Foreign Correspondent"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untan-kedokteran",
+    "kode_prodi": "611001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNTAN",
+    "ptn_nama": "Universitas Tanjungpura",
+    "ptn_nama_en": "Tanjungpura University",
+    "ptn_singkatan": "UNTAN",
+    "ptn_kota": "Pontianak",
+    "ptn_provinsi": "Kalimantan Barat",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untan.ac.id",
+    "ptn_spmb_url": "https://scmb.untan.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 1180,
+      "riwayat_peminat": {
+        "2024": 1180,
+        "2023": 1110,
+        "2022": 1050
+      },
+      "keketatan_persen": 2.54,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 2390,
+      "riwayat_peminat": {
+        "2024": 2390,
+        "2023": 2250,
+        "2022": 2130
+      },
+      "keketatan_persen": 2.09,
+      "rasio_persaingan": "1 : 48",
+      "rasio_angka": 48,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
     "id": "uns-manajemen",
     "kode_prodi": "352007",
     "nama_prodi": "Manajemen",
@@ -3725,6 +6894,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNS",
     "ptn_kota": "Surakarta",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://uns.ac.id",
@@ -3800,6 +6972,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unri-teknik-informatika",
+    "kode_prodi": "141002",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNRI",
+    "ptn_nama": "Universitas Riau",
+    "ptn_nama_en": "Riau University",
+    "ptn_singkatan": "UNRI",
+    "ptn_kota": "Pekanbaru",
+    "ptn_provinsi": "Riau",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0D9488",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unri.ac.id",
+    "ptn_spmb_url": "https://um.unri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 28,
+      "peminat": 1120,
+      "riwayat_peminat": {
+        "2024": 1120,
+        "2023": 1050,
+        "2022": 990
+      },
+      "keketatan_persen": 2.5,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 48,
+      "peminat": 2280,
+      "riwayat_peminat": {
+        "2024": 2280,
+        "2023": 2140,
+        "2022": 2030
+      },
+      "keketatan_persen": 2.11,
+      "rasio_persaingan": "1 : 48",
+      "rasio_angka": 48,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "itb-arsitektur",
     "kode_prodi": "332007",
     "nama_prodi": "Arsitektur",
@@ -3812,6 +7074,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITB",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.itb.ac.id",
@@ -3887,6 +7152,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unnes-farmasi",
+    "kode_prodi": "352002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNNES",
+    "ptn_nama": "Universitas Negeri Semarang",
+    "ptn_nama_en": "Semarang State University",
+    "ptn_singkatan": "UNNES",
+    "ptn_kota": "Semarang",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unnes.ac.id",
+    "ptn_spmb_url": "https://spmb.unnes.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 28,
+      "peminat": 1080,
+      "riwayat_peminat": {
+        "2024": 1080,
+        "2023": 1010,
+        "2022": 950
+      },
+      "keketatan_persen": 2.59,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.9
+    },
+    "snbt": {
+      "daya_tampung": 45,
+      "peminat": 2120,
+      "riwayat_peminat": {
+        "2024": 2120,
+        "2023": 1990,
+        "2022": 1880
+      },
+      "keketatan_persen": 2.12,
+      "rasio_persaingan": "1 : 47",
+      "rasio_angka": 47,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ums-kedokteran",
+    "kode_prodi": "061001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UMS",
+    "ptn_nama": "Universitas Muhammadiyah Surakarta",
+    "ptn_nama_en": "Muhammadiyah University of Surakarta",
+    "ptn_singkatan": "UMS",
+    "ptn_kota": "Surakarta",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ums.ac.id",
+    "ptn_spmb_url": "https://pmb.ums.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1820,
+      "riwayat_peminat": {
+        "2024": 1820,
+        "2023": 1720,
+        "2022": 1630
+      },
+      "keketatan_persen": 2.2,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 3780,
+      "riwayat_peminat": {
+        "2024": 3780,
+        "2023": 3570,
+        "2022": 3390
+      },
+      "keketatan_persen": 2.12,
+      "rasio_persaingan": "1 : 47",
+      "rasio_angka": 47,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unmul-kedokteran",
+    "kode_prodi": "641001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNMUL",
+    "ptn_nama": "Universitas Mulawarman",
+    "ptn_nama_en": "Mulawarman University",
+    "ptn_singkatan": "UNMUL",
+    "ptn_kota": "Samarinda",
+    "ptn_provinsi": "Kalimantan Timur",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unmul.ac.id",
+    "ptn_spmb_url": "https://spmb.unmul.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 32,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1200,
+        "2022": 1130
+      },
+      "keketatan_persen": 2.5,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 55,
+      "peminat": 2580,
+      "riwayat_peminat": {
+        "2024": 2580,
+        "2023": 2430,
+        "2022": 2300
+      },
+      "keketatan_persen": 2.13,
+      "rasio_persaingan": "1 : 47",
+      "rasio_angka": 47,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
     "id": "ipb-manajemen",
     "kode_prodi": "322004",
     "nama_prodi": "Manajemen",
@@ -3899,6 +7434,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "IPB",
     "ptn_kota": "Bogor",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ipb.ac.id",
@@ -3986,6 +7524,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -4061,6 +7602,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvyk-ilmu-komunikasi",
+    "kode_prodi": "343005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPNVYK",
+    "ptn_nama": "UPN Veteran Yogyakarta",
+    "ptn_nama_en": "UPN Veteran Yogyakarta",
+    "ptn_singkatan": "UPNVYK",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnyk.ac.id",
+    "ptn_spmb_url": "https://pmb.upnyk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 42,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1760
+      },
+      "keketatan_persen": 2.12,
+      "rasio_persaingan": "1 : 47",
+      "rasio_angka": 47,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 70,
+      "peminat": 3250,
+      "riwayat_peminat": {
+        "2024": 3250,
+        "2023": 3070,
+        "2022": 2910
+      },
+      "keketatan_persen": 2.15,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
     "id": "usu-kedokteran",
     "kode_prodi": "121001",
     "nama_prodi": "Kedokteran",
@@ -4073,6 +7704,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "USU",
     "ptn_kota": "Medan",
     "ptn_provinsi": "Sumatera Utara",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://usu.ac.id",
@@ -4160,6 +7794,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "USU",
     "ptn_kota": "Medan",
     "ptn_provinsi": "Sumatera Utara",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://usu.ac.id",
@@ -4235,6 +7872,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unesa-psikologi",
+    "kode_prodi": "382003",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNESA",
+    "ptn_nama": "Universitas Negeri Surabaya",
+    "ptn_nama_en": "Surabaya State University",
+    "ptn_singkatan": "UNESA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unesa.ac.id",
+    "ptn_spmb_url": "https://admisi.unesa.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2020,
+        "2022": 1910
+      },
+      "keketatan_persen": 2.09,
+      "rasio_persaingan": "1 : 48",
+      "rasio_angka": 48,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 75,
+      "peminat": 3450,
+      "riwayat_peminat": {
+        "2024": 3450,
+        "2023": 3260,
+        "2022": 3100
+      },
+      "keketatan_persen": 2.17,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsri-teknik-informatika",
+    "kode_prodi": "161003",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNSRI",
+    "ptn_nama": "Universitas Sriwijaya",
+    "ptn_nama_en": "Sriwijaya University",
+    "ptn_singkatan": "UNSRI",
+    "ptn_kota": "Palembang / Indralaya",
+    "ptn_provinsi": "Sumatera Selatan",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#D97706",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsri.ac.id",
+    "ptn_spmb_url": "https://usm.unsri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 32,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1200,
+        "2022": 1130
+      },
+      "keketatan_persen": 2.5,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 55,
+      "peminat": 2540,
+      "riwayat_peminat": {
+        "2024": 2540,
+        "2023": 2390,
+        "2022": 2260
+      },
+      "keketatan_persen": 2.17,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unila-teknik-informatika",
+    "kode_prodi": "181003",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNILA",
+    "ptn_nama": "Universitas Lampung",
+    "ptn_nama_en": "Lampung University",
+    "ptn_singkatan": "UNILA",
+    "ptn_kota": "Bandar Lampung",
+    "ptn_provinsi": "Lampung",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unila.ac.id",
+    "ptn_spmb_url": "https://simanila.unila.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 28,
+      "peminat": 1080,
+      "riwayat_peminat": {
+        "2024": 1080,
+        "2023": 1020,
+        "2022": 960
+      },
+      "keketatan_persen": 2.59,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 48,
+      "peminat": 2210,
+      "riwayat_peminat": {
+        "2024": 2210,
+        "2023": 2080,
+        "2022": 1970
+      },
+      "keketatan_persen": 2.17,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "its-teknik-informatika",
     "kode_prodi": "382001",
     "nama_prodi": "Teknik Informatika",
@@ -4247,6 +8154,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITS",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.its.ac.id",
@@ -4322,6 +8232,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvj-manajemen",
+    "kode_prodi": "313005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPNVJ",
+    "ptn_nama": "UPN Veteran Jakarta",
+    "ptn_nama_en": "UPN Veteran Jakarta",
+    "ptn_singkatan": "UPNVJ",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnvj.ac.id",
+    "ptn_spmb_url": "https://penmaru.upnvj.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 54,
+      "peminat": 2580,
+      "riwayat_peminat": {
+        "2024": 2580,
+        "2023": 2430,
+        "2022": 2300
+      },
+      "keketatan_persen": 2.09,
+      "rasio_persaingan": "1 : 48",
+      "rasio_angka": 48,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 4120,
+      "riwayat_peminat": {
+        "2024": 4120,
+        "2023": 3890,
+        "2022": 3690
+      },
+      "keketatan_persen": 2.18,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "unud-teknik-informatika",
     "kode_prodi": "511003",
     "nama_prodi": "Teknik Informatika",
@@ -4334,6 +8334,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNUD",
     "ptn_kota": "Badung / Denpasar",
     "ptn_provinsi": "Bali",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#9333EA",
     "ptn_klaster": "PTN-BLU",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unud.ac.id",
@@ -4409,6 +8412,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unsoed-teknik-informatika",
+    "kode_prodi": "351003",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNSOED",
+    "ptn_nama": "Universitas Jenderal Soedirman",
+    "ptn_nama_en": "Jenderal Soedirman University",
+    "ptn_singkatan": "UNSOED",
+    "ptn_kota": "Purwokerto",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsoed.ac.id",
+    "ptn_spmb_url": "https://spmb.unsoed.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 1150,
+      "riwayat_peminat": {
+        "2024": 1150,
+        "2023": 1080,
+        "2022": 1010
+      },
+      "keketatan_persen": 2.61,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 2280,
+      "riwayat_peminat": {
+        "2024": 2280,
+        "2023": 2150,
+        "2022": 2020
+      },
+      "keketatan_persen": 2.19,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsri-kedokteran",
+    "kode_prodi": "161001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNSRI",
+    "ptn_nama": "Universitas Sriwijaya",
+    "ptn_nama_en": "Sriwijaya University",
+    "ptn_singkatan": "UNSRI",
+    "ptn_kota": "Palembang / Indralaya",
+    "ptn_provinsi": "Sumatera Selatan",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#D97706",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsri.ac.id",
+    "ptn_spmb_url": "https://usm.unsri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1680,
+      "riwayat_peminat": {
+        "2024": 1680,
+        "2023": 1580,
+        "2022": 1490
+      },
+      "keketatan_persen": 2.68,
+      "rasio_persaingan": "1 : 37",
+      "rasio_angka": 37,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 75,
+      "peminat": 3420,
+      "riwayat_peminat": {
+        "2024": 3420,
+        "2023": 3230,
+        "2022": 3060
+      },
+      "keketatan_persen": 2.19,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "umy-kedokteran",
+    "kode_prodi": "052001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UMY",
+    "ptn_nama": "Universitas Muhammadiyah Yogyakarta",
+    "ptn_nama_en": "Muhammadiyah University of Yogyakarta",
+    "ptn_singkatan": "UMY",
+    "ptn_kota": "Bantul",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#CA8A04",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umy.ac.id",
+    "ptn_spmb_url": "https://admisi.umy.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1680,
+        "2022": 1590
+      },
+      "keketatan_persen": 2.25,
+      "rasio_persaingan": "1 : 44",
+      "rasio_angka": 44,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 3650,
+      "riwayat_peminat": {
+        "2024": 3650,
+        "2023": 3450,
+        "2022": 3270
+      },
+      "keketatan_persen": 2.19,
+      "rasio_persaingan": "1 : 46",
+      "rasio_angka": 46,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
     "id": "ipb-teknik-informatika",
     "kode_prodi": "322001",
     "nama_prodi": "Teknik Informatika",
@@ -4421,6 +8694,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "IPB",
     "ptn_kota": "Bogor",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ipb.ac.id",
@@ -4496,6 +8772,186 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unila-kedokteran",
+    "kode_prodi": "181001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNILA",
+    "ptn_nama": "Universitas Lampung",
+    "ptn_nama_en": "Lampung University",
+    "ptn_singkatan": "UNILA",
+    "ptn_kota": "Bandar Lampung",
+    "ptn_provinsi": "Lampung",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unila.ac.id",
+    "ptn_spmb_url": "https://simanila.unila.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 42,
+      "peminat": 1540,
+      "riwayat_peminat": {
+        "2024": 1540,
+        "2023": 1450,
+        "2022": 1370
+      },
+      "keketatan_persen": 2.73,
+      "rasio_persaingan": "1 : 37",
+      "rasio_angka": 37,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 70,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 3000,
+        "2022": 2850
+      },
+      "keketatan_persen": 2.2,
+      "rasio_persaingan": "1 : 45",
+      "rasio_angka": 45,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "upnvjt-teknik-informatika",
+    "kode_prodi": "384001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPNVJT",
+    "ptn_nama": "UPN Veteran Jawa Timur",
+    "ptn_nama_en": "UPN Veteran East Java",
+    "ptn_singkatan": "UPNVJT",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#166534",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnjatim.ac.id",
+    "ptn_spmb_url": "https://simaba.upnjatim.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1320,
+      "riwayat_peminat": {
+        "2024": 1320,
+        "2023": 1240,
+        "2022": 1170
+      },
+      "keketatan_persen": 2.65,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 2720,
+      "riwayat_peminat": {
+        "2024": 2720,
+        "2023": 2560,
+        "2022": 2420
+      },
+      "keketatan_persen": 2.21,
+      "rasio_persaingan": "1 : 45",
+      "rasio_angka": 45,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "upi-sistem-informasi",
     "kode_prodi": "333002",
     "nama_prodi": "Sistem Informasi",
@@ -4508,6 +8964,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UPI",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://upi.edu",
@@ -4583,6 +9042,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unp-teknik-informatika",
+    "kode_prodi": "132001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNP",
+    "ptn_nama": "Universitas Negeri Padang",
+    "ptn_nama_en": "Padang State University",
+    "ptn_singkatan": "UNP",
+    "ptn_kota": "Padang",
+    "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#E11D48",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unp.ac.id",
+    "ptn_spmb_url": "https://spmb.unp.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 32,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1200,
+        "2022": 1130
+      },
+      "keketatan_persen": 2.5,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 55,
+      "peminat": 2480,
+      "riwayat_peminat": {
+        "2024": 2480,
+        "2023": 2340,
+        "2022": 2210
+      },
+      "keketatan_persen": 2.22,
+      "rasio_persaingan": "1 : 45",
+      "rasio_angka": 45,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "um-desain-komunikasi-visual",
+    "kode_prodi": "383005",
+    "nama_prodi": "Desain Komunikasi Visual",
+    "nama_prodi_en": "Visual Communication Design (DKV)",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UM",
+    "ptn_nama": "Universitas Negeri Malang",
+    "ptn_nama_en": "State University of Malang",
+    "ptn_singkatan": "UM",
+    "ptn_kota": "Malang",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://um.ac.id",
+    "ptn_spmb_url": "https://seleksi.um.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 1340,
+      "riwayat_peminat": {
+        "2024": 1340,
+        "2023": 1260,
+        "2022": 1190
+      },
+      "keketatan_persen": 2.24,
+      "rasio_persaingan": "1 : 45",
+      "rasio_angka": 45,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 2240,
+      "riwayat_peminat": {
+        "2024": 2240,
+        "2023": 2110,
+        "2022": 2000
+      },
+      "keketatan_persen": 2.23,
+      "rasio_persaingan": "1 : 45",
+      "rasio_angka": 45,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kreasi komunikasi grafis visual, identitas jenama (branding), tipografi, ilustrasi, desain interaksi UI/UX, dan multimedia gerak.",
+        "en": "Creation of visual communication, brand identity, typography, illustration, UI/UX interaction design, and motion graphics."
+      },
+      "fokus": {
+        "id": [
+          "Branding & Identitas Visual",
+          "Desain UI/UX & Interaksi",
+          "Tipografi & Ilustrasi Digital",
+          "Animasi & Motion Graphics"
+        ],
+        "en": [
+          "Branding & Visual Identity",
+          "UI/UX & Interaction Design",
+          "Typography & Digital Illustration",
+          "Animation & Motion Graphics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Ilustrator Profesional"
+        ],
+        "en": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Professional Illustrator"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ulm-kedokteran",
+    "kode_prodi": "631001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "ULM",
+    "ptn_nama": "Universitas Lambung Mangkurat",
+    "ptn_nama_en": "Lambung Mangkurat University",
+    "ptn_singkatan": "ULM",
+    "ptn_kota": "Banjarmasin",
+    "ptn_provinsi": "Kalimantan Selatan",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ulm.ac.id",
+    "ptn_spmb_url": "https://admisi.ulm.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1320,
+      "riwayat_peminat": {
+        "2024": 1320,
+        "2023": 1240,
+        "2022": 1170
+      },
+      "keketatan_persen": 2.65,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 2680,
+      "riwayat_peminat": {
+        "2024": 2680,
+        "2023": 2520,
+        "2022": 2390
+      },
+      "keketatan_persen": 2.24,
+      "rasio_persaingan": "1 : 45",
+      "rasio_angka": 45,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
     "id": "ui-farmasi",
     "kode_prodi": "311004",
     "nama_prodi": "Farmasi",
@@ -4595,6 +9324,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -4682,6 +9414,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -4757,6 +9492,186 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unsoed-ilmu-komunikasi",
+    "kode_prodi": "351005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNSOED",
+    "ptn_nama": "Universitas Jenderal Soedirman",
+    "ptn_nama_en": "Jenderal Soedirman University",
+    "ptn_singkatan": "UNSOED",
+    "ptn_kota": "Purwokerto",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsoed.ac.id",
+    "ptn_spmb_url": "https://spmb.unsoed.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1670,
+        "2022": 1580
+      },
+      "keketatan_persen": 2.25,
+      "rasio_persaingan": "1 : 44",
+      "rasio_angka": 44,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.6
+    },
+    "snbt": {
+      "daya_tampung": 65,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2740,
+        "2022": 2610
+      },
+      "keketatan_persen": 2.25,
+      "rasio_persaingan": "1 : 44",
+      "rasio_angka": 44,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.5
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unri-kedokteran",
+    "kode_prodi": "141001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNRI",
+    "ptn_nama": "Universitas Riau",
+    "ptn_nama_en": "Riau University",
+    "ptn_singkatan": "UNRI",
+    "ptn_kota": "Pekanbaru",
+    "ptn_provinsi": "Riau",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0D9488",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unri.ac.id",
+    "ptn_spmb_url": "https://um.unri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 38,
+      "peminat": 1420,
+      "riwayat_peminat": {
+        "2024": 1420,
+        "2023": 1340,
+        "2022": 1260
+      },
+      "keketatan_persen": 2.68,
+      "rasio_persaingan": "1 : 37",
+      "rasio_angka": 37,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 65,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2720,
+        "2022": 2580
+      },
+      "keketatan_persen": 2.25,
+      "rasio_persaingan": "1 : 44",
+      "rasio_angka": 44,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
     "id": "unhas-kedokteran",
     "kode_prodi": "711001",
     "nama_prodi": "Kedokteran",
@@ -4769,6 +9684,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNHAS",
     "ptn_kota": "Makassar",
     "ptn_provinsi": "Sulawesi Selatan",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unhas.ac.id",
@@ -4856,6 +9774,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNPAD",
     "ptn_kota": "Sumedang / Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F97316",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unpad.ac.id",
@@ -4943,6 +9864,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "USU",
     "ptn_kota": "Medan",
     "ptn_provinsi": "Sumatera Utara",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://usu.ac.id",
@@ -5018,6 +9942,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unesa-teknik-informatika",
+    "kode_prodi": "382001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNESA",
+    "ptn_nama": "Universitas Negeri Surabaya",
+    "ptn_nama_en": "Surabaya State University",
+    "ptn_singkatan": "UNESA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unesa.ac.id",
+    "ptn_spmb_url": "https://admisi.unesa.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 36,
+      "peminat": 1290,
+      "riwayat_peminat": {
+        "2024": 1290,
+        "2023": 1210,
+        "2022": 1140
+      },
+      "keketatan_persen": 2.79,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.6
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 2640,
+      "riwayat_peminat": {
+        "2024": 2640,
+        "2023": 2480,
+        "2022": 2350
+      },
+      "keketatan_persen": 2.27,
+      "rasio_persaingan": "1 : 44",
+      "rasio_angka": 44,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "unair-psikologi",
     "kode_prodi": "381005",
     "nama_prodi": "Psikologi",
@@ -5030,6 +10044,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAIR",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unair.ac.id",
@@ -5117,6 +10134,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNS",
     "ptn_kota": "Surakarta",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://uns.ac.id",
@@ -5204,6 +10224,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UB",
     "ptn_kota": "Malang",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ub.ac.id",
@@ -5291,6 +10314,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNPAD",
     "ptn_kota": "Sumedang / Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F97316",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unpad.ac.id",
@@ -5366,6 +10392,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "um-manajemen",
+    "kode_prodi": "383004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UM",
+    "ptn_nama": "Universitas Negeri Malang",
+    "ptn_nama_en": "State University of Malang",
+    "ptn_singkatan": "UM",
+    "ptn_kota": "Malang",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://um.ac.id",
+    "ptn_spmb_url": "https://seleksi.um.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2190
+      },
+      "keketatan_persen": 2.24,
+      "rasio_persaingan": "1 : 45",
+      "rasio_angka": 45,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3880,
+      "riwayat_peminat": {
+        "2024": 3880,
+        "2023": 3660,
+        "2022": 3480
+      },
+      "keketatan_persen": 2.32,
+      "rasio_persaingan": "1 : 43",
+      "rasio_angka": 43,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "atmajaya-kedokteran",
+    "kode_prodi": "032001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "ATMAJAYA",
+    "ptn_nama": "Unika Atma Jaya",
+    "ptn_nama_en": "Atma Jaya Catholic University of Indonesia",
+    "ptn_singkatan": "ATMAJAYA",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E3A8A",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://atmajaya.ac.id",
+    "ptn_spmb_url": "https://pmb.atmajaya.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1680,
+      "riwayat_peminat": {
+        "2024": 1680,
+        "2023": 1590,
+        "2022": 1510
+      },
+      "keketatan_persen": 2.38,
+      "rasio_persaingan": "1 : 42",
+      "rasio_angka": 42,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 3450,
+      "riwayat_peminat": {
+        "2024": 3450,
+        "2023": 3260,
+        "2022": 3090
+      },
+      "keketatan_persen": 2.32,
+      "rasio_persaingan": "1 : 43",
+      "rasio_angka": 43,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsoed-farmasi",
+    "kode_prodi": "351002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNSOED",
+    "ptn_nama": "Universitas Jenderal Soedirman",
+    "ptn_nama_en": "Jenderal Soedirman University",
+    "ptn_singkatan": "UNSOED",
+    "ptn_kota": "Purwokerto",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsoed.ac.id",
+    "ptn_spmb_url": "https://spmb.unsoed.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1210,
+      "riwayat_peminat": {
+        "2024": 1210,
+        "2023": 1140,
+        "2022": 1080
+      },
+      "keketatan_persen": 2.89,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 55,
+      "peminat": 2340,
+      "riwayat_peminat": {
+        "2024": 2340,
+        "2023": 2210,
+        "2022": 2090
+      },
+      "keketatan_persen": 2.35,
+      "rasio_persaingan": "1 : 43",
+      "rasio_angka": 43,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "ui-manajemen",
     "kode_prodi": "311010",
     "nama_prodi": "Manajemen",
@@ -5378,6 +10674,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -5465,6 +10764,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITB",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.itb.ac.id",
@@ -5550,6 +10852,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -5637,6 +10942,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNDIP",
     "ptn_kota": "Semarang",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1E40AF",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://undip.ac.id",
@@ -5712,6 +11020,456 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "ulm-farmasi",
+    "kode_prodi": "631002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "ULM",
+    "ptn_nama": "Universitas Lambung Mangkurat",
+    "ptn_nama_en": "Lambung Mangkurat University",
+    "ptn_singkatan": "ULM",
+    "ptn_kota": "Banjarmasin",
+    "ptn_provinsi": "Kalimantan Selatan",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ulm.ac.id",
+    "ptn_spmb_url": "https://admisi.ulm.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 25,
+      "peminat": 840,
+      "riwayat_peminat": {
+        "2024": 840,
+        "2023": 790,
+        "2022": 740
+      },
+      "keketatan_persen": 2.98,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 40,
+      "peminat": 1680,
+      "riwayat_peminat": {
+        "2024": 1680,
+        "2023": 1580,
+        "2022": 1490
+      },
+      "keketatan_persen": 2.38,
+      "rasio_persaingan": "1 : 42",
+      "rasio_angka": 42,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untan-teknik-informatika",
+    "kode_prodi": "611002",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNTAN",
+    "ptn_nama": "Universitas Tanjungpura",
+    "ptn_nama_en": "Tanjungpura University",
+    "ptn_singkatan": "UNTAN",
+    "ptn_kota": "Pontianak",
+    "ptn_provinsi": "Kalimantan Barat",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untan.ac.id",
+    "ptn_spmb_url": "https://scmb.untan.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 25,
+      "peminat": 940,
+      "riwayat_peminat": {
+        "2024": 940,
+        "2023": 880,
+        "2022": 830
+      },
+      "keketatan_persen": 2.66,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.8
+    },
+    "snbt": {
+      "daya_tampung": 45,
+      "peminat": 1890,
+      "riwayat_peminat": {
+        "2024": 1890,
+        "2023": 1780,
+        "2022": 1690
+      },
+      "keketatan_persen": 2.38,
+      "rasio_persaingan": "1 : 42",
+      "rasio_angka": 42,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unram-kedokteran",
+    "kode_prodi": "521001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNRAM",
+    "ptn_nama": "Universitas Mataram",
+    "ptn_nama_en": "University of Mataram",
+    "ptn_singkatan": "UNRAM",
+    "ptn_kota": "Mataram",
+    "ptn_provinsi": "Nusa Tenggara Barat",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unram.ac.id",
+    "ptn_spmb_url": "https://pmb.unram.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1240,
+      "riwayat_peminat": {
+        "2024": 1240,
+        "2023": 1160,
+        "2022": 1090
+      },
+      "keketatan_persen": 2.82,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.9
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 2520,
+      "riwayat_peminat": {
+        "2024": 2520,
+        "2023": 2370,
+        "2022": 2240
+      },
+      "keketatan_persen": 2.38,
+      "rasio_persaingan": "1 : 42",
+      "rasio_angka": 42,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "trisakti-kedokteran",
+    "kode_prodi": "034001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "TRISAKTI",
+    "ptn_nama": "Universitas Trisakti",
+    "ptn_nama_en": "Trisakti University",
+    "ptn_singkatan": "TRISAKTI",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://trisakti.ac.id",
+    "ptn_spmb_url": "https://spmb.trisakti.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1820,
+      "riwayat_peminat": {
+        "2024": 1820,
+        "2023": 1720,
+        "2022": 1630
+      },
+      "keketatan_persen": 2.47,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3780,
+      "riwayat_peminat": {
+        "2024": 3780,
+        "2023": 3570,
+        "2022": 3390
+      },
+      "keketatan_persen": 2.38,
+      "rasio_persaingan": "1 : 42",
+      "rasio_angka": 42,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unnes-manajemen",
+    "kode_prodi": "352004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNNES",
+    "ptn_nama": "Universitas Negeri Semarang",
+    "ptn_nama_en": "Semarang State University",
+    "ptn_singkatan": "UNNES",
+    "ptn_kota": "Semarang",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unnes.ac.id",
+    "ptn_spmb_url": "https://spmb.unnes.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 2680,
+      "riwayat_peminat": {
+        "2024": 2680,
+        "2023": 2520,
+        "2022": 2390
+      },
+      "keketatan_persen": 2.24,
+      "rasio_persaingan": "1 : 45",
+      "rasio_angka": 45,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 4150,
+      "riwayat_peminat": {
+        "2024": 4150,
+        "2023": 3920,
+        "2022": 3720
+      },
+      "keketatan_persen": 2.41,
+      "rasio_persaingan": "1 : 42",
+      "rasio_angka": 42,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "its-sistem-informasi",
     "kode_prodi": "382002",
     "nama_prodi": "Sistem Informasi",
@@ -5724,6 +11482,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITS",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.its.ac.id",
@@ -5799,6 +11560,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvjt-ilmu-komunikasi",
+    "kode_prodi": "384004",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPNVJT",
+    "ptn_nama": "UPN Veteran Jawa Timur",
+    "ptn_nama_en": "UPN Veteran East Java",
+    "ptn_singkatan": "UPNVJT",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#166534",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnjatim.ac.id",
+    "ptn_spmb_url": "https://simaba.upnjatim.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1880,
+      "riwayat_peminat": {
+        "2024": 1880,
+        "2023": 1770,
+        "2022": 1670
+      },
+      "keketatan_persen": 2.39,
+      "rasio_persaingan": "1 : 42",
+      "rasio_angka": 42,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 75,
+      "peminat": 3080,
+      "riwayat_peminat": {
+        "2024": 3080,
+        "2023": 2900,
+        "2022": 2750
+      },
+      "keketatan_persen": 2.44,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uph-kedokteran",
+    "kode_prodi": "033001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPH",
+    "ptn_nama": "Universitas Pelita Harapan",
+    "ptn_nama_en": "Pelita Harapan University",
+    "ptn_singkatan": "UPH",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uph.edu",
+    "ptn_spmb_url": "https://admission.uph.edu",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1680,
+        "2022": 1590
+      },
+      "keketatan_persen": 2.53,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3680,
+      "riwayat_peminat": {
+        "2024": 3680,
+        "2023": 3480,
+        "2022": 3300
+      },
+      "keketatan_persen": 2.45,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untar-kedokteran",
+    "kode_prodi": "035001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNTAR",
+    "ptn_nama": "Universitas Tarumanagara",
+    "ptn_nama_en": "Tarumanagara University",
+    "ptn_singkatan": "UNTAR",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#B91C1C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untar.ac.id",
+    "ptn_spmb_url": "https://admisi.untar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1680,
+        "2022": 1590
+      },
+      "keketatan_persen": 2.53,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3680,
+      "riwayat_peminat": {
+        "2024": 3680,
+        "2023": 3480,
+        "2022": 3300
+      },
+      "keketatan_persen": 2.45,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
     "id": "ui-kedokteran-gigi",
     "kode_prodi": "311005",
     "nama_prodi": "Kedokteran Gigi",
@@ -5811,6 +11842,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -5896,6 +11930,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAND",
     "ptn_kota": "Padang",
     "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unand.ac.id",
@@ -5971,6 +12008,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unsrat-kedokteran",
+    "kode_prodi": "712001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNSRAT",
+    "ptn_nama": "Universitas Sam Ratulangi",
+    "ptn_nama_en": "Sam Ratulangi University",
+    "ptn_singkatan": "UNSRAT",
+    "ptn_kota": "Manado",
+    "ptn_provinsi": "Sulawesi Utara",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsrat.ac.id",
+    "ptn_spmb_url": "https://pmb.unsrat.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 38,
+      "peminat": 1290,
+      "riwayat_peminat": {
+        "2024": 1290,
+        "2023": 1210,
+        "2022": 1140
+      },
+      "keketatan_persen": 2.95,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.6
+    },
+    "snbt": {
+      "daya_tampung": 65,
+      "peminat": 2640,
+      "riwayat_peminat": {
+        "2024": 2640,
+        "2023": 2480,
+        "2022": 2350
+      },
+      "keketatan_persen": 2.46,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsrat-teknik-informatika",
+    "kode_prodi": "712003",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNSRAT",
+    "ptn_nama": "Universitas Sam Ratulangi",
+    "ptn_nama_en": "Sam Ratulangi University",
+    "ptn_singkatan": "UNSRAT",
+    "ptn_kota": "Manado",
+    "ptn_provinsi": "Sulawesi Utara",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsrat.ac.id",
+    "ptn_spmb_url": "https://pmb.unsrat.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 26,
+      "peminat": 890,
+      "riwayat_peminat": {
+        "2024": 890,
+        "2023": 830,
+        "2022": 780
+      },
+      "keketatan_persen": 2.92,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 7.2
+    },
+    "snbt": {
+      "daya_tampung": 44,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1670,
+        "2022": 1580
+      },
+      "keketatan_persen": 2.47,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.6
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsoed-manajemen",
+    "kode_prodi": "351004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNSOED",
+    "ptn_nama": "Universitas Jenderal Soedirman",
+    "ptn_nama_en": "Jenderal Soedirman University",
+    "ptn_singkatan": "UNSOED",
+    "ptn_kota": "Purwokerto",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsoed.ac.id",
+    "ptn_spmb_url": "https://spmb.unsoed.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2020,
+        "2022": 1910
+      },
+      "keketatan_persen": 2.33,
+      "rasio_persaingan": "1 : 43",
+      "rasio_angka": 43,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 85,
+      "peminat": 3420,
+      "riwayat_peminat": {
+        "2024": 3420,
+        "2023": 3240,
+        "2022": 3080
+      },
+      "keketatan_persen": 2.49,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 5.6
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "ub-kedokteran",
     "kode_prodi": "371001",
     "nama_prodi": "Kedokteran",
@@ -5983,6 +12290,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UB",
     "ptn_kota": "Malang",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ub.ac.id",
@@ -6058,6 +12368,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvyk-manajemen",
+    "kode_prodi": "343004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPNVYK",
+    "ptn_nama": "UPN Veteran Yogyakarta",
+    "ptn_nama_en": "UPN Veteran Yogyakarta",
+    "ptn_singkatan": "UPNVYK",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnyk.ac.id",
+    "ptn_spmb_url": "https://pmb.upnyk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2190
+      },
+      "keketatan_persen": 2.45,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 3980,
+      "riwayat_peminat": {
+        "2024": 3980,
+        "2023": 3750,
+        "2022": 3560
+      },
+      "keketatan_persen": 2.51,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "itb-farmasi",
     "kode_prodi": "332006",
     "nama_prodi": "Farmasi",
@@ -6070,6 +12470,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITB",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.itb.ac.id",
@@ -6145,6 +12548,634 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "untirta-ilmu-komunikasi",
+    "kode_prodi": "361005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNTIRTA",
+    "ptn_nama": "Universitas Sultan Ageng Tirtayasa",
+    "ptn_nama_en": "Sultan Ageng Tirtayasa University",
+    "ptn_singkatan": "UNTIRTA",
+    "ptn_kota": "Serang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#B45309",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untirta.ac.id",
+    "ptn_spmb_url": "https://spmb.untirta.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1420,
+      "riwayat_peminat": {
+        "2024": 1420,
+        "2023": 1340,
+        "2022": 1260
+      },
+      "keketatan_persen": 2.46,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 2380,
+      "riwayat_peminat": {
+        "2024": 2380,
+        "2023": 2240,
+        "2022": 2120
+      },
+      "keketatan_persen": 2.52,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usk-kedokteran",
+    "kode_prodi": "111001",
+    "nama_prodi": "Kedokteran",
+    "nama_prodi_en": "Medicine",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "USK",
+    "ptn_nama": "Universitas Syiah Kuala",
+    "ptn_nama_en": "Syiah Kuala University",
+    "ptn_singkatan": "USK",
+    "ptn_kota": "Banda Aceh",
+    "ptn_provinsi": "Aceh",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usk.ac.id",
+    "ptn_spmb_url": "https://penerimaan.usk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1480,
+      "riwayat_peminat": {
+        "2024": 1480,
+        "2023": 1390,
+        "2022": 1310
+      },
+      "keketatan_persen": 3.04,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 75,
+      "peminat": 2980,
+      "riwayat_peminat": {
+        "2024": 2980,
+        "2023": 2810,
+        "2022": 2660
+      },
+      "keketatan_persen": 2.52,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan dokter komprehensif yang membekali mahasiswa dengan ilmu biomedis, keterampilan klinis, diagnosis penyakit, dan etika medis profesional.",
+        "en": "Comprehensive medical education equipping students with biomedical sciences, clinical skills, disease diagnosis, and professional medical ethics."
+      },
+      "fokus": {
+        "id": [
+          "Anatomi & Fisiologi Manusia",
+          "Patologi & Farmakologi Klinis",
+          "Rotasi Kepaniteraan Klinik (Koas)",
+          "Pelayanan Kesehatan Primer"
+        ],
+        "en": [
+          "Human Anatomy & Physiology",
+          "Pathology & Clinical Pharmacology",
+          "Clinical Clerkship Rotations",
+          "Primary Healthcare Services"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Umum",
+          "Dokter Spesialis",
+          "Peneliti Biomedis",
+          "Konsultan Kesehatan",
+          "Direktur Rumah Sakit"
+        ],
+        "en": [
+          "General Practitioner",
+          "Medical Specialist",
+          "Biomedical Researcher",
+          "Healthcare Consultant",
+          "Hospital Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unesa-sistem-informasi",
+    "kode_prodi": "382002",
+    "nama_prodi": "Sistem Informasi",
+    "nama_prodi_en": "Information Systems",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNESA",
+    "ptn_nama": "Universitas Negeri Surabaya",
+    "ptn_nama_en": "Surabaya State University",
+    "ptn_singkatan": "UNESA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unesa.ac.id",
+    "ptn_spmb_url": "https://admisi.unesa.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 860
+      },
+      "keketatan_persen": 3.06,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1860,
+        "2022": 1760
+      },
+      "keketatan_persen": 2.53,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Integrasi teknologi informasi dengan strategi bisnis, tata kelola TI perusahaan, rekayasa kebutuhan, dan analisis data bisnis.",
+        "en": "Integration of information technology with business strategy, enterprise IT governance, requirements engineering, and business data analytics."
+      },
+      "fokus": {
+        "id": [
+          "Analisis & Perancangan Sistem",
+          "Enterprise Resource Planning",
+          "Manajemen Basis Data",
+          "Business Intelligence"
+        ],
+        "en": [
+          "Systems Analysis & Design",
+          "Enterprise Resource Planning",
+          "Database Management",
+          "Business Intelligence"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ],
+        "en": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unmul-farmasi",
+    "kode_prodi": "641002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNMUL",
+    "ptn_nama": "Universitas Mulawarman",
+    "ptn_nama_en": "Mulawarman University",
+    "ptn_singkatan": "UNMUL",
+    "ptn_kota": "Samarinda",
+    "ptn_provinsi": "Kalimantan Timur",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unmul.ac.id",
+    "ptn_spmb_url": "https://spmb.unmul.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 28,
+      "peminat": 890,
+      "riwayat_peminat": {
+        "2024": 890,
+        "2023": 840,
+        "2022": 790
+      },
+      "keketatan_persen": 3.15,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 45,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1670,
+        "2022": 1580
+      },
+      "keketatan_persen": 2.53,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.6
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "umy-kedokteran-gigi",
+    "kode_prodi": "052002",
+    "nama_prodi": "Kedokteran Gigi",
+    "nama_prodi_en": "Dentistry",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UMY",
+    "ptn_nama": "Universitas Muhammadiyah Yogyakarta",
+    "ptn_nama_en": "Muhammadiyah University of Yogyakarta",
+    "ptn_singkatan": "UMY",
+    "ptn_kota": "Bantul",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#CA8A04",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umy.ac.id",
+    "ptn_spmb_url": "https://admisi.umy.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 25,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 870
+      },
+      "keketatan_persen": 2.55,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1770
+      },
+      "keketatan_persen": 2.53,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan medis khusus kesehatan gigi, mulut, rahang, dan maksilofasial dengan pelatihan keterampilan klinis komprehensif.",
+        "en": "Specialized dental medical education covering oral, maxillofacial, and dental healthcare with comprehensive clinical training."
+      },
+      "fokus": {
+        "id": [
+          "Konservasi Gigi & Endodonsia",
+          "Ortodonsia & Prostodonsia",
+          "Bedah Mulut & Maksilofasial",
+          "Periodonsia"
+        ],
+        "en": [
+          "Conservative Dentistry & Endodontics",
+          "Orthodontics & Prosthodontics",
+          "Oral & Maxillofacial Surgery",
+          "Periodontics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Gigi Umum",
+          "Spesialis Ortodontis",
+          "Spesialis Bedah Mulut",
+          "Peneliti Oral Biologi"
+        ],
+        "en": [
+          "General Dentist",
+          "Orthodontist Specialist",
+          "Oral Surgeon Specialist",
+          "Oral Biology Researcher"
+        ]
+      }
+    }
+  },
+  {
+    "id": "upnvjt-sistem-informasi",
+    "kode_prodi": "384002",
+    "nama_prodi": "Sistem Informasi",
+    "nama_prodi_en": "Information Systems",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPNVJT",
+    "ptn_nama": "UPN Veteran Jawa Timur",
+    "ptn_nama_en": "UPN Veteran East Java",
+    "ptn_singkatan": "UPNVJT",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#166534",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnjatim.ac.id",
+    "ptn_spmb_url": "https://simaba.upnjatim.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 870
+      },
+      "keketatan_persen": 3.06,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 1950,
+      "riwayat_peminat": {
+        "2024": 1950,
+        "2023": 1830,
+        "2022": 1730
+      },
+      "keketatan_persen": 2.56,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.6
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Integrasi teknologi informasi dengan strategi bisnis, tata kelola TI perusahaan, rekayasa kebutuhan, dan analisis data bisnis.",
+        "en": "Integration of information technology with business strategy, enterprise IT governance, requirements engineering, and business data analytics."
+      },
+      "fokus": {
+        "id": [
+          "Analisis & Perancangan Sistem",
+          "Enterprise Resource Planning",
+          "Manajemen Basis Data",
+          "Business Intelligence"
+        ],
+        "en": [
+          "Systems Analysis & Design",
+          "Enterprise Resource Planning",
+          "Database Management",
+          "Business Intelligence"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ],
+        "en": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsrat-farmasi",
+    "kode_prodi": "712002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNSRAT",
+    "ptn_nama": "Universitas Sam Ratulangi",
+    "ptn_nama_en": "Sam Ratulangi University",
+    "ptn_singkatan": "UNSRAT",
+    "ptn_kota": "Manado",
+    "ptn_provinsi": "Sulawesi Utara",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsrat.ac.id",
+    "ptn_spmb_url": "https://pmb.unsrat.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 24,
+      "peminat": 780,
+      "riwayat_peminat": {
+        "2024": 780,
+        "2023": 730,
+        "2022": 690
+      },
+      "keketatan_persen": 3.08,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.8
+    },
+    "snbt": {
+      "daya_tampung": 40,
+      "peminat": 1560,
+      "riwayat_peminat": {
+        "2024": 1560,
+        "2023": 1470,
+        "2022": 1390
+      },
+      "keketatan_persen": 2.56,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "ub-teknik-informatika",
     "kode_prodi": "371002",
     "nama_prodi": "Teknik Informatika",
@@ -6157,6 +13188,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UB",
     "ptn_kota": "Malang",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ub.ac.id",
@@ -6232,6 +13266,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unp-manajemen",
+    "kode_prodi": "132004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNP",
+    "ptn_nama": "Universitas Negeri Padang",
+    "ptn_nama_en": "Padang State University",
+    "ptn_singkatan": "UNP",
+    "ptn_kota": "Padang",
+    "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#E11D48",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unp.ac.id",
+    "ptn_spmb_url": "https://spmb.unp.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 2480,
+      "riwayat_peminat": {
+        "2024": 2480,
+        "2023": 2330,
+        "2022": 2210
+      },
+      "keketatan_persen": 2.42,
+      "rasio_persaingan": "1 : 41",
+      "rasio_angka": 41,
+      "kategori": "Sangat Ketat",
+      "kategori_en": "Very Competitive",
+      "badge_class": "badge-sangat-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 3890,
+      "riwayat_peminat": {
+        "2024": 3890,
+        "2023": 3660,
+        "2022": 3480
+      },
+      "keketatan_persen": 2.57,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "unand-manajemen",
     "kode_prodi": "131005",
     "nama_prodi": "Manajemen",
@@ -6244,6 +13368,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAND",
     "ptn_kota": "Padang",
     "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unand.ac.id",
@@ -6319,6 +13446,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unila-farmasi",
+    "kode_prodi": "181002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNILA",
+    "ptn_nama": "Universitas Lampung",
+    "ptn_nama_en": "Lampung University",
+    "ptn_singkatan": "UNILA",
+    "ptn_kota": "Bandar Lampung",
+    "ptn_provinsi": "Lampung",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unila.ac.id",
+    "ptn_spmb_url": "https://simanila.unila.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 870
+      },
+      "keketatan_persen": 3.06,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 1940,
+      "riwayat_peminat": {
+        "2024": 1940,
+        "2023": 1830,
+        "2022": 1730
+      },
+      "keketatan_persen": 2.58,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "unud-kedokteran",
     "kode_prodi": "511001",
     "nama_prodi": "Kedokteran",
@@ -6331,6 +13548,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNUD",
     "ptn_kota": "Badung / Denpasar",
     "ptn_provinsi": "Bali",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#9333EA",
     "ptn_klaster": "PTN-BLU",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unud.ac.id",
@@ -6418,6 +13638,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITS",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.its.ac.id",
@@ -6505,6 +13728,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNDIP",
     "ptn_kota": "Semarang",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1E40AF",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://undip.ac.id",
@@ -6592,6 +13818,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNHAS",
     "ptn_kota": "Makassar",
     "ptn_provinsi": "Sulawesi Selatan",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unhas.ac.id",
@@ -6667,6 +13896,366 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unsri-farmasi",
+    "kode_prodi": "161002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNSRI",
+    "ptn_nama": "Universitas Sriwijaya",
+    "ptn_nama_en": "Sriwijaya University",
+    "ptn_singkatan": "UNSRI",
+    "ptn_kota": "Palembang / Indralaya",
+    "ptn_provinsi": "Sumatera Selatan",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#D97706",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsri.ac.id",
+    "ptn_spmb_url": "https://usm.unsri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1210,
+      "riwayat_peminat": {
+        "2024": 1210,
+        "2023": 1140,
+        "2022": 1080
+      },
+      "keketatan_persen": 2.89,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 2280,
+      "riwayat_peminat": {
+        "2024": 2280,
+        "2023": 2150,
+        "2022": 2040
+      },
+      "keketatan_persen": 2.63,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unila-manajemen",
+    "kode_prodi": "181005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNILA",
+    "ptn_nama": "Universitas Lampung",
+    "ptn_nama_en": "Lampung University",
+    "ptn_singkatan": "UNILA",
+    "ptn_kota": "Bandar Lampung",
+    "ptn_provinsi": "Lampung",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unila.ac.id",
+    "ptn_spmb_url": "https://simanila.unila.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 2120,
+      "riwayat_peminat": {
+        "2024": 2120,
+        "2023": 2000,
+        "2022": 1890
+      },
+      "keketatan_persen": 2.59,
+      "rasio_persaingan": "1 : 39",
+      "rasio_angka": 39,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3420,
+      "riwayat_peminat": {
+        "2024": 3420,
+        "2023": 3220,
+        "2022": 3060
+      },
+      "keketatan_persen": 2.63,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unram-farmasi",
+    "kode_prodi": "521002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNRAM",
+    "ptn_nama": "Universitas Mataram",
+    "ptn_nama_en": "University of Mataram",
+    "ptn_singkatan": "UNRAM",
+    "ptn_kota": "Mataram",
+    "ptn_provinsi": "Nusa Tenggara Barat",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unram.ac.id",
+    "ptn_spmb_url": "https://pmb.unram.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 24,
+      "peminat": 760,
+      "riwayat_peminat": {
+        "2024": 760,
+        "2023": 710,
+        "2022": 670
+      },
+      "keketatan_persen": 3.16,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 7.0
+    },
+    "snbt": {
+      "daya_tampung": 40,
+      "peminat": 1520,
+      "riwayat_peminat": {
+        "2024": 1520,
+        "2023": 1430,
+        "2022": 1350
+      },
+      "keketatan_persen": 2.63,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usk-farmasi",
+    "kode_prodi": "111002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "USK",
+    "ptn_nama": "Universitas Syiah Kuala",
+    "ptn_nama_en": "Syiah Kuala University",
+    "ptn_singkatan": "USK",
+    "ptn_kota": "Banda Aceh",
+    "ptn_provinsi": "Aceh",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usk.ac.id",
+    "ptn_spmb_url": "https://penerimaan.usk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 870
+      },
+      "keketatan_persen": 3.06,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 1890,
+      "riwayat_peminat": {
+        "2024": 1890,
+        "2023": 1780,
+        "2022": 1690
+      },
+      "keketatan_persen": 2.65,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "undip-manajemen",
     "kode_prodi": "351006",
     "nama_prodi": "Manajemen",
@@ -6679,6 +14268,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNDIP",
     "ptn_kota": "Semarang",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1E40AF",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://undip.ac.id",
@@ -6754,6 +14346,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unri-manajemen",
+    "kode_prodi": "141004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNRI",
+    "ptn_nama": "Universitas Riau",
+    "ptn_nama_en": "Riau University",
+    "ptn_singkatan": "UNRI",
+    "ptn_kota": "Pekanbaru",
+    "ptn_provinsi": "Riau",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0D9488",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unri.ac.id",
+    "ptn_spmb_url": "https://um.unri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 2080,
+      "riwayat_peminat": {
+        "2024": 2080,
+        "2023": 1960,
+        "2022": 1850
+      },
+      "keketatan_persen": 2.64,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3340,
+      "riwayat_peminat": {
+        "2024": 3340,
+        "2023": 3150,
+        "2022": 2990
+      },
+      "keketatan_persen": 2.69,
+      "rasio_persaingan": "1 : 37",
+      "rasio_angka": 37,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "usu-farmasi",
     "kode_prodi": "121002",
     "nama_prodi": "Farmasi",
@@ -6766,6 +14448,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "USU",
     "ptn_kota": "Medan",
     "ptn_provinsi": "Sumatera Utara",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://usu.ac.id",
@@ -6853,6 +14538,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNHAS",
     "ptn_kota": "Makassar",
     "ptn_provinsi": "Sulawesi Selatan",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unhas.ac.id",
@@ -6928,6 +14616,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unesa-manajemen",
+    "kode_prodi": "382004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNESA",
+    "ptn_nama": "Universitas Negeri Surabaya",
+    "ptn_nama_en": "Surabaya State University",
+    "ptn_singkatan": "UNESA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unesa.ac.id",
+    "ptn_spmb_url": "https://admisi.unesa.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 65,
+      "peminat": 2580,
+      "riwayat_peminat": {
+        "2024": 2580,
+        "2023": 2430,
+        "2022": 2300
+      },
+      "keketatan_persen": 2.52,
+      "rasio_persaingan": "1 : 40",
+      "rasio_angka": 40,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 110,
+      "peminat": 4050,
+      "riwayat_peminat": {
+        "2024": 4050,
+        "2023": 3820,
+        "2022": 3620
+      },
+      "keketatan_persen": 2.72,
+      "rasio_persaingan": "1 : 37",
+      "rasio_angka": 37,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uny-statistika",
+    "kode_prodi": "342002",
+    "nama_prodi": "Statistika",
+    "nama_prodi_en": "Statistics / Data Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNY",
+    "ptn_nama": "Universitas Negeri Yogyakarta",
+    "ptn_nama_en": "Yogyakarta State University",
+    "ptn_singkatan": "UNY",
+    "ptn_kota": "Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uny.ac.id",
+    "ptn_spmb_url": "https://pmb.uny.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 20,
+      "peminat": 640,
+      "riwayat_peminat": {
+        "2024": 640,
+        "2023": 590,
+        "2022": 550
+      },
+      "keketatan_persen": 3.12,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 8.5
+    },
+    "snbt": {
+      "daya_tampung": 35,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1190,
+        "2022": 1110
+      },
+      "keketatan_persen": 2.73,
+      "rasio_persaingan": "1 : 37",
+      "rasio_angka": 37,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 7.6
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Metodologi pemodelan probabilistik, komputasi inferensial, riset data kuantitatif, analisis multivariat, dan pemodelan prediktif.",
+        "en": "Methodologies for probabilistic modeling, inferential computing, quantitative data research, multivariate analysis, and predictive models."
+      },
+      "fokus": {
+        "id": [
+          "Analisis Regresi & Time Series",
+          "Komputasi Statistik & R/Python",
+          "Statistika Spasial & Bayesian",
+          "Big Data Analytics"
+        ],
+        "en": [
+          "Regression & Time Series",
+          "Statistical Computing (R/Python)",
+          "Spatial & Bayesian Statistics",
+          "Big Data Analytics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Data Scientist",
+          "Quantitative Analyst (Quant)",
+          "Aktuaris",
+          "Biostatistician",
+          "Market Research Director"
+        ],
+        "en": [
+          "Data Scientist",
+          "Quantitative Analyst (Quant)",
+          "Actuary",
+          "Biostatistician",
+          "Market Research Director"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unpar-arsitektur",
+    "kode_prodi": "042001",
+    "nama_prodi": "Arsitektur",
+    "nama_prodi_en": "Architecture",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNPAR",
+    "ptn_nama": "Universitas Katolik Parahyangan",
+    "ptn_nama_en": "Parahyangan Catholic University",
+    "ptn_singkatan": "UNPAR",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unpar.ac.id",
+    "ptn_spmb_url": "https://pmb.unpar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1580,
+      "riwayat_peminat": {
+        "2024": 1580,
+        "2023": 1490,
+        "2022": 1410
+      },
+      "keketatan_persen": 2.85,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3280,
+      "riwayat_peminat": {
+        "2024": 3280,
+        "2023": 3100,
+        "2022": 2940
+      },
+      "keketatan_persen": 2.74,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perancangan ruang, estetika bangunan, keberlanjutan lingkungan hidup, teknologi material, dan integrasi lanskap perkotaan.",
+        "en": "Spatial design, building aesthetics, environmental sustainability, materials technology, and urban landscape integration."
+      },
+      "fokus": {
+        "id": [
+          "Studio Perancangan Arsitektur",
+          "Teknologi Bangunan & Struktur",
+          "Arsitektur Berkelanjutan (Green Building)",
+          "Perencanaan Kawasan Perkotaan"
+        ],
+        "en": [
+          "Architectural Design Studio",
+          "Building & Structural Tech",
+          "Sustainable / Green Building",
+          "Urban Planning & Design"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Arsitek Perancang",
+          "Urban Designer",
+          "BIM Specialist",
+          "Konsultan Bangunan Hijau",
+          "Interior Architect"
+        ],
+        "en": [
+          "Design Architect",
+          "Urban Designer",
+          "BIM Specialist",
+          "Green Building Consultant",
+          "Interior Architect"
+        ]
+      }
+    }
+  },
+  {
     "id": "ui-ilmu-hukum",
     "kode_prodi": "311008",
     "nama_prodi": "Ilmu Hukum",
@@ -6940,6 +14898,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -7015,6 +14976,274 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "untirta-manajemen",
+    "kode_prodi": "361004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNTIRTA",
+    "ptn_nama": "Universitas Sultan Ageng Tirtayasa",
+    "ptn_nama_en": "Sultan Ageng Tirtayasa University",
+    "ptn_singkatan": "UNTIRTA",
+    "ptn_kota": "Serang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#B45309",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untirta.ac.id",
+    "ptn_spmb_url": "https://spmb.untirta.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1760
+      },
+      "keketatan_persen": 2.78,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3250,
+      "riwayat_peminat": {
+        "2024": 3250,
+        "2023": 3060,
+        "2022": 2910
+      },
+      "keketatan_persen": 2.77,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "trisakti-teknik-perminyakan",
+    "kode_prodi": "034003",
+    "nama_prodi": "Teknik Perminyakan",
+    "nama_prodi_en": "Teknik Perminyakan",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "TRISAKTI",
+    "ptn_nama": "Universitas Trisakti",
+    "ptn_nama_en": "Trisakti University",
+    "ptn_singkatan": "TRISAKTI",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://trisakti.ac.id",
+    "ptn_spmb_url": "https://spmb.trisakti.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1420,
+      "riwayat_peminat": {
+        "2024": 1420,
+        "2023": 1340,
+        "2022": 1270
+      },
+      "keketatan_persen": 2.82,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2730,
+        "2022": 2590
+      },
+      "keketatan_persen": 2.77,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Program studi Teknik Perminyakan di Universitas Trisakti dengan kurikulum berstandar nasional dan keunggulan riset unggul.",
+        "en": "The Teknik Perminyakan program at Trisakti University featuring accredited curricula and leading academic research."
+      },
+      "fokus": {
+        "id": [
+          "Fondasi Keilmuan",
+          "Penerapan Praktik",
+          "Riset & Analisis",
+          "Etika Profesi"
+        ],
+        "en": [
+          "Core Foundations",
+          "Applied Practice",
+          "Research & Analytics",
+          "Professional Ethics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Praktisi Profesional",
+          "Akademisi / Peneliti",
+          "Konsultan Spesialis",
+          "Wirausahawan"
+        ],
+        "en": [
+          "Professional Practitioner",
+          "Academic / Researcher",
+          "Specialist Consultant",
+          "Entrepreneur"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usd-farmasi",
+    "kode_prodi": "053001",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "USD",
+    "ptn_nama": "Universitas Sanata Dharma",
+    "ptn_nama_en": "Sanata Dharma University",
+    "ptn_singkatan": "USD",
+    "ptn_kota": "Sleman / Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#047857",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usd.ac.id",
+    "ptn_spmb_url": "https://pmb.usd.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1420,
+      "riwayat_peminat": {
+        "2024": 1420,
+        "2023": 1340,
+        "2022": 1260
+      },
+      "keketatan_persen": 2.82,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2730,
+        "2022": 2580
+      },
+      "keketatan_persen": 2.77,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "itb-teknik-elektro",
     "kode_prodi": "332004",
     "nama_prodi": "Teknik Elektro",
@@ -7027,6 +15256,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITB",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.itb.ac.id",
@@ -7112,6 +15344,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNUD",
     "ptn_kota": "Badung / Denpasar",
     "ptn_provinsi": "Bali",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#9333EA",
     "ptn_klaster": "PTN-BLU",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unud.ac.id",
@@ -7199,6 +15434,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -7286,6 +15524,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UB",
     "ptn_kota": "Malang",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ub.ac.id",
@@ -7361,6 +15602,544 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvjt-manajemen",
+    "kode_prodi": "384003",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPNVJT",
+    "ptn_nama": "UPN Veteran Jawa Timur",
+    "ptn_nama_en": "UPN Veteran East Java",
+    "ptn_singkatan": "UPNVJT",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#166534",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnjatim.ac.id",
+    "ptn_spmb_url": "https://simaba.upnjatim.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 65,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2190
+      },
+      "keketatan_persen": 2.65,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 110,
+      "peminat": 3920,
+      "riwayat_peminat": {
+        "2024": 3920,
+        "2023": 3690,
+        "2022": 3500
+      },
+      "keketatan_persen": 2.81,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsri-manajemen",
+    "kode_prodi": "161005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNSRI",
+    "ptn_nama": "Universitas Sriwijaya",
+    "ptn_nama_en": "Sriwijaya University",
+    "ptn_singkatan": "UNSRI",
+    "ptn_kota": "Palembang / Indralaya",
+    "ptn_provinsi": "Sumatera Selatan",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#D97706",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsri.ac.id",
+    "ptn_spmb_url": "https://usm.unsri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 2240,
+      "riwayat_peminat": {
+        "2024": 2240,
+        "2023": 2110,
+        "2022": 2000
+      },
+      "keketatan_persen": 2.68,
+      "rasio_persaingan": "1 : 37",
+      "rasio_angka": 37,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 3560,
+      "riwayat_peminat": {
+        "2024": 3560,
+        "2023": 3360,
+        "2022": 3190
+      },
+      "keketatan_persen": 2.81,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "umn-desain-komunikasi-visual",
+    "kode_prodi": "036003",
+    "nama_prodi": "Desain Komunikasi Visual",
+    "nama_prodi_en": "Visual Communication Design (DKV)",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UMN",
+    "ptn_nama": "Universitas Multimedia Nusantara",
+    "ptn_nama_en": "Multimedia Nusantara University",
+    "ptn_singkatan": "UMN",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umn.ac.id",
+    "ptn_spmb_url": "https://pmb.umn.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 70,
+      "peminat": 2680,
+      "riwayat_peminat": {
+        "2024": 2680,
+        "2023": 2530,
+        "2022": 2400
+      },
+      "keketatan_persen": 2.61,
+      "rasio_persaingan": "1 : 38",
+      "rasio_angka": 38,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 140,
+      "peminat": 4980,
+      "riwayat_peminat": {
+        "2024": 4980,
+        "2023": 4700,
+        "2022": 4460
+      },
+      "keketatan_persen": 2.81,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kreasi komunikasi grafis visual, identitas jenama (branding), tipografi, ilustrasi, desain interaksi UI/UX, dan multimedia gerak.",
+        "en": "Creation of visual communication, brand identity, typography, illustration, UI/UX interaction design, and motion graphics."
+      },
+      "fokus": {
+        "id": [
+          "Branding & Identitas Visual",
+          "Desain UI/UX & Interaksi",
+          "Tipografi & Ilustrasi Digital",
+          "Animasi & Motion Graphics"
+        ],
+        "en": [
+          "Branding & Visual Identity",
+          "UI/UX & Interaction Design",
+          "Typography & Digital Illustration",
+          "Animation & Motion Graphics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Ilustrator Profesional"
+        ],
+        "en": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Professional Illustrator"
+        ]
+      }
+    }
+  },
+  {
+    "id": "trisakti-kedokteran-gigi",
+    "kode_prodi": "034002",
+    "nama_prodi": "Kedokteran Gigi",
+    "nama_prodi_en": "Dentistry",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "TRISAKTI",
+    "ptn_nama": "Universitas Trisakti",
+    "ptn_nama_en": "Trisakti University",
+    "ptn_singkatan": "TRISAKTI",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://trisakti.ac.id",
+    "ptn_spmb_url": "https://spmb.trisakti.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1210,
+        "2022": 1140
+      },
+      "keketatan_persen": 2.73,
+      "rasio_persaingan": "1 : 37",
+      "rasio_angka": 37,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "snbt": {
+      "daya_tampung": 70,
+      "peminat": 2480,
+      "riwayat_peminat": {
+        "2024": 2480,
+        "2023": 2340,
+        "2022": 2220
+      },
+      "keketatan_persen": 2.82,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pendidikan medis khusus kesehatan gigi, mulut, rahang, dan maksilofasial dengan pelatihan keterampilan klinis komprehensif.",
+        "en": "Specialized dental medical education covering oral, maxillofacial, and dental healthcare with comprehensive clinical training."
+      },
+      "fokus": {
+        "id": [
+          "Konservasi Gigi & Endodonsia",
+          "Ortodonsia & Prostodonsia",
+          "Bedah Mulut & Maksilofasial",
+          "Periodonsia"
+        ],
+        "en": [
+          "Conservative Dentistry & Endodontics",
+          "Orthodontics & Prosthodontics",
+          "Oral & Maxillofacial Surgery",
+          "Periodontics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Dokter Gigi Umum",
+          "Spesialis Ortodontis",
+          "Spesialis Bedah Mulut",
+          "Peneliti Oral Biologi"
+        ],
+        "en": [
+          "General Dentist",
+          "Orthodontist Specialist",
+          "Oral Surgeon Specialist",
+          "Oral Biology Researcher"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usk-manajemen",
+    "kode_prodi": "111005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "USK",
+    "ptn_nama": "Universitas Syiah Kuala",
+    "ptn_nama_en": "Syiah Kuala University",
+    "ptn_singkatan": "USK",
+    "ptn_kota": "Banda Aceh",
+    "ptn_provinsi": "Aceh",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usk.ac.id",
+    "ptn_spmb_url": "https://penerimaan.usk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1860,
+        "2022": 1760
+      },
+      "keketatan_persen": 2.78,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 2990,
+        "2022": 2840
+      },
+      "keketatan_persen": 2.83,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usd-psikologi",
+    "kode_prodi": "053003",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "USD",
+    "ptn_nama": "Universitas Sanata Dharma",
+    "ptn_nama_en": "Sanata Dharma University",
+    "ptn_singkatan": "USD",
+    "ptn_kota": "Sleman / Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#047857",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usd.ac.id",
+    "ptn_spmb_url": "https://pmb.usd.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1680,
+      "riwayat_peminat": {
+        "2024": 1680,
+        "2023": 1580,
+        "2022": 1490
+      },
+      "keketatan_persen": 2.68,
+      "rasio_persaingan": "1 : 37",
+      "rasio_angka": 37,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 3000,
+        "2022": 2850
+      },
+      "keketatan_persen": 2.83,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
     "id": "ui-akuntansi",
     "kode_prodi": "311011",
     "nama_prodi": "Akuntansi",
@@ -7373,6 +16152,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -7448,6 +16230,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unmul-manajemen",
+    "kode_prodi": "641005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNMUL",
+    "ptn_nama": "Universitas Mulawarman",
+    "ptn_nama_en": "Mulawarman University",
+    "ptn_singkatan": "UNMUL",
+    "ptn_kota": "Samarinda",
+    "ptn_provinsi": "Kalimantan Timur",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unmul.ac.id",
+    "ptn_spmb_url": "https://spmb.unmul.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1820,
+      "riwayat_peminat": {
+        "2024": 1820,
+        "2023": 1710,
+        "2022": 1620
+      },
+      "keketatan_persen": 2.75,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 85,
+      "peminat": 2950,
+      "riwayat_peminat": {
+        "2024": 2950,
+        "2023": 2780,
+        "2022": 2640
+      },
+      "keketatan_persen": 2.88,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "presuniv-teknik-informatika",
+    "kode_prodi": "043001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "PRESUNIV",
+    "ptn_nama": "President University",
+    "ptn_nama_en": "President University",
+    "ptn_singkatan": "PRESUNIV",
+    "ptn_kota": "Cikarang",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#991B1B",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://president.ac.id",
+    "ptn_spmb_url": "https://admission.president.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1380,
+      "riwayat_peminat": {
+        "2024": 1380,
+        "2023": 1300,
+        "2022": 1230
+      },
+      "keketatan_persen": 2.9,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 2780,
+      "riwayat_peminat": {
+        "2024": 2780,
+        "2023": 2620,
+        "2022": 2490
+      },
+      "keketatan_persen": 2.88,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "umn-teknik-informatika",
+    "kode_prodi": "036001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UMN",
+    "ptn_nama": "Universitas Multimedia Nusantara",
+    "ptn_nama_en": "Multimedia Nusantara University",
+    "ptn_singkatan": "UMN",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umn.ac.id",
+    "ptn_spmb_url": "https://pmb.umn.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2030,
+        "2022": 1920
+      },
+      "keketatan_persen": 2.79,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 120,
+      "peminat": 4150,
+      "riwayat_peminat": {
+        "2024": 4150,
+        "2023": 3920,
+        "2022": 3720
+      },
+      "keketatan_persen": 2.89,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "ui-teknik-industri",
     "kode_prodi": "311006",
     "nama_prodi": "Teknik Industri",
@@ -7460,6 +16512,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -7545,6 +16600,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAND",
     "ptn_kota": "Padang",
     "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unand.ac.id",
@@ -7620,6 +16678,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unp-akuntansi",
+    "kode_prodi": "132005",
+    "nama_prodi": "Akuntansi",
+    "nama_prodi_en": "Accounting",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNP",
+    "ptn_nama": "Universitas Negeri Padang",
+    "ptn_nama_en": "Padang State University",
+    "ptn_singkatan": "UNP",
+    "ptn_kota": "Padang",
+    "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#E11D48",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unp.ac.id",
+    "ptn_spmb_url": "https://spmb.unp.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1670,
+        "2022": 1580
+      },
+      "keketatan_persen": 2.81,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.6
+    },
+    "snbt": {
+      "daya_tampung": 85,
+      "peminat": 2860,
+      "riwayat_peminat": {
+        "2024": 2860,
+        "2023": 2690,
+        "2022": 2550
+      },
+      "keketatan_persen": 2.97,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pelaporan keuangan berstandar IFRS/PSAK, audit independen, akuntansi manajemen, perpajakan strategis, dan sistem informasi akuntansi.",
+        "en": "Financial reporting adhering to IFRS standards, independent audit, management accounting, strategic tax, and accounting information systems."
+      },
+      "fokus": {
+        "id": [
+          "Akuntansi Keuangan & IFRS",
+          "Auditing & Asurans",
+          "Perpajakan Korporasi",
+          "Akuntansi Manajemen & Biaya"
+        ],
+        "en": [
+          "Financial Accounting & IFRS",
+          "Auditing & Assurance",
+          "Corporate Taxation",
+          "Management & Cost Accounting"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Auditor Big Four",
+          "Financial Controller",
+          "Tax Specialist",
+          "Internal Auditor",
+          "Akuntan Publik (CPA)"
+        ],
+        "en": [
+          "Big Four Auditor",
+          "Financial Controller",
+          "Tax Specialist",
+          "Internal Auditor",
+          "Certified Public Accountant"
+        ]
+      }
+    }
+  },
+  {
     "id": "its-statistika",
     "kode_prodi": "382007",
     "nama_prodi": "Statistika",
@@ -7632,6 +16780,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITS",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.its.ac.id",
@@ -7719,6 +16870,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITS",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.its.ac.id",
@@ -7792,6 +16946,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unsrat-manajemen",
+    "kode_prodi": "712005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNSRAT",
+    "ptn_nama": "Universitas Sam Ratulangi",
+    "ptn_nama_en": "Sam Ratulangi University",
+    "ptn_singkatan": "UNSRAT",
+    "ptn_kota": "Manado",
+    "ptn_provinsi": "Sulawesi Utara",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsrat.ac.id",
+    "ptn_spmb_url": "https://pmb.unsrat.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1750,
+      "riwayat_peminat": {
+        "2024": 1750,
+        "2023": 1640,
+        "2022": 1550
+      },
+      "keketatan_persen": 2.86,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 85,
+      "peminat": 2820,
+      "riwayat_peminat": {
+        "2024": 2820,
+        "2023": 2650,
+        "2022": 2510
+      },
+      "keketatan_persen": 3.01,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "unair-farmasi",
     "kode_prodi": "381002",
     "nama_prodi": "Farmasi",
@@ -7804,6 +17048,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAIR",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unair.ac.id",
@@ -7879,6 +17126,184 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "petra-arsitektur",
+    "kode_prodi": "071001",
+    "nama_prodi": "Arsitektur",
+    "nama_prodi_en": "Architecture",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "PETRA",
+    "ptn_nama": "Universitas Kristen Petra",
+    "ptn_nama_en": "Petra Christian University",
+    "ptn_singkatan": "PETRA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E40AF",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://petra.ac.id",
+    "ptn_spmb_url": "https://admission.petra.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1480,
+      "riwayat_peminat": {
+        "2024": 1480,
+        "2023": 1390,
+        "2022": 1310
+      },
+      "keketatan_persen": 3.04,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 2980,
+      "riwayat_peminat": {
+        "2024": 2980,
+        "2023": 2810,
+        "2022": 2660
+      },
+      "keketatan_persen": 3.02,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perancangan ruang, estetika bangunan, keberlanjutan lingkungan hidup, teknologi material, dan integrasi lanskap perkotaan.",
+        "en": "Spatial design, building aesthetics, environmental sustainability, materials technology, and urban landscape integration."
+      },
+      "fokus": {
+        "id": [
+          "Studio Perancangan Arsitektur",
+          "Teknologi Bangunan & Struktur",
+          "Arsitektur Berkelanjutan (Green Building)",
+          "Perencanaan Kawasan Perkotaan"
+        ],
+        "en": [
+          "Architectural Design Studio",
+          "Building & Structural Tech",
+          "Sustainable / Green Building",
+          "Urban Planning & Design"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Arsitek Perancang",
+          "Urban Designer",
+          "BIM Specialist",
+          "Konsultan Bangunan Hijau",
+          "Interior Architect"
+        ],
+        "en": [
+          "Design Architect",
+          "Urban Designer",
+          "BIM Specialist",
+          "Green Building Consultant",
+          "Interior Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "um-teknik-industri",
+    "kode_prodi": "383002",
+    "nama_prodi": "Teknik Industri",
+    "nama_prodi_en": "Industrial Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UM",
+    "ptn_nama": "Universitas Negeri Malang",
+    "ptn_nama_en": "State University of Malang",
+    "ptn_singkatan": "UM",
+    "ptn_kota": "Malang",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://um.ac.id",
+    "ptn_spmb_url": "https://seleksi.um.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 24,
+      "peminat": 620,
+      "riwayat_peminat": {
+        "2024": 620,
+        "2023": 580,
+        "2022": 540
+      },
+      "keketatan_persen": 3.87,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.9
+    },
+    "snbt": {
+      "daya_tampung": 40,
+      "peminat": 1320,
+      "riwayat_peminat": {
+        "2024": 1320,
+        "2023": 1240,
+        "2022": 1170
+      },
+      "keketatan_persen": 3.03,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Optimalisasi sistem terintegrasi yang melibatkan manusia, mesin, material, informasi, dan energi untuk efisiensi produksi maksimal.",
+        "en": "Optimization of integrated systems involving people, machinery, materials, information, and energy for peak operational efficiency."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Rantai Pasok (SCM)",
+          "Riset Operasi & Optimasi",
+          "Ergonomi & Perancangan Kerja",
+          "Pengendalian Kualitas (Six Sigma)"
+        ],
+        "en": [
+          "Supply Chain Management",
+          "Operations Research",
+          "Ergonomics & Work Design",
+          "Quality Control (Six Sigma)"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Supply Chain Manager",
+          "Operations Research Analyst",
+          "Industrial Plant Specialist",
+          "Management Consultant"
+        ],
+        "en": [
+          "Supply Chain Manager",
+          "Operations Research Analyst",
+          "Industrial Plant Specialist",
+          "Management Consultant"
+        ]
+      }
+    }
+  },
+  {
     "id": "ub-ilmu-komunikasi",
     "kode_prodi": "371008",
     "nama_prodi": "Ilmu Komunikasi",
@@ -7891,6 +17316,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UB",
     "ptn_kota": "Malang",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ub.ac.id",
@@ -7966,6 +17394,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "ulm-manajemen",
+    "kode_prodi": "631005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "ULM",
+    "ptn_nama": "Universitas Lambung Mangkurat",
+    "ptn_nama_en": "Lambung Mangkurat University",
+    "ptn_singkatan": "ULM",
+    "ptn_kota": "Banjarmasin",
+    "ptn_provinsi": "Kalimantan Selatan",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ulm.ac.id",
+    "ptn_spmb_url": "https://admisi.ulm.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 52,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1670,
+        "2022": 1580
+      },
+      "keketatan_persen": 2.92,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.6
+    },
+    "snbt": {
+      "daya_tampung": 88,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2720,
+        "2022": 2580
+      },
+      "keketatan_persen": 3.04,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "ugm-farmasi",
     "kode_prodi": "341003",
     "nama_prodi": "Farmasi",
@@ -7978,6 +17496,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -8065,6 +17586,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -8138,6 +17662,186 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "upnvjt-akuntansi",
+    "kode_prodi": "384005",
+    "nama_prodi": "Akuntansi",
+    "nama_prodi_en": "Accounting",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPNVJT",
+    "ptn_nama": "UPN Veteran Jawa Timur",
+    "ptn_nama_en": "UPN Veteran East Java",
+    "ptn_singkatan": "UPNVJT",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#166534",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://upnjatim.ac.id",
+    "ptn_spmb_url": "https://simaba.upnjatim.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1720,
+      "riwayat_peminat": {
+        "2024": 1720,
+        "2023": 1620,
+        "2022": 1530
+      },
+      "keketatan_persen": 2.91,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 85,
+      "peminat": 2780,
+      "riwayat_peminat": {
+        "2024": 2780,
+        "2023": 2620,
+        "2022": 2490
+      },
+      "keketatan_persen": 3.06,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pelaporan keuangan berstandar IFRS/PSAK, audit independen, akuntansi manajemen, perpajakan strategis, dan sistem informasi akuntansi.",
+        "en": "Financial reporting adhering to IFRS standards, independent audit, management accounting, strategic tax, and accounting information systems."
+      },
+      "fokus": {
+        "id": [
+          "Akuntansi Keuangan & IFRS",
+          "Auditing & Asurans",
+          "Perpajakan Korporasi",
+          "Akuntansi Manajemen & Biaya"
+        ],
+        "en": [
+          "Financial Accounting & IFRS",
+          "Auditing & Assurance",
+          "Corporate Taxation",
+          "Management & Cost Accounting"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Auditor Big Four",
+          "Financial Controller",
+          "Tax Specialist",
+          "Internal Auditor",
+          "Akuntan Publik (CPA)"
+        ],
+        "en": [
+          "Big Four Auditor",
+          "Financial Controller",
+          "Tax Specialist",
+          "Internal Auditor",
+          "Certified Public Accountant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untar-psikologi",
+    "kode_prodi": "035003",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNTAR",
+    "ptn_nama": "Universitas Tarumanagara",
+    "ptn_nama_en": "Tarumanagara University",
+    "ptn_singkatan": "UNTAR",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#B91C1C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untar.ac.id",
+    "ptn_spmb_url": "https://admisi.untar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2030,
+        "2022": 1920
+      },
+      "keketatan_persen": 2.79,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 120,
+      "peminat": 3920,
+      "riwayat_peminat": {
+        "2024": 3920,
+        "2023": 3700,
+        "2022": 3510
+      },
+      "keketatan_persen": 3.06,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
     "id": "itb-teknik-sipil",
     "kode_prodi": "332005",
     "nama_prodi": "Teknik Sipil",
@@ -8150,6 +17854,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITB",
     "ptn_kota": "Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.itb.ac.id",
@@ -8235,6 +17942,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAIR",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unair.ac.id",
@@ -8310,6 +18020,274 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "atmajaya-psikologi",
+    "kode_prodi": "032003",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "ATMAJAYA",
+    "ptn_nama": "Unika Atma Jaya",
+    "ptn_nama_en": "Atma Jaya Catholic University of Indonesia",
+    "ptn_singkatan": "ATMAJAYA",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E3A8A",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://atmajaya.ac.id",
+    "ptn_spmb_url": "https://pmb.atmajaya.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 2120,
+      "riwayat_peminat": {
+        "2024": 2120,
+        "2023": 2000,
+        "2022": 1900
+      },
+      "keketatan_persen": 2.83,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 120,
+      "peminat": 3890,
+      "riwayat_peminat": {
+        "2024": 3890,
+        "2023": 3670,
+        "2022": 3480
+      },
+      "keketatan_persen": 3.08,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unmul-teknik-pertambangan",
+    "kode_prodi": "641003",
+    "nama_prodi": "Teknik Pertambangan",
+    "nama_prodi_en": "Teknik Pertambangan",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNMUL",
+    "ptn_nama": "Universitas Mulawarman",
+    "ptn_nama_en": "Mulawarman University",
+    "ptn_singkatan": "UNMUL",
+    "ptn_kota": "Samarinda",
+    "ptn_provinsi": "Kalimantan Timur",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unmul.ac.id",
+    "ptn_spmb_url": "https://spmb.unmul.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 780,
+      "riwayat_peminat": {
+        "2024": 780,
+        "2023": 730,
+        "2022": 690
+      },
+      "keketatan_persen": 3.85,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.8
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 1620,
+      "riwayat_peminat": {
+        "2024": 1620,
+        "2023": 1520,
+        "2022": 1440
+      },
+      "keketatan_persen": 3.09,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.6
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Program studi Teknik Pertambangan di Universitas Mulawarman dengan kurikulum berstandar nasional dan keunggulan riset unggul.",
+        "en": "The Teknik Pertambangan program at Mulawarman University featuring accredited curricula and leading academic research."
+      },
+      "fokus": {
+        "id": [
+          "Fondasi Keilmuan",
+          "Penerapan Praktik",
+          "Riset & Analisis",
+          "Etika Profesi"
+        ],
+        "en": [
+          "Core Foundations",
+          "Applied Practice",
+          "Research & Analytics",
+          "Professional Ethics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Praktisi Profesional",
+          "Akademisi / Peneliti",
+          "Konsultan Spesialis",
+          "Wirausahawan"
+        ],
+        "en": [
+          "Professional Practitioner",
+          "Academic / Researcher",
+          "Specialist Consultant",
+          "Entrepreneur"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untan-manajemen",
+    "kode_prodi": "611005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNTAN",
+    "ptn_nama": "Universitas Tanjungpura",
+    "ptn_nama_en": "Tanjungpura University",
+    "ptn_singkatan": "UNTAN",
+    "ptn_kota": "Pontianak",
+    "ptn_provinsi": "Kalimantan Barat",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untan.ac.id",
+    "ptn_spmb_url": "https://scmb.untan.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1840,
+      "riwayat_peminat": {
+        "2024": 1840,
+        "2023": 1730,
+        "2022": 1630
+      },
+      "keketatan_persen": 2.99,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 92,
+      "peminat": 2980,
+      "riwayat_peminat": {
+        "2024": 2980,
+        "2023": 2810,
+        "2022": 2660
+      },
+      "keketatan_persen": 3.09,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "unair-ilmu-hukum",
     "kode_prodi": "381006",
     "nama_prodi": "Ilmu Hukum",
@@ -8322,6 +18300,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAIR",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unair.ac.id",
@@ -8397,6 +18378,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unri-akuntansi",
+    "kode_prodi": "141005",
+    "nama_prodi": "Akuntansi",
+    "nama_prodi_en": "Accounting",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNRI",
+    "ptn_nama": "Universitas Riau",
+    "ptn_nama_en": "Riau University",
+    "ptn_singkatan": "UNRI",
+    "ptn_kota": "Pekanbaru",
+    "ptn_provinsi": "Riau",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0D9488",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unri.ac.id",
+    "ptn_spmb_url": "https://um.unri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 48,
+      "peminat": 1580,
+      "riwayat_peminat": {
+        "2024": 1580,
+        "2023": 1490,
+        "2022": 1410
+      },
+      "keketatan_persen": 3.04,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 2580,
+      "riwayat_peminat": {
+        "2024": 2580,
+        "2023": 2430,
+        "2022": 2310
+      },
+      "keketatan_persen": 3.1,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pelaporan keuangan berstandar IFRS/PSAK, audit independen, akuntansi manajemen, perpajakan strategis, dan sistem informasi akuntansi.",
+        "en": "Financial reporting adhering to IFRS standards, independent audit, management accounting, strategic tax, and accounting information systems."
+      },
+      "fokus": {
+        "id": [
+          "Akuntansi Keuangan & IFRS",
+          "Auditing & Asurans",
+          "Perpajakan Korporasi",
+          "Akuntansi Manajemen & Biaya"
+        ],
+        "en": [
+          "Financial Accounting & IFRS",
+          "Auditing & Assurance",
+          "Corporate Taxation",
+          "Management & Cost Accounting"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Auditor Big Four",
+          "Financial Controller",
+          "Tax Specialist",
+          "Internal Auditor",
+          "Akuntan Publik (CPA)"
+        ],
+        "en": [
+          "Big Four Auditor",
+          "Financial Controller",
+          "Tax Specialist",
+          "Internal Auditor",
+          "Certified Public Accountant"
+        ]
+      }
+    }
+  },
+  {
     "id": "ub-sistem-informasi",
     "kode_prodi": "371003",
     "nama_prodi": "Sistem Informasi",
@@ -8409,6 +18480,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UB",
     "ptn_kota": "Malang",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ub.ac.id",
@@ -8484,6 +18558,632 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "presuniv-hubungan-internasional",
+    "kode_prodi": "043003",
+    "nama_prodi": "Hubungan Internasional",
+    "nama_prodi_en": "International Relations",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "PRESUNIV",
+    "ptn_nama": "President University",
+    "ptn_nama_en": "President University",
+    "ptn_singkatan": "PRESUNIV",
+    "ptn_kota": "Cikarang",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#991B1B",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://president.ac.id",
+    "ptn_spmb_url": "https://admission.president.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1520,
+      "riwayat_peminat": {
+        "2024": 1520,
+        "2023": 1430,
+        "2022": 1350
+      },
+      "keketatan_persen": 2.96,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2730,
+        "2022": 2590
+      },
+      "keketatan_persen": 3.11,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian diplomasi global, negosiasi multilateral, keamanan regional, ekonomi politik internasional, dan resolusi konflik.",
+        "en": "Study of global diplomacy, multilateral negotiations, regional security, international political economy, and conflict resolution."
+      },
+      "fokus": {
+        "id": [
+          "Diplomasi & Negosiasi",
+          "Ekonomi Politik Global",
+          "Keamanan Internasional",
+          "Hukum & Organisasi Multilateral"
+        ],
+        "en": [
+          "Diplomacy & Negotiation",
+          "Global Political Economy",
+          "International Security",
+          "International Organizations & Law"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Diplomat Kementerian Luar Negeri",
+          "Petugas Lembaga Internasional (UN/ASEAN)",
+          "Risk & Intelligence Analyst",
+          "Jurnalis Luar Negeri"
+        ],
+        "en": [
+          "Foreign Service Diplomat",
+          "UN/ASEAN International Officer",
+          "Risk & Geopolitical Analyst",
+          "Foreign Correspondent"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usd-teknik-informatika",
+    "kode_prodi": "053002",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "USD",
+    "ptn_nama": "Universitas Sanata Dharma",
+    "ptn_nama_en": "Sanata Dharma University",
+    "ptn_singkatan": "USD",
+    "ptn_kota": "Sleman / Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#047857",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usd.ac.id",
+    "ptn_spmb_url": "https://pmb.usd.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 1120,
+      "riwayat_peminat": {
+        "2024": 1120,
+        "2023": 1050,
+        "2022": 990
+      },
+      "keketatan_persen": 3.12,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 70,
+      "peminat": 2240,
+      "riwayat_peminat": {
+        "2024": 2240,
+        "2023": 2110,
+        "2022": 2000
+      },
+      "keketatan_persen": 3.12,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "umn-manajemen",
+    "kode_prodi": "036005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UMN",
+    "ptn_nama": "Universitas Multimedia Nusantara",
+    "ptn_nama_en": "Multimedia Nusantara University",
+    "ptn_singkatan": "UMN",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umn.ac.id",
+    "ptn_spmb_url": "https://pmb.umn.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1680,
+      "riwayat_peminat": {
+        "2024": 1680,
+        "2023": 1580,
+        "2022": 1490
+      },
+      "keketatan_persen": 2.98,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 3000,
+        "2022": 2850
+      },
+      "keketatan_persen": 3.14,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "mercu-desain-komunikasi-visual",
+    "kode_prodi": "037004",
+    "nama_prodi": "Desain Komunikasi Visual",
+    "nama_prodi_en": "Visual Communication Design (DKV)",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "MERCU",
+    "ptn_nama": "Universitas Mercu Buana",
+    "ptn_nama_en": "Mercu Buana University",
+    "ptn_singkatan": "MERCU",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://mercubuana.ac.id",
+    "ptn_spmb_url": "https://pendaftaran.mercubuana.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1680,
+        "2022": 1590
+      },
+      "keketatan_persen": 2.81,
+      "rasio_persaingan": "1 : 36",
+      "rasio_angka": 36,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 3000,
+        "2022": 2850
+      },
+      "keketatan_persen": 3.14,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kreasi komunikasi grafis visual, identitas jenama (branding), tipografi, ilustrasi, desain interaksi UI/UX, dan multimedia gerak.",
+        "en": "Creation of visual communication, brand identity, typography, illustration, UI/UX interaction design, and motion graphics."
+      },
+      "fokus": {
+        "id": [
+          "Branding & Identitas Visual",
+          "Desain UI/UX & Interaksi",
+          "Tipografi & Ilustrasi Digital",
+          "Animasi & Motion Graphics"
+        ],
+        "en": [
+          "Branding & Visual Identity",
+          "UI/UX & Interaction Design",
+          "Typography & Digital Illustration",
+          "Animation & Motion Graphics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Ilustrator Profesional"
+        ],
+        "en": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Professional Illustrator"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unram-manajemen",
+    "kode_prodi": "521005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNRAM",
+    "ptn_nama": "Universitas Mataram",
+    "ptn_nama_en": "University of Mataram",
+    "ptn_singkatan": "UNRAM",
+    "ptn_kota": "Mataram",
+    "ptn_provinsi": "Nusa Tenggara Barat",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unram.ac.id",
+    "ptn_spmb_url": "https://pmb.unram.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1820,
+      "riwayat_peminat": {
+        "2024": 1820,
+        "2023": 1710,
+        "2022": 1610
+      },
+      "keketatan_persen": 3.02,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 92,
+      "peminat": 2920,
+      "riwayat_peminat": {
+        "2024": 2920,
+        "2023": 2750,
+        "2022": 2610
+      },
+      "keketatan_persen": 3.15,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unpar-hubungan-internasional",
+    "kode_prodi": "042003",
+    "nama_prodi": "Hubungan Internasional",
+    "nama_prodi_en": "International Relations",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNPAR",
+    "ptn_nama": "Universitas Katolik Parahyangan",
+    "ptn_nama_en": "Parahyangan Catholic University",
+    "ptn_singkatan": "UNPAR",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unpar.ac.id",
+    "ptn_spmb_url": "https://pmb.unpar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1890,
+      "riwayat_peminat": {
+        "2024": 1890,
+        "2023": 1780,
+        "2022": 1690
+      },
+      "keketatan_persen": 2.91,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 110,
+      "peminat": 3490,
+      "riwayat_peminat": {
+        "2024": 3490,
+        "2023": 3300,
+        "2022": 3130
+      },
+      "keketatan_persen": 3.15,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian diplomasi global, negosiasi multilateral, keamanan regional, ekonomi politik internasional, dan resolusi konflik.",
+        "en": "Study of global diplomacy, multilateral negotiations, regional security, international political economy, and conflict resolution."
+      },
+      "fokus": {
+        "id": [
+          "Diplomasi & Negosiasi",
+          "Ekonomi Politik Global",
+          "Keamanan Internasional",
+          "Hukum & Organisasi Multilateral"
+        ],
+        "en": [
+          "Diplomacy & Negotiation",
+          "Global Political Economy",
+          "International Security",
+          "International Organizations & Law"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Diplomat Kementerian Luar Negeri",
+          "Petugas Lembaga Internasional (UN/ASEAN)",
+          "Risk & Intelligence Analyst",
+          "Jurnalis Luar Negeri"
+        ],
+        "en": [
+          "Foreign Service Diplomat",
+          "UN/ASEAN International Officer",
+          "Risk & Geopolitical Analyst",
+          "Foreign Correspondent"
+        ]
+      }
+    }
+  },
+  {
+    "id": "umn-ilmu-komunikasi",
+    "kode_prodi": "036004",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UMN",
+    "ptn_nama": "Universitas Multimedia Nusantara",
+    "ptn_nama_en": "Multimedia Nusantara University",
+    "ptn_singkatan": "UMN",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umn.ac.id",
+    "ptn_spmb_url": "https://pmb.umn.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 65,
+      "peminat": 2240,
+      "riwayat_peminat": {
+        "2024": 2240,
+        "2023": 2110,
+        "2022": 2000
+      },
+      "keketatan_persen": 2.9,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 130,
+      "peminat": 4120,
+      "riwayat_peminat": {
+        "2024": 4120,
+        "2023": 3890,
+        "2022": 3690
+      },
+      "keketatan_persen": 3.16,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
     "id": "unair-kedokteran-gigi",
     "kode_prodi": "381003",
     "nama_prodi": "Kedokteran Gigi",
@@ -8496,6 +19196,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAIR",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unair.ac.id",
@@ -8569,6 +19272,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unnes-ilmu-hukum",
+    "kode_prodi": "352005",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNNES",
+    "ptn_nama": "Universitas Negeri Semarang",
+    "ptn_nama_en": "Semarang State University",
+    "ptn_singkatan": "UNNES",
+    "ptn_kota": "Semarang",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unnes.ac.id",
+    "ptn_spmb_url": "https://spmb.unnes.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 85,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2720,
+        "2022": 2580
+      },
+      "keketatan_persen": 2.94,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 140,
+      "peminat": 4420,
+      "riwayat_peminat": {
+        "2024": 4420,
+        "2023": 4180,
+        "2022": 3960
+      },
+      "keketatan_persen": 3.17,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsoed-ilmu-hukum",
+    "kode_prodi": "351006",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNSOED",
+    "ptn_nama": "Universitas Jenderal Soedirman",
+    "ptn_nama_en": "Jenderal Soedirman University",
+    "ptn_singkatan": "UNSOED",
+    "ptn_kota": "Purwokerto",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsoed.ac.id",
+    "ptn_spmb_url": "https://spmb.unsoed.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 75,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2190
+      },
+      "keketatan_persen": 3.06,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 125,
+      "peminat": 3890,
+      "riwayat_peminat": {
+        "2024": 3890,
+        "2023": 3680,
+        "2022": 3490
+      },
+      "keketatan_persen": 3.21,
+      "rasio_persaingan": "1 : 31",
+      "rasio_angka": 31,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "mercu-ilmu-komunikasi",
+    "kode_prodi": "037003",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "MERCU",
+    "ptn_nama": "Universitas Mercu Buana",
+    "ptn_nama_en": "Mercu Buana University",
+    "ptn_singkatan": "MERCU",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://mercubuana.ac.id",
+    "ptn_spmb_url": "https://pendaftaran.mercubuana.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 70,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2190
+      },
+      "keketatan_persen": 2.86,
+      "rasio_persaingan": "1 : 35",
+      "rasio_angka": 35,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 140,
+      "peminat": 4350,
+      "riwayat_peminat": {
+        "2024": 4350,
+        "2023": 4110,
+        "2022": 3900
+      },
+      "keketatan_persen": 3.22,
+      "rasio_persaingan": "1 : 31",
+      "rasio_angka": 31,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
     "id": "unud-manajemen",
     "kode_prodi": "511005",
     "nama_prodi": "Manajemen",
@@ -8581,6 +19554,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNUD",
     "ptn_kota": "Badung / Denpasar",
     "ptn_provinsi": "Bali",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#9333EA",
     "ptn_klaster": "PTN-BLU",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unud.ac.id",
@@ -8668,6 +19644,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UI",
     "ptn_kota": "Depok",
     "ptn_provinsi": "Jawa Barat / DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#FACC15",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.ui.ac.id",
@@ -8753,6 +19732,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -8826,6 +19808,546 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "petra-desain-komunikasi-visual",
+    "kode_prodi": "071004",
+    "nama_prodi": "Desain Komunikasi Visual",
+    "nama_prodi_en": "Visual Communication Design (DKV)",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "PETRA",
+    "ptn_nama": "Universitas Kristen Petra",
+    "ptn_nama_en": "Petra Christian University",
+    "ptn_singkatan": "PETRA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E40AF",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://petra.ac.id",
+    "ptn_spmb_url": "https://admission.petra.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1680,
+        "2022": 1590
+      },
+      "keketatan_persen": 3.09,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 110,
+      "peminat": 3340,
+      "riwayat_peminat": {
+        "2024": 3340,
+        "2023": 3150,
+        "2022": 2990
+      },
+      "keketatan_persen": 3.29,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kreasi komunikasi grafis visual, identitas jenama (branding), tipografi, ilustrasi, desain interaksi UI/UX, dan multimedia gerak.",
+        "en": "Creation of visual communication, brand identity, typography, illustration, UI/UX interaction design, and motion graphics."
+      },
+      "fokus": {
+        "id": [
+          "Branding & Identitas Visual",
+          "Desain UI/UX & Interaksi",
+          "Tipografi & Ilustrasi Digital",
+          "Animasi & Motion Graphics"
+        ],
+        "en": [
+          "Branding & Visual Identity",
+          "UI/UX & Interaction Design",
+          "Typography & Digital Illustration",
+          "Animation & Motion Graphics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Ilustrator Profesional"
+        ],
+        "en": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Professional Illustrator"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uph-ilmu-hukum",
+    "kode_prodi": "033003",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPH",
+    "ptn_nama": "Universitas Pelita Harapan",
+    "ptn_nama_en": "Pelita Harapan University",
+    "ptn_singkatan": "UPH",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uph.edu",
+    "ptn_spmb_url": "https://admission.uph.edu",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 70,
+      "peminat": 2350,
+      "riwayat_peminat": {
+        "2024": 2350,
+        "2023": 2220,
+        "2022": 2100
+      },
+      "keketatan_persen": 2.98,
+      "rasio_persaingan": "1 : 34",
+      "rasio_angka": 34,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 140,
+      "peminat": 4180,
+      "riwayat_peminat": {
+        "2024": 4180,
+        "2023": 3950,
+        "2022": 3750
+      },
+      "keketatan_persen": 3.35,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ums-psikologi",
+    "kode_prodi": "061004",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UMS",
+    "ptn_nama": "Universitas Muhammadiyah Surakarta",
+    "ptn_nama_en": "Muhammadiyah University of Surakarta",
+    "ptn_singkatan": "UMS",
+    "ptn_kota": "Surakarta",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ums.ac.id",
+    "ptn_spmb_url": "https://pmb.ums.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1680,
+        "2022": 1590
+      },
+      "keketatan_persen": 3.09,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 110,
+      "peminat": 3280,
+      "riwayat_peminat": {
+        "2024": 3280,
+        "2023": 3090,
+        "2022": 2940
+      },
+      "keketatan_persen": 3.35,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usd-manajemen",
+    "kode_prodi": "053004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "USD",
+    "ptn_nama": "Universitas Sanata Dharma",
+    "ptn_nama_en": "Sanata Dharma University",
+    "ptn_singkatan": "USD",
+    "ptn_kota": "Sleman / Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#047857",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usd.ac.id",
+    "ptn_spmb_url": "https://pmb.usd.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1680,
+        "2022": 1590
+      },
+      "keketatan_persen": 3.09,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 110,
+      "peminat": 3280,
+      "riwayat_peminat": {
+        "2024": 3280,
+        "2023": 3090,
+        "2022": 2940
+      },
+      "keketatan_persen": 3.35,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "mercu-teknik-informatika",
+    "kode_prodi": "037001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "MERCU",
+    "ptn_nama": "Universitas Mercu Buana",
+    "ptn_nama_en": "Mercu Buana University",
+    "ptn_singkatan": "MERCU",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://mercubuana.ac.id",
+    "ptn_spmb_url": "https://pendaftaran.mercubuana.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1680,
+      "riwayat_peminat": {
+        "2024": 1680,
+        "2023": 1580,
+        "2022": 1490
+      },
+      "keketatan_persen": 3.27,
+      "rasio_persaingan": "1 : 31",
+      "rasio_angka": 31,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 110,
+      "peminat": 3280,
+      "riwayat_peminat": {
+        "2024": 3280,
+        "2023": 3090,
+        "2022": 2940
+      },
+      "keketatan_persen": 3.35,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ums-farmasi",
+    "kode_prodi": "061002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UMS",
+    "ptn_nama": "Universitas Muhammadiyah Surakarta",
+    "ptn_nama_en": "Muhammadiyah University of Surakarta",
+    "ptn_singkatan": "UMS",
+    "ptn_kota": "Surakarta",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ums.ac.id",
+    "ptn_spmb_url": "https://pmb.ums.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1340,
+      "riwayat_peminat": {
+        "2024": 1340,
+        "2023": 1260,
+        "2022": 1190
+      },
+      "keketatan_persen": 3.36,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 2680,
+      "riwayat_peminat": {
+        "2024": 2680,
+        "2023": 2530,
+        "2022": 2400
+      },
+      "keketatan_persen": 3.36,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "ipb-statistika",
     "kode_prodi": "322002",
     "nama_prodi": "Statistika",
@@ -8838,6 +20360,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "IPB",
     "ptn_kota": "Bogor",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1D4ED8",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ipb.ac.id",
@@ -8913,6 +20438,96 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "petra-teknik-informatika",
+    "kode_prodi": "071003",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "PETRA",
+    "ptn_nama": "Universitas Kristen Petra",
+    "ptn_nama_en": "Petra Christian University",
+    "ptn_singkatan": "PETRA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E40AF",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://petra.ac.id",
+    "ptn_spmb_url": "https://admission.petra.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1520,
+      "riwayat_peminat": {
+        "2024": 1520,
+        "2023": 1430,
+        "2022": 1350
+      },
+      "keketatan_persen": 3.29,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 2950,
+      "riwayat_peminat": {
+        "2024": 2950,
+        "2023": 2780,
+        "2022": 2640
+      },
+      "keketatan_persen": 3.39,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "ub-manajemen",
     "kode_prodi": "371007",
     "nama_prodi": "Manajemen",
@@ -8925,6 +20540,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UB",
     "ptn_kota": "Malang",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ub.ac.id",
@@ -9000,6 +20618,366 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "untar-arsitektur",
+    "kode_prodi": "035002",
+    "nama_prodi": "Arsitektur",
+    "nama_prodi_en": "Architecture",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNTAR",
+    "ptn_nama": "Universitas Tarumanagara",
+    "ptn_nama_en": "Tarumanagara University",
+    "ptn_singkatan": "UNTAR",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#B91C1C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untar.ac.id",
+    "ptn_spmb_url": "https://admisi.untar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1180,
+      "riwayat_peminat": {
+        "2024": 1180,
+        "2023": 1110,
+        "2022": 1050
+      },
+      "keketatan_persen": 3.39,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 2340,
+      "riwayat_peminat": {
+        "2024": 2340,
+        "2023": 2210,
+        "2022": 2090
+      },
+      "keketatan_persen": 3.42,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perancangan ruang, estetika bangunan, keberlanjutan lingkungan hidup, teknologi material, dan integrasi lanskap perkotaan.",
+        "en": "Spatial design, building aesthetics, environmental sustainability, materials technology, and urban landscape integration."
+      },
+      "fokus": {
+        "id": [
+          "Studio Perancangan Arsitektur",
+          "Teknologi Bangunan & Struktur",
+          "Arsitektur Berkelanjutan (Green Building)",
+          "Perencanaan Kawasan Perkotaan"
+        ],
+        "en": [
+          "Architectural Design Studio",
+          "Building & Structural Tech",
+          "Sustainable / Green Building",
+          "Urban Planning & Design"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Arsitek Perancang",
+          "Urban Designer",
+          "BIM Specialist",
+          "Konsultan Bangunan Hijau",
+          "Interior Architect"
+        ],
+        "en": [
+          "Design Architect",
+          "Urban Designer",
+          "BIM Specialist",
+          "Green Building Consultant",
+          "Interior Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "presuniv-ilmu-komunikasi",
+    "kode_prodi": "043005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "PRESUNIV",
+    "ptn_nama": "President University",
+    "ptn_nama_en": "President University",
+    "ptn_singkatan": "PRESUNIV",
+    "ptn_kota": "Cikarang",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#991B1B",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://president.ac.id",
+    "ptn_spmb_url": "https://admission.president.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1210,
+        "2022": 1140
+      },
+      "keketatan_persen": 3.12,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 2340,
+      "riwayat_peminat": {
+        "2024": 2340,
+        "2023": 2210,
+        "2022": 2090
+      },
+      "keketatan_persen": 3.42,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uii-psikologi",
+    "kode_prodi": "051006",
+    "nama_prodi": "Psikologi",
+    "nama_prodi_en": "Psychology",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UII",
+    "ptn_nama": "Universitas Islam Indonesia",
+    "ptn_nama_en": "Universitas Islam Indonesia",
+    "ptn_singkatan": "UII",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uii.ac.id",
+    "ptn_spmb_url": "https://pmb.uii.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1820,
+      "riwayat_peminat": {
+        "2024": 1820,
+        "2023": 1710,
+        "2022": 1620
+      },
+      "keketatan_persen": 3.02,
+      "rasio_persaingan": "1 : 33",
+      "rasio_angka": 33,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 110,
+      "peminat": 3210,
+      "riwayat_peminat": {
+        "2024": 3210,
+        "2023": 3030,
+        "2022": 2870
+      },
+      "keketatan_persen": 3.43,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian ilmiah proses mental, perilaku manusia, asesmen psikodiagnostik, dinamika perkembangan, dan intervensi sosial-organisasi.",
+        "en": "Scientific study of mental processes, human behavior, psychodiagnostic assessment, developmental dynamics, and organizational interventions."
+      },
+      "fokus": {
+        "id": [
+          "Psikologi Klinis & Konseling",
+          "Psikologi Industri & Organisasi (PIO)",
+          "Psikometri & Asesmen",
+          "Psikologi Perkembangan"
+        ],
+        "en": [
+          "Clinical & Counseling Psychology",
+          "Industrial & Organizational Psychology",
+          "Psychometrics & Assessment",
+          "Developmental Psychology"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Human Resource Specialist (HRD)",
+          "Asesor Psikologi",
+          "Konselor Pendidikan & Karir",
+          "Talent Acquisition Lead",
+          "Peneliti Perilaku"
+        ],
+        "en": [
+          "HR Specialist",
+          "Psychological Assessor",
+          "Career & Education Counselor",
+          "Talent Acquisition Lead",
+          "Behavioral Researcher"
+        ]
+      }
+    }
+  },
+  {
+    "id": "telkom-teknik-informatika",
+    "kode_prodi": "041001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "TELKOM",
+    "ptn_nama": "Telkom University",
+    "ptn_nama_en": "Telkom University",
+    "ptn_singkatan": "TELKOM",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#DC2626",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://telkomuniversity.ac.id",
+    "ptn_spmb_url": "https://smb.telkomuniversity.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 120,
+      "peminat": 3890,
+      "riwayat_peminat": {
+        "2024": 3890,
+        "2023": 3680,
+        "2022": 3480
+      },
+      "keketatan_persen": 3.08,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "snbt": {
+      "daya_tampung": 240,
+      "peminat": 6980,
+      "riwayat_peminat": {
+        "2024": 6980,
+        "2023": 6620,
+        "2022": 6290
+      },
+      "keketatan_persen": 3.44,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
     "id": "unpad-ilmu-hukum",
     "kode_prodi": "331005",
     "nama_prodi": "Ilmu Hukum",
@@ -9012,6 +20990,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNPAD",
     "ptn_kota": "Sumedang / Bandung",
     "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F97316",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unpad.ac.id",
@@ -9087,6 +21068,276 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "uii-farmasi",
+    "kode_prodi": "051002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UII",
+    "ptn_nama": "Universitas Islam Indonesia",
+    "ptn_nama_en": "Universitas Islam Indonesia",
+    "ptn_singkatan": "UII",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uii.ac.id",
+    "ptn_spmb_url": "https://pmb.uii.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1450,
+      "riwayat_peminat": {
+        "2024": 1450,
+        "2023": 1370,
+        "2022": 1290
+      },
+      "keketatan_persen": 3.45,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2730,
+        "2022": 2590
+      },
+      "keketatan_persen": 3.46,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "atmajaya-ilmu-hukum",
+    "kode_prodi": "032004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "ATMAJAYA",
+    "ptn_nama": "Unika Atma Jaya",
+    "ptn_nama_en": "Atma Jaya Catholic University of Indonesia",
+    "ptn_singkatan": "ATMAJAYA",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E3A8A",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://atmajaya.ac.id",
+    "ptn_spmb_url": "https://pmb.atmajaya.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 55,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1680,
+        "2022": 1590
+      },
+      "keketatan_persen": 3.09,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 110,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 3000,
+        "2022": 2850
+      },
+      "keketatan_persen": 3.46,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "presuniv-manajemen",
+    "kode_prodi": "043004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "PRESUNIV",
+    "ptn_nama": "President University",
+    "ptn_nama_en": "President University",
+    "ptn_singkatan": "PRESUNIV",
+    "ptn_kota": "Cikarang",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#991B1B",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://president.ac.id",
+    "ptn_spmb_url": "https://admission.president.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 1920,
+      "riwayat_peminat": {
+        "2024": 1920,
+        "2023": 1810,
+        "2022": 1710
+      },
+      "keketatan_persen": 3.12,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 120,
+      "peminat": 3450,
+      "riwayat_peminat": {
+        "2024": 3450,
+        "2023": 3250,
+        "2022": 3090
+      },
+      "keketatan_persen": 3.48,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
     "id": "its-teknik-sipil",
     "kode_prodi": "382004",
     "nama_prodi": "Teknik Sipil",
@@ -9099,6 +21350,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITS",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.its.ac.id",
@@ -9172,6 +21426,2520 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "untirta-teknik-industri",
+    "kode_prodi": "361002",
+    "nama_prodi": "Teknik Industri",
+    "nama_prodi_en": "Industrial Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNTIRTA",
+    "ptn_nama": "Universitas Sultan Ageng Tirtayasa",
+    "ptn_nama_en": "Sultan Ageng Tirtayasa University",
+    "ptn_singkatan": "UNTIRTA",
+    "ptn_kota": "Serang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#B45309",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untirta.ac.id",
+    "ptn_spmb_url": "https://spmb.untirta.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 680,
+      "riwayat_peminat": {
+        "2024": 680,
+        "2023": 640,
+        "2022": 600
+      },
+      "keketatan_persen": 4.41,
+      "rasio_persaingan": "1 : 23",
+      "rasio_angka": 23,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 1420,
+      "riwayat_peminat": {
+        "2024": 1420,
+        "2023": 1340,
+        "2022": 1260
+      },
+      "keketatan_persen": 3.52,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Optimalisasi sistem terintegrasi yang melibatkan manusia, mesin, material, informasi, dan energi untuk efisiensi produksi maksimal.",
+        "en": "Optimization of integrated systems involving people, machinery, materials, information, and energy for peak operational efficiency."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Rantai Pasok (SCM)",
+          "Riset Operasi & Optimasi",
+          "Ergonomi & Perancangan Kerja",
+          "Pengendalian Kualitas (Six Sigma)"
+        ],
+        "en": [
+          "Supply Chain Management",
+          "Operations Research",
+          "Ergonomics & Work Design",
+          "Quality Control (Six Sigma)"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Supply Chain Manager",
+          "Operations Research Analyst",
+          "Industrial Plant Specialist",
+          "Management Consultant"
+        ],
+        "en": [
+          "Supply Chain Manager",
+          "Operations Research Analyst",
+          "Industrial Plant Specialist",
+          "Management Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "atmajaya-manajemen",
+    "kode_prodi": "032005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "ATMAJAYA",
+    "ptn_nama": "Unika Atma Jaya",
+    "ptn_nama_en": "Atma Jaya Catholic University of Indonesia",
+    "ptn_singkatan": "ATMAJAYA",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E3A8A",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://atmajaya.ac.id",
+    "ptn_spmb_url": "https://pmb.atmajaya.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 70,
+      "peminat": 2240,
+      "riwayat_peminat": {
+        "2024": 2240,
+        "2023": 2110,
+        "2022": 2000
+      },
+      "keketatan_persen": 3.12,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 140,
+      "peminat": 3980,
+      "riwayat_peminat": {
+        "2024": 3980,
+        "2023": 3760,
+        "2022": 3570
+      },
+      "keketatan_persen": 3.52,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "petra-manajemen",
+    "kode_prodi": "071005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "PETRA",
+    "ptn_nama": "Universitas Kristen Petra",
+    "ptn_nama_en": "Petra Christian University",
+    "ptn_singkatan": "PETRA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E40AF",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://petra.ac.id",
+    "ptn_spmb_url": "https://admission.petra.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 65,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1770
+      },
+      "keketatan_persen": 3.28,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 130,
+      "peminat": 3680,
+      "riwayat_peminat": {
+        "2024": 3680,
+        "2023": 3470,
+        "2022": 3300
+      },
+      "keketatan_persen": 3.53,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "umy-farmasi",
+    "kode_prodi": "052003",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UMY",
+    "ptn_nama": "Universitas Muhammadiyah Yogyakarta",
+    "ptn_nama_en": "Muhammadiyah University of Yogyakarta",
+    "ptn_singkatan": "UMY",
+    "ptn_kota": "Bantul",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#CA8A04",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umy.ac.id",
+    "ptn_spmb_url": "https://admisi.umy.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1210,
+        "2022": 1140
+      },
+      "keketatan_persen": 3.52,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 2540,
+      "riwayat_peminat": {
+        "2024": 2540,
+        "2023": 2400,
+        "2022": 2270
+      },
+      "keketatan_persen": 3.54,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "atmajaya-farmasi",
+    "kode_prodi": "032002",
+    "nama_prodi": "Farmasi",
+    "nama_prodi_en": "Pharmacy",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "ATMAJAYA",
+    "ptn_nama": "Unika Atma Jaya",
+    "ptn_nama_en": "Atma Jaya Catholic University of Indonesia",
+    "ptn_singkatan": "ATMAJAYA",
+    "ptn_kota": "Jakarta Selatan",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E3A8A",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://atmajaya.ac.id",
+    "ptn_spmb_url": "https://pmb.atmajaya.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 870
+      },
+      "keketatan_persen": 3.57,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 70,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1770
+      },
+      "keketatan_persen": 3.54,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Ilmu formulasi, sintesis, evaluasi efikasi, dan pengawasan mutu obat-obatan serta pelayanan farmasi klinis dan komunitas.",
+        "en": "The science of drug formulation, synthesis, efficacy evaluation, quality control, and clinical-community pharmacy services."
+      },
+      "fokus": {
+        "id": [
+          "Kimia Farmasi & Medisinal",
+          "Farmakologi & Toksikologi",
+          "Teknologi Formulasi Sediaan",
+          "Farmasi Klinis"
+        ],
+        "en": [
+          "Pharmaceutical & Medicinal Chemistry",
+          "Pharmacology & Toxicology",
+          "Dosage Form Formulation",
+          "Clinical Pharmacy"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Apoteker Klinis",
+          "Formulator Obat Industri",
+          "Regulatory Affairs Specialist",
+          "Peneliti Farmasi",
+          "Quality Assurance Analyst"
+        ],
+        "en": [
+          "Clinical Pharmacist",
+          "Industrial Drug Formulator",
+          "Regulatory Affairs Specialist",
+          "Pharmaceutical Researcher",
+          "QA Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "presuniv-teknik-industri",
+    "kode_prodi": "043002",
+    "nama_prodi": "Teknik Industri",
+    "nama_prodi_en": "Industrial Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "PRESUNIV",
+    "ptn_nama": "President University",
+    "ptn_nama_en": "President University",
+    "ptn_singkatan": "PRESUNIV",
+    "ptn_kota": "Cikarang",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#991B1B",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://president.ac.id",
+    "ptn_spmb_url": "https://admission.president.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 870
+      },
+      "keketatan_persen": 3.57,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 70,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1770
+      },
+      "keketatan_persen": 3.54,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Optimalisasi sistem terintegrasi yang melibatkan manusia, mesin, material, informasi, dan energi untuk efisiensi produksi maksimal.",
+        "en": "Optimization of integrated systems involving people, machinery, materials, information, and energy for peak operational efficiency."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Rantai Pasok (SCM)",
+          "Riset Operasi & Optimasi",
+          "Ergonomi & Perancangan Kerja",
+          "Pengendalian Kualitas (Six Sigma)"
+        ],
+        "en": [
+          "Supply Chain Management",
+          "Operations Research",
+          "Ergonomics & Work Design",
+          "Quality Control (Six Sigma)"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Supply Chain Manager",
+          "Operations Research Analyst",
+          "Industrial Plant Specialist",
+          "Management Consultant"
+        ],
+        "en": [
+          "Supply Chain Manager",
+          "Operations Research Analyst",
+          "Industrial Plant Specialist",
+          "Management Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usd-akuntansi",
+    "kode_prodi": "053005",
+    "nama_prodi": "Akuntansi",
+    "nama_prodi_en": "Accounting",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "USD",
+    "ptn_nama": "Universitas Sanata Dharma",
+    "ptn_nama_en": "Sanata Dharma University",
+    "ptn_singkatan": "USD",
+    "ptn_kota": "Sleman / Yogyakarta",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#047857",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usd.ac.id",
+    "ptn_spmb_url": "https://pmb.usd.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1380,
+      "riwayat_peminat": {
+        "2024": 1380,
+        "2023": 1300,
+        "2022": 1230
+      },
+      "keketatan_persen": 3.26,
+      "rasio_persaingan": "1 : 31",
+      "rasio_angka": 31,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 2540,
+      "riwayat_peminat": {
+        "2024": 2540,
+        "2023": 2400,
+        "2022": 2280
+      },
+      "keketatan_persen": 3.54,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Pelaporan keuangan berstandar IFRS/PSAK, audit independen, akuntansi manajemen, perpajakan strategis, dan sistem informasi akuntansi.",
+        "en": "Financial reporting adhering to IFRS standards, independent audit, management accounting, strategic tax, and accounting information systems."
+      },
+      "fokus": {
+        "id": [
+          "Akuntansi Keuangan & IFRS",
+          "Auditing & Asurans",
+          "Perpajakan Korporasi",
+          "Akuntansi Manajemen & Biaya"
+        ],
+        "en": [
+          "Financial Accounting & IFRS",
+          "Auditing & Assurance",
+          "Corporate Taxation",
+          "Management & Cost Accounting"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Auditor Big Four",
+          "Financial Controller",
+          "Tax Specialist",
+          "Internal Auditor",
+          "Akuntan Publik (CPA)"
+        ],
+        "en": [
+          "Big Four Auditor",
+          "Financial Controller",
+          "Tax Specialist",
+          "Internal Auditor",
+          "Certified Public Accountant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uph-desain-komunikasi-visual",
+    "kode_prodi": "033005",
+    "nama_prodi": "Desain Komunikasi Visual",
+    "nama_prodi_en": "Visual Communication Design (DKV)",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPH",
+    "ptn_nama": "Universitas Pelita Harapan",
+    "ptn_nama_en": "Pelita Harapan University",
+    "ptn_singkatan": "UPH",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uph.edu",
+    "ptn_spmb_url": "https://admission.uph.edu",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 1890,
+      "riwayat_peminat": {
+        "2024": 1890,
+        "2023": 1780,
+        "2022": 1690
+      },
+      "keketatan_persen": 3.17,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 120,
+      "peminat": 3380,
+      "riwayat_peminat": {
+        "2024": 3380,
+        "2023": 3190,
+        "2022": 3030
+      },
+      "keketatan_persen": 3.55,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kreasi komunikasi grafis visual, identitas jenama (branding), tipografi, ilustrasi, desain interaksi UI/UX, dan multimedia gerak.",
+        "en": "Creation of visual communication, brand identity, typography, illustration, UI/UX interaction design, and motion graphics."
+      },
+      "fokus": {
+        "id": [
+          "Branding & Identitas Visual",
+          "Desain UI/UX & Interaksi",
+          "Tipografi & Ilustrasi Digital",
+          "Animasi & Motion Graphics"
+        ],
+        "en": [
+          "Branding & Visual Identity",
+          "UI/UX & Interaction Design",
+          "Typography & Digital Illustration",
+          "Animation & Motion Graphics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Ilustrator Profesional"
+        ],
+        "en": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Professional Illustrator"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unpar-ilmu-hukum",
+    "kode_prodi": "042004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNPAR",
+    "ptn_nama": "Universitas Katolik Parahyangan",
+    "ptn_nama_en": "Parahyangan Catholic University",
+    "ptn_singkatan": "UNPAR",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unpar.ac.id",
+    "ptn_spmb_url": "https://pmb.unpar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 70,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2030,
+        "2022": 1920
+      },
+      "keketatan_persen": 3.26,
+      "rasio_persaingan": "1 : 31",
+      "rasio_angka": 31,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 140,
+      "peminat": 3890,
+      "riwayat_peminat": {
+        "2024": 3890,
+        "2023": 3680,
+        "2022": 3490
+      },
+      "keketatan_persen": 3.6,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uph-manajemen",
+    "kode_prodi": "033004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UPH",
+    "ptn_nama": "Universitas Pelita Harapan",
+    "ptn_nama_en": "Pelita Harapan University",
+    "ptn_singkatan": "UPH",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uph.edu",
+    "ptn_spmb_url": "https://admission.uph.edu",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 80,
+      "peminat": 2480,
+      "riwayat_peminat": {
+        "2024": 2480,
+        "2023": 2340,
+        "2022": 2220
+      },
+      "keketatan_persen": 3.23,
+      "rasio_persaingan": "1 : 31",
+      "rasio_angka": 31,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 160,
+      "peminat": 4450,
+      "riwayat_peminat": {
+        "2024": 4450,
+        "2023": 4200,
+        "2022": 3990
+      },
+      "keketatan_persen": 3.6,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ums-teknik-informatika",
+    "kode_prodi": "061003",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UMS",
+    "ptn_nama": "Universitas Muhammadiyah Surakarta",
+    "ptn_nama_en": "Muhammadiyah University of Surakarta",
+    "ptn_singkatan": "UMS",
+    "ptn_kota": "Surakarta",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ums.ac.id",
+    "ptn_spmb_url": "https://pmb.ums.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1420,
+      "riwayat_peminat": {
+        "2024": 1420,
+        "2023": 1340,
+        "2022": 1270
+      },
+      "keketatan_persen": 3.52,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 2780,
+      "riwayat_peminat": {
+        "2024": 2780,
+        "2023": 2620,
+        "2022": 2490
+      },
+      "keketatan_persen": 3.6,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "mercu-manajemen",
+    "kode_prodi": "037005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "MERCU",
+    "ptn_nama": "Universitas Mercu Buana",
+    "ptn_nama_en": "Mercu Buana University",
+    "ptn_singkatan": "MERCU",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://mercubuana.ac.id",
+    "ptn_spmb_url": "https://pendaftaran.mercubuana.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 75,
+      "peminat": 2380,
+      "riwayat_peminat": {
+        "2024": 2380,
+        "2023": 2240,
+        "2022": 2130
+      },
+      "keketatan_persen": 3.15,
+      "rasio_persaingan": "1 : 32",
+      "rasio_angka": 32,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 150,
+      "peminat": 4150,
+      "riwayat_peminat": {
+        "2024": 4150,
+        "2023": 3920,
+        "2022": 3720
+      },
+      "keketatan_persen": 3.61,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unp-teknik-elektro",
+    "kode_prodi": "132002",
+    "nama_prodi": "Teknik Elektro",
+    "nama_prodi_en": "Electrical Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNP",
+    "ptn_nama": "Universitas Negeri Padang",
+    "ptn_nama_en": "Padang State University",
+    "ptn_singkatan": "UNP",
+    "ptn_kota": "Padang",
+    "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#E11D48",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unp.ac.id",
+    "ptn_spmb_url": "https://spmb.unp.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 28,
+      "peminat": 580,
+      "riwayat_peminat": {
+        "2024": 580,
+        "2023": 540,
+        "2022": 510
+      },
+      "keketatan_persen": 4.83,
+      "rasio_persaingan": "1 : 21",
+      "rasio_angka": 21,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 7.4
+    },
+    "snbt": {
+      "daya_tampung": 45,
+      "peminat": 1240,
+      "riwayat_peminat": {
+        "2024": 1240,
+        "2023": 1160,
+        "2022": 1100
+      },
+      "keketatan_persen": 3.63,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Rekayasa sistem kelistrikan, pembangkitan energi, elektronika daya, sistem kontrol terotomasi, telekomunikasi, dan pemrosesan sinyal.",
+        "en": "Engineering of electrical systems, power generation, power electronics, automated control systems, telecom, and signal processing."
+      },
+      "fokus": {
+        "id": [
+          "Sistem Tenaga Listrik",
+          "Elektronika Terintegrasi",
+          "Sistem Kontrol & Robotika",
+          "Teknologi Telekomunikasi"
+        ],
+        "en": [
+          "Electrical Power Systems",
+          "Integrated Electronics",
+          "Control & Robotics",
+          "Telecommunication Technologies"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Power Systems Engineer",
+          "Control & Automation Specialist",
+          "Hardware Design Engineer",
+          "Telecommunications Engineer"
+        ],
+        "en": [
+          "Power Systems Engineer",
+          "Control & Automation Specialist",
+          "Hardware Design Engineer",
+          "Telecommunications Engineer"
+        ]
+      }
+    }
+  },
+  {
+    "id": "umn-sistem-informasi",
+    "kode_prodi": "036002",
+    "nama_prodi": "Sistem Informasi",
+    "nama_prodi_en": "Information Systems",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UMN",
+    "ptn_nama": "Universitas Multimedia Nusantara",
+    "ptn_nama_en": "Multimedia Nusantara University",
+    "ptn_singkatan": "UMN",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umn.ac.id",
+    "ptn_spmb_url": "https://pmb.umn.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 45,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1210,
+        "2022": 1140
+      },
+      "keketatan_persen": 3.52,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "snbt": {
+      "daya_tampung": 90,
+      "peminat": 2480,
+      "riwayat_peminat": {
+        "2024": 2480,
+        "2023": 2340,
+        "2022": 2220
+      },
+      "keketatan_persen": 3.63,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Integrasi teknologi informasi dengan strategi bisnis, tata kelola TI perusahaan, rekayasa kebutuhan, dan analisis data bisnis.",
+        "en": "Integration of information technology with business strategy, enterprise IT governance, requirements engineering, and business data analytics."
+      },
+      "fokus": {
+        "id": [
+          "Analisis & Perancangan Sistem",
+          "Enterprise Resource Planning",
+          "Manajemen Basis Data",
+          "Business Intelligence"
+        ],
+        "en": [
+          "Systems Analysis & Design",
+          "Enterprise Resource Planning",
+          "Database Management",
+          "Business Intelligence"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ],
+        "en": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unpar-manajemen",
+    "kode_prodi": "042005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNPAR",
+    "ptn_nama": "Universitas Katolik Parahyangan",
+    "ptn_nama_en": "Parahyangan Catholic University",
+    "ptn_singkatan": "UNPAR",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unpar.ac.id",
+    "ptn_spmb_url": "https://pmb.unpar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 65,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1770
+      },
+      "keketatan_persen": 3.28,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 130,
+      "peminat": 3560,
+      "riwayat_peminat": {
+        "2024": 3560,
+        "2023": 3360,
+        "2022": 3190
+      },
+      "keketatan_persen": 3.65,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untar-manajemen",
+    "kode_prodi": "035005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNTAR",
+    "ptn_nama": "Universitas Tarumanagara",
+    "ptn_nama_en": "Tarumanagara University",
+    "ptn_singkatan": "UNTAR",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#B91C1C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untar.ac.id",
+    "ptn_spmb_url": "https://admisi.untar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 80,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2190
+      },
+      "keketatan_persen": 3.27,
+      "rasio_persaingan": "1 : 31",
+      "rasio_angka": 31,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 160,
+      "peminat": 4380,
+      "riwayat_peminat": {
+        "2024": 4380,
+        "2023": 4130,
+        "2022": 3920
+      },
+      "keketatan_persen": 3.65,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "telkom-ilmu-komunikasi",
+    "kode_prodi": "041005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "TELKOM",
+    "ptn_nama": "Telkom University",
+    "ptn_nama_en": "Telkom University",
+    "ptn_singkatan": "TELKOM",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#DC2626",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://telkomuniversity.ac.id",
+    "ptn_spmb_url": "https://smb.telkomuniversity.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 85,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2190
+      },
+      "keketatan_persen": 3.47,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 170,
+      "peminat": 4650,
+      "riwayat_peminat": {
+        "2024": 4650,
+        "2023": 4390,
+        "2022": 4170
+      },
+      "keketatan_persen": 3.66,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uii-teknik-informatika",
+    "kode_prodi": "051003",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UII",
+    "ptn_nama": "Universitas Islam Indonesia",
+    "ptn_nama_en": "Universitas Islam Indonesia",
+    "ptn_singkatan": "UII",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uii.ac.id",
+    "ptn_spmb_url": "https://pmb.uii.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 1680,
+      "riwayat_peminat": {
+        "2024": 1680,
+        "2023": 1590,
+        "2022": 1500
+      },
+      "keketatan_persen": 3.57,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "snbt": {
+      "daya_tampung": 120,
+      "peminat": 3280,
+      "riwayat_peminat": {
+        "2024": 3280,
+        "2023": 3100,
+        "2022": 2940
+      },
+      "keketatan_persen": 3.66,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unri-ilmu-hukum",
+    "kode_prodi": "141003",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNRI",
+    "ptn_nama": "Universitas Riau",
+    "ptn_nama_en": "Riau University",
+    "ptn_singkatan": "UNRI",
+    "ptn_kota": "Pekanbaru",
+    "ptn_provinsi": "Riau",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0D9488",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unri.ac.id",
+    "ptn_spmb_url": "https://um.unri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 80,
+      "peminat": 2340,
+      "riwayat_peminat": {
+        "2024": 2340,
+        "2023": 2200,
+        "2022": 2080
+      },
+      "keketatan_persen": 3.42,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 135,
+      "peminat": 3680,
+      "riwayat_peminat": {
+        "2024": 3680,
+        "2023": 3470,
+        "2022": 3290
+      },
+      "keketatan_persen": 3.67,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "telkom-desain-komunikasi-visual",
+    "kode_prodi": "041004",
+    "nama_prodi": "Desain Komunikasi Visual",
+    "nama_prodi_en": "Visual Communication Design (DKV)",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "TELKOM",
+    "ptn_nama": "Telkom University",
+    "ptn_nama_en": "Telkom University",
+    "ptn_singkatan": "TELKOM",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#DC2626",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://telkomuniversity.ac.id",
+    "ptn_spmb_url": "https://smb.telkomuniversity.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 90,
+      "peminat": 2580,
+      "riwayat_peminat": {
+        "2024": 2580,
+        "2023": 2430,
+        "2022": 2300
+      },
+      "keketatan_persen": 3.49,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 180,
+      "peminat": 4890,
+      "riwayat_peminat": {
+        "2024": 4890,
+        "2023": 4620,
+        "2022": 4390
+      },
+      "keketatan_persen": 3.68,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kreasi komunikasi grafis visual, identitas jenama (branding), tipografi, ilustrasi, desain interaksi UI/UX, dan multimedia gerak.",
+        "en": "Creation of visual communication, brand identity, typography, illustration, UI/UX interaction design, and motion graphics."
+      },
+      "fokus": {
+        "id": [
+          "Branding & Identitas Visual",
+          "Desain UI/UX & Interaksi",
+          "Tipografi & Ilustrasi Digital",
+          "Animasi & Motion Graphics"
+        ],
+        "en": [
+          "Branding & Visual Identity",
+          "UI/UX & Interaction Design",
+          "Typography & Digital Illustration",
+          "Animation & Motion Graphics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Ilustrator Profesional"
+        ],
+        "en": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Professional Illustrator"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untar-ilmu-hukum",
+    "kode_prodi": "035004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNTAR",
+    "ptn_nama": "Universitas Tarumanagara",
+    "ptn_nama_en": "Tarumanagara University",
+    "ptn_singkatan": "UNTAR",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#B91C1C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untar.ac.id",
+    "ptn_spmb_url": "https://admisi.untar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 75,
+      "peminat": 2240,
+      "riwayat_peminat": {
+        "2024": 2240,
+        "2023": 2110,
+        "2022": 2000
+      },
+      "keketatan_persen": 3.35,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 150,
+      "peminat": 4080,
+      "riwayat_peminat": {
+        "2024": 4080,
+        "2023": 3850,
+        "2022": 3650
+      },
+      "keketatan_persen": 3.68,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "binus-desain-komunikasi-visual",
+    "kode_prodi": "031003",
+    "nama_prodi": "Desain Komunikasi Visual",
+    "nama_prodi_en": "Visual Communication Design (DKV)",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "BINUS",
+    "ptn_nama": "Bina Nusantara University",
+    "ptn_nama_en": "Bina Nusantara University",
+    "ptn_singkatan": "BINUS",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#EA580C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://binus.ac.id",
+    "ptn_spmb_url": "https://binus.ac.id/admissions",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 100,
+      "peminat": 2980,
+      "riwayat_peminat": {
+        "2024": 2980,
+        "2023": 2810,
+        "2022": 2660
+      },
+      "keketatan_persen": 3.36,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 200,
+      "peminat": 5380,
+      "riwayat_peminat": {
+        "2024": 5380,
+        "2023": 5090,
+        "2022": 4830
+      },
+      "keketatan_persen": 3.72,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kreasi komunikasi grafis visual, identitas jenama (branding), tipografi, ilustrasi, desain interaksi UI/UX, dan multimedia gerak.",
+        "en": "Creation of visual communication, brand identity, typography, illustration, UI/UX interaction design, and motion graphics."
+      },
+      "fokus": {
+        "id": [
+          "Branding & Identitas Visual",
+          "Desain UI/UX & Interaksi",
+          "Tipografi & Ilustrasi Digital",
+          "Animasi & Motion Graphics"
+        ],
+        "en": [
+          "Branding & Visual Identity",
+          "UI/UX & Interaction Design",
+          "Typography & Digital Illustration",
+          "Animation & Motion Graphics"
+        ]
+      },
+      "karir": {
+        "id": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Ilustrator Profesional"
+        ],
+        "en": [
+          "UI/UX Designer",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "Motion Designer",
+          "Professional Illustrator"
+        ]
+      }
+    }
+  },
+  {
+    "id": "trisakti-arsitektur",
+    "kode_prodi": "034004",
+    "nama_prodi": "Arsitektur",
+    "nama_prodi_en": "Architecture",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "TRISAKTI",
+    "ptn_nama": "Universitas Trisakti",
+    "ptn_nama_en": "Trisakti University",
+    "ptn_singkatan": "TRISAKTI",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://trisakti.ac.id",
+    "ptn_spmb_url": "https://spmb.trisakti.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1080,
+      "riwayat_peminat": {
+        "2024": 1080,
+        "2023": 1020,
+        "2022": 960
+      },
+      "keketatan_persen": 3.7,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2030,
+        "2022": 1920
+      },
+      "keketatan_persen": 3.72,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perancangan ruang, estetika bangunan, keberlanjutan lingkungan hidup, teknologi material, dan integrasi lanskap perkotaan.",
+        "en": "Spatial design, building aesthetics, environmental sustainability, materials technology, and urban landscape integration."
+      },
+      "fokus": {
+        "id": [
+          "Studio Perancangan Arsitektur",
+          "Teknologi Bangunan & Struktur",
+          "Arsitektur Berkelanjutan (Green Building)",
+          "Perencanaan Kawasan Perkotaan"
+        ],
+        "en": [
+          "Architectural Design Studio",
+          "Building & Structural Tech",
+          "Sustainable / Green Building",
+          "Urban Planning & Design"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Arsitek Perancang",
+          "Urban Designer",
+          "BIM Specialist",
+          "Konsultan Bangunan Hijau",
+          "Interior Architect"
+        ],
+        "en": [
+          "Design Architect",
+          "Urban Designer",
+          "BIM Specialist",
+          "Green Building Consultant",
+          "Interior Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "mercu-sistem-informasi",
+    "kode_prodi": "037002",
+    "nama_prodi": "Sistem Informasi",
+    "nama_prodi_en": "Information Systems",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "MERCU",
+    "ptn_nama": "Universitas Mercu Buana",
+    "ptn_nama_en": "Mercu Buana University",
+    "ptn_singkatan": "MERCU",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://mercubuana.ac.id",
+    "ptn_spmb_url": "https://pendaftaran.mercubuana.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 1120,
+      "riwayat_peminat": {
+        "2024": 1120,
+        "2023": 1050,
+        "2022": 990
+      },
+      "keketatan_persen": 3.57,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2030,
+        "2022": 1920
+      },
+      "keketatan_persen": 3.72,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Integrasi teknologi informasi dengan strategi bisnis, tata kelola TI perusahaan, rekayasa kebutuhan, dan analisis data bisnis.",
+        "en": "Integration of information technology with business strategy, enterprise IT governance, requirements engineering, and business data analytics."
+      },
+      "fokus": {
+        "id": [
+          "Analisis & Perancangan Sistem",
+          "Enterprise Resource Planning",
+          "Manajemen Basis Data",
+          "Business Intelligence"
+        ],
+        "en": [
+          "Systems Analysis & Design",
+          "Enterprise Resource Planning",
+          "Database Management",
+          "Business Intelligence"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ],
+        "en": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsri-ilmu-hukum",
+    "kode_prodi": "161004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNSRI",
+    "ptn_nama": "Universitas Sriwijaya",
+    "ptn_nama_en": "Sriwijaya University",
+    "ptn_singkatan": "UNSRI",
+    "ptn_kota": "Palembang / Indralaya",
+    "ptn_provinsi": "Sumatera Selatan",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#D97706",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsri.ac.id",
+    "ptn_spmb_url": "https://usm.unsri.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 90,
+      "peminat": 2580,
+      "riwayat_peminat": {
+        "2024": 2580,
+        "2023": 2430,
+        "2022": 2300
+      },
+      "keketatan_persen": 3.49,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 150,
+      "peminat": 4020,
+      "riwayat_peminat": {
+        "2024": 4020,
+        "2023": 3790,
+        "2022": 3600
+      },
+      "keketatan_persen": 3.73,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ums-ilmu-hukum",
+    "kode_prodi": "061005",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UMS",
+    "ptn_nama": "Universitas Muhammadiyah Surakarta",
+    "ptn_nama_en": "Muhammadiyah University of Surakarta",
+    "ptn_singkatan": "UMS",
+    "ptn_kota": "Surakarta",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ums.ac.id",
+    "ptn_spmb_url": "https://pmb.ums.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 65,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1770
+      },
+      "keketatan_persen": 3.28,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 130,
+      "peminat": 3480,
+      "riwayat_peminat": {
+        "2024": 3480,
+        "2023": 3280,
+        "2022": 3110
+      },
+      "keketatan_persen": 3.74,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "binus-ilmu-komunikasi",
+    "kode_prodi": "031005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "BINUS",
+    "ptn_nama": "Bina Nusantara University",
+    "ptn_nama_en": "Bina Nusantara University",
+    "ptn_singkatan": "BINUS",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#EA580C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://binus.ac.id",
+    "ptn_spmb_url": "https://binus.ac.id/admissions",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 90,
+      "peminat": 2680,
+      "riwayat_peminat": {
+        "2024": 2680,
+        "2023": 2530,
+        "2022": 2400
+      },
+      "keketatan_persen": 3.36,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 180,
+      "peminat": 4780,
+      "riwayat_peminat": {
+        "2024": 4780,
+        "2023": 4520,
+        "2022": 4290
+      },
+      "keketatan_persen": 3.77,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "umy-ilmu-komunikasi",
+    "kode_prodi": "052005",
+    "nama_prodi": "Ilmu Komunikasi",
+    "nama_prodi_en": "Communication Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UMY",
+    "ptn_nama": "Universitas Muhammadiyah Yogyakarta",
+    "ptn_nama_en": "Muhammadiyah University of Yogyakarta",
+    "ptn_singkatan": "UMY",
+    "ptn_kota": "Bantul",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#CA8A04",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umy.ac.id",
+    "ptn_spmb_url": "https://admisi.umy.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 60,
+      "peminat": 1740,
+      "riwayat_peminat": {
+        "2024": 1740,
+        "2023": 1640,
+        "2022": 1550
+      },
+      "keketatan_persen": 3.45,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 120,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 3000,
+        "2022": 2850
+      },
+      "keketatan_persen": 3.77,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Analisis dinamika pesan, media digital, jurnalisme investigatif, public relations strategis, periklanan, dan komunikasi massa kontemporer.",
+        "en": "Analysis of message dynamics, digital media, investigative journalism, strategic PR, advertising, and contemporary mass communications."
+      },
+      "fokus": {
+        "id": [
+          "Hubungan Masyarakat (PR)",
+          "Jurnalistik Multimedia",
+          "Komunikasi Pemasaran Terpadu",
+          "Produksi Media Digital"
+        ],
+        "en": [
+          "Public Relations (PR)",
+          "Multimedia Journalism",
+          "Integrated Marketing Comm",
+          "Digital Media Production"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Jurnalis Investigasi"
+        ],
+        "en": [
+          "Corporate PR Specialist",
+          "Media Strategist",
+          "Content Producer",
+          "Brand Communications Lead",
+          "Investigative Journalist"
+        ]
+      }
+    }
+  },
+  {
     "id": "unhas-ilmu-hukum",
     "kode_prodi": "711004",
     "nama_prodi": "Ilmu Hukum",
@@ -9184,6 +23952,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNHAS",
     "ptn_kota": "Makassar",
     "ptn_provinsi": "Sulawesi Selatan",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#DC2626",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unhas.ac.id",
@@ -9271,6 +24042,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "ITS",
     "ptn_kota": "Surabaya",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://www.its.ac.id",
@@ -9344,6 +24118,634 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "umy-hubungan-internasional",
+    "kode_prodi": "052004",
+    "nama_prodi": "Hubungan Internasional",
+    "nama_prodi_en": "International Relations",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UMY",
+    "ptn_nama": "Universitas Muhammadiyah Yogyakarta",
+    "ptn_nama_en": "Muhammadiyah University of Yogyakarta",
+    "ptn_singkatan": "UMY",
+    "ptn_kota": "Bantul",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#CA8A04",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umy.ac.id",
+    "ptn_spmb_url": "https://admisi.umy.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 65,
+      "peminat": 1890,
+      "riwayat_peminat": {
+        "2024": 1890,
+        "2023": 1780,
+        "2022": 1690
+      },
+      "keketatan_persen": 3.44,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 130,
+      "peminat": 3420,
+      "riwayat_peminat": {
+        "2024": 3420,
+        "2023": 3230,
+        "2022": 3060
+      },
+      "keketatan_persen": 3.8,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Kajian diplomasi global, negosiasi multilateral, keamanan regional, ekonomi politik internasional, dan resolusi konflik.",
+        "en": "Study of global diplomacy, multilateral negotiations, regional security, international political economy, and conflict resolution."
+      },
+      "fokus": {
+        "id": [
+          "Diplomasi & Negosiasi",
+          "Ekonomi Politik Global",
+          "Keamanan Internasional",
+          "Hukum & Organisasi Multilateral"
+        ],
+        "en": [
+          "Diplomacy & Negotiation",
+          "Global Political Economy",
+          "International Security",
+          "International Organizations & Law"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Diplomat Kementerian Luar Negeri",
+          "Petugas Lembaga Internasional (UN/ASEAN)",
+          "Risk & Intelligence Analyst",
+          "Jurnalis Luar Negeri"
+        ],
+        "en": [
+          "Foreign Service Diplomat",
+          "UN/ASEAN International Officer",
+          "Risk & Geopolitical Analyst",
+          "Foreign Correspondent"
+        ]
+      }
+    }
+  },
+  {
+    "id": "binus-teknik-informatika",
+    "kode_prodi": "031001",
+    "nama_prodi": "Teknik Informatika",
+    "nama_prodi_en": "Informatics / Computer Science",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "BINUS",
+    "ptn_nama": "Bina Nusantara University",
+    "ptn_nama_en": "Bina Nusantara University",
+    "ptn_singkatan": "BINUS",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#EA580C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://binus.ac.id",
+    "ptn_spmb_url": "https://binus.ac.id/admissions",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 150,
+      "peminat": 4450,
+      "riwayat_peminat": {
+        "2024": 4450,
+        "2023": 4210,
+        "2022": 3990
+      },
+      "keketatan_persen": 3.37,
+      "rasio_persaingan": "1 : 30",
+      "rasio_angka": 30,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "snbt": {
+      "daya_tampung": 300,
+      "peminat": 7850,
+      "riwayat_peminat": {
+        "2024": 7850,
+        "2023": 7440,
+        "2022": 7060
+      },
+      "keketatan_persen": 3.82,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.5
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Studi komputasi modern, algoritma, rekayasa perangkat lunak, kecerdasan buatan, dan arsitektur sistem informasi berskala besar.",
+        "en": "Study of modern computing, algorithms, software engineering, artificial intelligence, and large-scale information systems architecture."
+      },
+      "fokus": {
+        "id": [
+          "Algoritma & Struktur Data",
+          "Rekayasa Perangkat Lunak",
+          "Machine Learning & AI",
+          "Keamanan Siber & Jaringan"
+        ],
+        "en": [
+          "Algorithms & Data Structures",
+          "Software Engineering",
+          "Machine Learning & AI",
+          "Cybersecurity & Networks"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ],
+        "en": [
+          "Software Engineer",
+          "AI/ML Engineer",
+          "Data Scientist",
+          "Solutions Architect",
+          "Cybersecurity Analyst"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unila-ilmu-hukum",
+    "kode_prodi": "181004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNILA",
+    "ptn_nama": "Universitas Lampung",
+    "ptn_nama_en": "Lampung University",
+    "ptn_singkatan": "UNILA",
+    "ptn_kota": "Bandar Lampung",
+    "ptn_provinsi": "Lampung",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unila.ac.id",
+    "ptn_spmb_url": "https://simanila.unila.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 95,
+      "peminat": 2680,
+      "riwayat_peminat": {
+        "2024": 2680,
+        "2023": 2520,
+        "2022": 2390
+      },
+      "keketatan_persen": 3.54,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "snbt": {
+      "daya_tampung": 160,
+      "peminat": 4180,
+      "riwayat_peminat": {
+        "2024": 4180,
+        "2023": 3940,
+        "2022": 3740
+      },
+      "keketatan_persen": 3.83,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "telkom-manajemen",
+    "kode_prodi": "041006",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "TELKOM",
+    "ptn_nama": "Telkom University",
+    "ptn_nama_en": "Telkom University",
+    "ptn_singkatan": "TELKOM",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#DC2626",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://telkomuniversity.ac.id",
+    "ptn_spmb_url": "https://smb.telkomuniversity.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 100,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2730,
+        "2022": 2590
+      },
+      "keketatan_persen": 3.46,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 200,
+      "peminat": 5210,
+      "riwayat_peminat": {
+        "2024": 5210,
+        "2023": 4930,
+        "2022": 4680
+      },
+      "keketatan_persen": 3.84,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ums-manajemen",
+    "kode_prodi": "061006",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UMS",
+    "ptn_nama": "Universitas Muhammadiyah Surakarta",
+    "ptn_nama_en": "Muhammadiyah University of Surakarta",
+    "ptn_singkatan": "UMS",
+    "ptn_kota": "Surakarta",
+    "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ums.ac.id",
+    "ptn_spmb_url": "https://pmb.ums.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 75,
+      "peminat": 2180,
+      "riwayat_peminat": {
+        "2024": 2180,
+        "2023": 2060,
+        "2022": 1950
+      },
+      "keketatan_persen": 3.44,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "snbt": {
+      "daya_tampung": 150,
+      "peminat": 3890,
+      "riwayat_peminat": {
+        "2024": 3890,
+        "2023": 3670,
+        "2022": 3490
+      },
+      "keketatan_persen": 3.86,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "telkom-sistem-informasi",
+    "kode_prodi": "041002",
+    "nama_prodi": "Sistem Informasi",
+    "nama_prodi_en": "Information Systems",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "TELKOM",
+    "ptn_nama": "Telkom University",
+    "ptn_nama_en": "Telkom University",
+    "ptn_singkatan": "TELKOM",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#DC2626",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://telkomuniversity.ac.id",
+    "ptn_spmb_url": "https://smb.telkomuniversity.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 80,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2030,
+        "2022": 1920
+      },
+      "keketatan_persen": 3.72,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 160,
+      "peminat": 4120,
+      "riwayat_peminat": {
+        "2024": 4120,
+        "2023": 3890,
+        "2022": 3690
+      },
+      "keketatan_persen": 3.88,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Integrasi teknologi informasi dengan strategi bisnis, tata kelola TI perusahaan, rekayasa kebutuhan, dan analisis data bisnis.",
+        "en": "Integration of information technology with business strategy, enterprise IT governance, requirements engineering, and business data analytics."
+      },
+      "fokus": {
+        "id": [
+          "Analisis & Perancangan Sistem",
+          "Enterprise Resource Planning",
+          "Manajemen Basis Data",
+          "Business Intelligence"
+        ],
+        "en": [
+          "Systems Analysis & Design",
+          "Enterprise Resource Planning",
+          "Database Management",
+          "Business Intelligence"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ],
+        "en": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "trisakti-ilmu-hukum",
+    "kode_prodi": "034005",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "TRISAKTI",
+    "ptn_nama": "Universitas Trisakti",
+    "ptn_nama_en": "Trisakti University",
+    "ptn_singkatan": "TRISAKTI",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://trisakti.ac.id",
+    "ptn_spmb_url": "https://spmb.trisakti.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 80,
+      "peminat": 2280,
+      "riwayat_peminat": {
+        "2024": 2280,
+        "2023": 2150,
+        "2022": 2040
+      },
+      "keketatan_persen": 3.51,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 160,
+      "peminat": 4120,
+      "riwayat_peminat": {
+        "2024": 4120,
+        "2023": 3890,
+        "2022": 3690
+      },
+      "keketatan_persen": 3.88,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
     "id": "usu-ilmu-hukum",
     "kode_prodi": "121004",
     "nama_prodi": "Ilmu Hukum",
@@ -9356,6 +24758,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "USU",
     "ptn_kota": "Medan",
     "ptn_provinsi": "Sumatera Utara",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://usu.ac.id",
@@ -9431,6 +24836,362 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "untan-teknik-sipil",
+    "kode_prodi": "611003",
+    "nama_prodi": "Teknik Sipil",
+    "nama_prodi_en": "Civil Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNTAN",
+    "ptn_nama": "Universitas Tanjungpura",
+    "ptn_nama_en": "Tanjungpura University",
+    "ptn_singkatan": "UNTAN",
+    "ptn_kota": "Pontianak",
+    "ptn_provinsi": "Kalimantan Barat",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untan.ac.id",
+    "ptn_spmb_url": "https://scmb.untan.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 580,
+      "riwayat_peminat": {
+        "2024": 580,
+        "2023": 540,
+        "2022": 510
+      },
+      "keketatan_persen": 5.17,
+      "rasio_persaingan": "1 : 19",
+      "rasio_angka": 19,
+      "kategori": "Sedang",
+      "kategori_en": "Moderate",
+      "badge_class": "badge-sedang",
+      "tren_pertumbuhan_persen": 7.4
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1200,
+        "2022": 1140
+      },
+      "keketatan_persen": 3.91,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perencanaan, perancangan struktur, konstruksi, dan pemeliharaan infrastruktur transportasi, jembatan, gedung, dan rekayasa air.",
+        "en": "Planning, structural design, construction, and maintenance of transport infrastructure, bridges, buildings, and water engineering."
+      },
+      "fokus": {
+        "id": [
+          "Struktur Beton & Baja",
+          "Geoteknik & Mekanika Tanah",
+          "Manajemen Proyek Konstruksi",
+          "Rekayasa Sumber Daya Air"
+        ],
+        "en": [
+          "Concrete & Steel Structures",
+          "Geotechnical & Soil Mechanics",
+          "Construction Project Management",
+          "Water Resources Engineering"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Structural Engineer",
+          "Project Manager Konstruksi",
+          "Geotechnical Specialist",
+          "Konsultan Infrastruktur"
+        ],
+        "en": [
+          "Structural Engineer",
+          "Construction Project Manager",
+          "Geotechnical Specialist",
+          "Infrastructure Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unram-teknik-sipil",
+    "kode_prodi": "521003",
+    "nama_prodi": "Teknik Sipil",
+    "nama_prodi_en": "Civil Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNRAM",
+    "ptn_nama": "Universitas Mataram",
+    "ptn_nama_en": "University of Mataram",
+    "ptn_singkatan": "UNRAM",
+    "ptn_kota": "Mataram",
+    "ptn_provinsi": "Nusa Tenggara Barat",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unram.ac.id",
+    "ptn_spmb_url": "https://pmb.unram.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 30,
+      "peminat": 590,
+      "riwayat_peminat": {
+        "2024": 590,
+        "2023": 550,
+        "2022": 520
+      },
+      "keketatan_persen": 5.08,
+      "rasio_persaingan": "1 : 20",
+      "rasio_angka": 20,
+      "kategori": "Sedang",
+      "kategori_en": "Moderate",
+      "badge_class": "badge-sedang",
+      "tren_pertumbuhan_persen": 7.3
+    },
+    "snbt": {
+      "daya_tampung": 50,
+      "peminat": 1280,
+      "riwayat_peminat": {
+        "2024": 1280,
+        "2023": 1200,
+        "2022": 1140
+      },
+      "keketatan_persen": 3.91,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perencanaan, perancangan struktur, konstruksi, dan pemeliharaan infrastruktur transportasi, jembatan, gedung, dan rekayasa air.",
+        "en": "Planning, structural design, construction, and maintenance of transport infrastructure, bridges, buildings, and water engineering."
+      },
+      "fokus": {
+        "id": [
+          "Struktur Beton & Baja",
+          "Geoteknik & Mekanika Tanah",
+          "Manajemen Proyek Konstruksi",
+          "Rekayasa Sumber Daya Air"
+        ],
+        "en": [
+          "Concrete & Steel Structures",
+          "Geotechnical & Soil Mechanics",
+          "Construction Project Management",
+          "Water Resources Engineering"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Structural Engineer",
+          "Project Manager Konstruksi",
+          "Geotechnical Specialist",
+          "Konsultan Infrastruktur"
+        ],
+        "en": [
+          "Structural Engineer",
+          "Construction Project Manager",
+          "Geotechnical Specialist",
+          "Infrastructure Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "trisakti-manajemen",
+    "kode_prodi": "034006",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "TRISAKTI",
+    "ptn_nama": "Universitas Trisakti",
+    "ptn_nama_en": "Trisakti University",
+    "ptn_singkatan": "TRISAKTI",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://trisakti.ac.id",
+    "ptn_spmb_url": "https://spmb.trisakti.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 85,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2190
+      },
+      "keketatan_persen": 3.47,
+      "rasio_persaingan": "1 : 29",
+      "rasio_angka": 29,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 170,
+      "peminat": 4350,
+      "riwayat_peminat": {
+        "2024": 4350,
+        "2023": 4110,
+        "2022": 3900
+      },
+      "keketatan_persen": 3.91,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unmul-ilmu-hukum",
+    "kode_prodi": "641004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNMUL",
+    "ptn_nama": "Universitas Mulawarman",
+    "ptn_nama_en": "Mulawarman University",
+    "ptn_singkatan": "UNMUL",
+    "ptn_kota": "Samarinda",
+    "ptn_provinsi": "Kalimantan Timur",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unmul.ac.id",
+    "ptn_spmb_url": "https://spmb.unmul.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 75,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1760
+      },
+      "keketatan_persen": 3.79,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 125,
+      "peminat": 3180,
+      "riwayat_peminat": {
+        "2024": 3180,
+        "2023": 2990,
+        "2022": 2840
+      },
+      "keketatan_persen": 3.93,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
     "id": "ugm-teknik-sipil",
     "kode_prodi": "341005",
     "nama_prodi": "Teknik Sipil",
@@ -9443,6 +25204,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UGM",
     "ptn_kota": "Sleman / Yogyakarta",
     "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ugm.ac.id",
@@ -9528,6 +25292,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNS",
     "ptn_kota": "Surakarta",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://uns.ac.id",
@@ -9601,6 +25368,1438 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "umy-manajemen",
+    "kode_prodi": "052006",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UMY",
+    "ptn_nama": "Universitas Muhammadiyah Yogyakarta",
+    "ptn_nama_en": "Muhammadiyah University of Yogyakarta",
+    "ptn_singkatan": "UMY",
+    "ptn_kota": "Bantul",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#CA8A04",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://umy.ac.id",
+    "ptn_spmb_url": "https://admisi.umy.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 75,
+      "peminat": 2120,
+      "riwayat_peminat": {
+        "2024": 2120,
+        "2023": 2000,
+        "2022": 1900
+      },
+      "keketatan_persen": 3.54,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 150,
+      "peminat": 3780,
+      "riwayat_peminat": {
+        "2024": 3780,
+        "2023": 3570,
+        "2022": 3390
+      },
+      "keketatan_persen": 3.97,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untirta-ilmu-hukum",
+    "kode_prodi": "361003",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNTIRTA",
+    "ptn_nama": "Universitas Sultan Ageng Tirtayasa",
+    "ptn_nama_en": "Sultan Ageng Tirtayasa University",
+    "ptn_singkatan": "UNTIRTA",
+    "ptn_kota": "Serang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#B45309",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untirta.ac.id",
+    "ptn_spmb_url": "https://spmb.untirta.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 75,
+      "peminat": 1890,
+      "riwayat_peminat": {
+        "2024": 1890,
+        "2023": 1780,
+        "2022": 1680
+      },
+      "keketatan_persen": 3.97,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 125,
+      "peminat": 3120,
+      "riwayat_peminat": {
+        "2024": 3120,
+        "2023": 2940,
+        "2022": 2790
+      },
+      "keketatan_persen": 4.01,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uii-manajemen",
+    "kode_prodi": "051005",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UII",
+    "ptn_nama": "Universitas Islam Indonesia",
+    "ptn_nama_en": "Universitas Islam Indonesia",
+    "ptn_singkatan": "UII",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uii.ac.id",
+    "ptn_spmb_url": "https://pmb.uii.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 80,
+      "peminat": 2240,
+      "riwayat_peminat": {
+        "2024": 2240,
+        "2023": 2110,
+        "2022": 2000
+      },
+      "keketatan_persen": 3.57,
+      "rasio_persaingan": "1 : 28",
+      "rasio_angka": 28,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 160,
+      "peminat": 3980,
+      "riwayat_peminat": {
+        "2024": 3980,
+        "2023": 3760,
+        "2022": 3570
+      },
+      "keketatan_persen": 4.02,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uph-sistem-informasi",
+    "kode_prodi": "033002",
+    "nama_prodi": "Sistem Informasi",
+    "nama_prodi_en": "Information Systems",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UPH",
+    "ptn_nama": "Universitas Pelita Harapan",
+    "ptn_nama_en": "Pelita Harapan University",
+    "ptn_singkatan": "UPH",
+    "ptn_kota": "Tangerang",
+    "ptn_provinsi": "Banten",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uph.edu",
+    "ptn_spmb_url": "https://admission.uph.edu",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 870
+      },
+      "keketatan_persen": 4.08,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1770
+      },
+      "keketatan_persen": 4.04,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Integrasi teknologi informasi dengan strategi bisnis, tata kelola TI perusahaan, rekayasa kebutuhan, dan analisis data bisnis.",
+        "en": "Integration of information technology with business strategy, enterprise IT governance, requirements engineering, and business data analytics."
+      },
+      "fokus": {
+        "id": [
+          "Analisis & Perancangan Sistem",
+          "Enterprise Resource Planning",
+          "Manajemen Basis Data",
+          "Business Intelligence"
+        ],
+        "en": [
+          "Systems Analysis & Design",
+          "Enterprise Resource Planning",
+          "Database Management",
+          "Business Intelligence"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ],
+        "en": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ]
+      }
+    }
+  },
+  {
+    "id": "petra-teknik-sipil",
+    "kode_prodi": "071002",
+    "nama_prodi": "Teknik Sipil",
+    "nama_prodi_en": "Civil Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "PETRA",
+    "ptn_nama": "Universitas Kristen Petra",
+    "ptn_nama_en": "Petra Christian University",
+    "ptn_singkatan": "PETRA",
+    "ptn_kota": "Surabaya",
+    "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1E40AF",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://petra.ac.id",
+    "ptn_spmb_url": "https://admission.petra.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 40,
+      "peminat": 980,
+      "riwayat_peminat": {
+        "2024": 980,
+        "2023": 920,
+        "2022": 870
+      },
+      "keketatan_persen": 4.08,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 80,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1870,
+        "2022": 1770
+      },
+      "keketatan_persen": 4.04,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perencanaan, perancangan struktur, konstruksi, dan pemeliharaan infrastruktur transportasi, jembatan, gedung, dan rekayasa air.",
+        "en": "Planning, structural design, construction, and maintenance of transport infrastructure, bridges, buildings, and water engineering."
+      },
+      "fokus": {
+        "id": [
+          "Struktur Beton & Baja",
+          "Geoteknik & Mekanika Tanah",
+          "Manajemen Proyek Konstruksi",
+          "Rekayasa Sumber Daya Air"
+        ],
+        "en": [
+          "Concrete & Steel Structures",
+          "Geotechnical & Soil Mechanics",
+          "Construction Project Management",
+          "Water Resources Engineering"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Structural Engineer",
+          "Project Manager Konstruksi",
+          "Geotechnical Specialist",
+          "Konsultan Infrastruktur"
+        ],
+        "en": [
+          "Structural Engineer",
+          "Construction Project Manager",
+          "Geotechnical Specialist",
+          "Infrastructure Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usk-ilmu-hukum",
+    "kode_prodi": "111004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "USK",
+    "ptn_nama": "Universitas Syiah Kuala",
+    "ptn_nama_en": "Syiah Kuala University",
+    "ptn_singkatan": "USK",
+    "ptn_kota": "Banda Aceh",
+    "ptn_provinsi": "Aceh",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usk.ac.id",
+    "ptn_spmb_url": "https://penerimaan.usk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 85,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2020,
+        "2022": 1910
+      },
+      "keketatan_persen": 3.95,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 140,
+      "peminat": 3420,
+      "riwayat_peminat": {
+        "2024": 3420,
+        "2023": 3220,
+        "2022": 3050
+      },
+      "keketatan_persen": 4.09,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ulm-teknik-sipil",
+    "kode_prodi": "631003",
+    "nama_prodi": "Teknik Sipil",
+    "nama_prodi_en": "Civil Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "ULM",
+    "ptn_nama": "Universitas Lambung Mangkurat",
+    "ptn_nama_en": "Lambung Mangkurat University",
+    "ptn_singkatan": "ULM",
+    "ptn_kota": "Banjarmasin",
+    "ptn_provinsi": "Kalimantan Selatan",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ulm.ac.id",
+    "ptn_spmb_url": "https://admisi.ulm.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 32,
+      "peminat": 620,
+      "riwayat_peminat": {
+        "2024": 620,
+        "2023": 580,
+        "2022": 540
+      },
+      "keketatan_persen": 5.16,
+      "rasio_persaingan": "1 : 19",
+      "rasio_angka": 19,
+      "kategori": "Sedang",
+      "kategori_en": "Moderate",
+      "badge_class": "badge-sedang",
+      "tren_pertumbuhan_persen": 6.9
+    },
+    "snbt": {
+      "daya_tampung": 55,
+      "peminat": 1340,
+      "riwayat_peminat": {
+        "2024": 1340,
+        "2023": 1260,
+        "2022": 1190
+      },
+      "keketatan_persen": 4.1,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perencanaan, perancangan struktur, konstruksi, dan pemeliharaan infrastruktur transportasi, jembatan, gedung, dan rekayasa air.",
+        "en": "Planning, structural design, construction, and maintenance of transport infrastructure, bridges, buildings, and water engineering."
+      },
+      "fokus": {
+        "id": [
+          "Struktur Beton & Baja",
+          "Geoteknik & Mekanika Tanah",
+          "Manajemen Proyek Konstruksi",
+          "Rekayasa Sumber Daya Air"
+        ],
+        "en": [
+          "Concrete & Steel Structures",
+          "Geotechnical & Soil Mechanics",
+          "Construction Project Management",
+          "Water Resources Engineering"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Structural Engineer",
+          "Project Manager Konstruksi",
+          "Geotechnical Specialist",
+          "Konsultan Infrastruktur"
+        ],
+        "en": [
+          "Structural Engineer",
+          "Construction Project Manager",
+          "Geotechnical Specialist",
+          "Infrastructure Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ulm-ilmu-hukum",
+    "kode_prodi": "631004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "ULM",
+    "ptn_nama": "Universitas Lambung Mangkurat",
+    "ptn_nama_en": "Lambung Mangkurat University",
+    "ptn_singkatan": "ULM",
+    "ptn_kota": "Banjarmasin",
+    "ptn_provinsi": "Kalimantan Selatan",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#EAB308",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://ulm.ac.id",
+    "ptn_spmb_url": "https://admisi.ulm.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 80,
+      "peminat": 2050,
+      "riwayat_peminat": {
+        "2024": 2050,
+        "2023": 1930,
+        "2022": 1820
+      },
+      "keketatan_persen": 3.9,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 135,
+      "peminat": 3280,
+      "riwayat_peminat": {
+        "2024": 3280,
+        "2023": 3090,
+        "2022": 2930
+      },
+      "keketatan_persen": 4.12,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "uii-ilmu-hukum",
+    "kode_prodi": "051004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UII",
+    "ptn_nama": "Universitas Islam Indonesia",
+    "ptn_nama_en": "Universitas Islam Indonesia",
+    "ptn_singkatan": "UII",
+    "ptn_kota": "Sleman",
+    "ptn_provinsi": "D.I. Yogyakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#1D4ED8",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://uii.ac.id",
+    "ptn_spmb_url": "https://pmb.uii.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 90,
+      "peminat": 2450,
+      "riwayat_peminat": {
+        "2024": 2450,
+        "2023": 2310,
+        "2022": 2190
+      },
+      "keketatan_persen": 3.67,
+      "rasio_persaingan": "1 : 27",
+      "rasio_angka": 27,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.1
+    },
+    "snbt": {
+      "daya_tampung": 180,
+      "peminat": 4350,
+      "riwayat_peminat": {
+        "2024": 4350,
+        "2023": 4110,
+        "2022": 3900
+      },
+      "keketatan_persen": 4.14,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.8
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "telkom-teknik-industri",
+    "kode_prodi": "041003",
+    "nama_prodi": "Teknik Industri",
+    "nama_prodi_en": "Industrial Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "TELKOM",
+    "ptn_nama": "Telkom University",
+    "ptn_nama_en": "Telkom University",
+    "ptn_singkatan": "TELKOM",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#DC2626",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://telkomuniversity.ac.id",
+    "ptn_spmb_url": "https://smb.telkomuniversity.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 70,
+      "peminat": 1780,
+      "riwayat_peminat": {
+        "2024": 1780,
+        "2023": 1680,
+        "2022": 1590
+      },
+      "keketatan_persen": 3.93,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "snbt": {
+      "daya_tampung": 140,
+      "peminat": 3350,
+      "riwayat_peminat": {
+        "2024": 3350,
+        "2023": 3160,
+        "2022": 3000
+      },
+      "keketatan_persen": 4.18,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Optimalisasi sistem terintegrasi yang melibatkan manusia, mesin, material, informasi, dan energi untuk efisiensi produksi maksimal.",
+        "en": "Optimization of integrated systems involving people, machinery, materials, information, and energy for peak operational efficiency."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Rantai Pasok (SCM)",
+          "Riset Operasi & Optimasi",
+          "Ergonomi & Perancangan Kerja",
+          "Pengendalian Kualitas (Six Sigma)"
+        ],
+        "en": [
+          "Supply Chain Management",
+          "Operations Research",
+          "Ergonomics & Work Design",
+          "Quality Control (Six Sigma)"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Supply Chain Manager",
+          "Operations Research Analyst",
+          "Industrial Plant Specialist",
+          "Management Consultant"
+        ],
+        "en": [
+          "Supply Chain Manager",
+          "Operations Research Analyst",
+          "Industrial Plant Specialist",
+          "Management Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unram-ilmu-hukum",
+    "kode_prodi": "521004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNRAM",
+    "ptn_nama": "Universitas Mataram",
+    "ptn_nama_en": "University of Mataram",
+    "ptn_singkatan": "UNRAM",
+    "ptn_kota": "Mataram",
+    "ptn_provinsi": "Nusa Tenggara Barat",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unram.ac.id",
+    "ptn_spmb_url": "https://pmb.unram.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 85,
+      "peminat": 2150,
+      "riwayat_peminat": {
+        "2024": 2150,
+        "2023": 2020,
+        "2022": 1910
+      },
+      "keketatan_persen": 3.95,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "snbt": {
+      "daya_tampung": 140,
+      "peminat": 3340,
+      "riwayat_peminat": {
+        "2024": 3340,
+        "2023": 3140,
+        "2022": 2980
+      },
+      "keketatan_persen": 4.19,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "usk-teknik-sipil",
+    "kode_prodi": "111003",
+    "nama_prodi": "Teknik Sipil",
+    "nama_prodi_en": "Civil Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "USK",
+    "ptn_nama": "Universitas Syiah Kuala",
+    "ptn_nama_en": "Syiah Kuala University",
+    "ptn_singkatan": "USK",
+    "ptn_kota": "Banda Aceh",
+    "ptn_provinsi": "Aceh",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#F59E0B",
+    "ptn_klaster": "PTN-BH",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://usk.ac.id",
+    "ptn_spmb_url": "https://penerimaan.usk.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 35,
+      "peminat": 680,
+      "riwayat_peminat": {
+        "2024": 680,
+        "2023": 640,
+        "2022": 600
+      },
+      "keketatan_persen": 5.15,
+      "rasio_persaingan": "1 : 19",
+      "rasio_angka": 19,
+      "kategori": "Sedang",
+      "kategori_en": "Moderate",
+      "badge_class": "badge-sedang",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "snbt": {
+      "daya_tampung": 60,
+      "peminat": 1420,
+      "riwayat_peminat": {
+        "2024": 1420,
+        "2023": 1340,
+        "2022": 1270
+      },
+      "keketatan_persen": 4.23,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.0
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perencanaan, perancangan struktur, konstruksi, dan pemeliharaan infrastruktur transportasi, jembatan, gedung, dan rekayasa air.",
+        "en": "Planning, structural design, construction, and maintenance of transport infrastructure, bridges, buildings, and water engineering."
+      },
+      "fokus": {
+        "id": [
+          "Struktur Beton & Baja",
+          "Geoteknik & Mekanika Tanah",
+          "Manajemen Proyek Konstruksi",
+          "Rekayasa Sumber Daya Air"
+        ],
+        "en": [
+          "Concrete & Steel Structures",
+          "Geotechnical & Soil Mechanics",
+          "Construction Project Management",
+          "Water Resources Engineering"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Structural Engineer",
+          "Project Manager Konstruksi",
+          "Geotechnical Specialist",
+          "Konsultan Infrastruktur"
+        ],
+        "en": [
+          "Structural Engineer",
+          "Construction Project Manager",
+          "Geotechnical Specialist",
+          "Infrastructure Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "binus-manajemen",
+    "kode_prodi": "031004",
+    "nama_prodi": "Manajemen",
+    "nama_prodi_en": "Management",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "BINUS",
+    "ptn_nama": "Bina Nusantara University",
+    "ptn_nama_en": "Bina Nusantara University",
+    "ptn_singkatan": "BINUS",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#EA580C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://binus.ac.id",
+    "ptn_spmb_url": "https://binus.ac.id/admissions",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 130,
+      "peminat": 3420,
+      "riwayat_peminat": {
+        "2024": 3420,
+        "2023": 3230,
+        "2022": 3060
+      },
+      "keketatan_persen": 3.8,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 260,
+      "peminat": 6120,
+      "riwayat_peminat": {
+        "2024": 6120,
+        "2023": 5790,
+        "2022": 5490
+      },
+      "keketatan_persen": 4.25,
+      "rasio_persaingan": "1 : 24",
+      "rasio_angka": 24,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.7
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Strategi pengelolaan organisasi bisnis, pengambilan keputusan finansial, pemasaran digital, kepemimpinan tim, dan inovasi kewirausahaan.",
+        "en": "Strategic management of business organizations, financial decision-making, digital marketing, leadership, and entrepreneurial innovation."
+      },
+      "fokus": {
+        "id": [
+          "Manajemen Keuangan Korporasi",
+          "Manajemen Pemasaran Strategis",
+          "Manajemen SDM & Kepemimpinan",
+          "Manajemen Operasional"
+        ],
+        "en": [
+          "Corporate Financial Management",
+          "Strategic Marketing",
+          "HR Management & Leadership",
+          "Operational Management"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ],
+        "en": [
+          "Management Consultant",
+          "Brand Manager",
+          "Financial Analyst",
+          "Operations Manager",
+          "Business Development Lead"
+        ]
+      }
+    }
+  },
+  {
+    "id": "untan-ilmu-hukum",
+    "kode_prodi": "611004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNTAN",
+    "ptn_nama": "Universitas Tanjungpura",
+    "ptn_nama_en": "Tanjungpura University",
+    "ptn_singkatan": "UNTAN",
+    "ptn_kota": "Pontianak",
+    "ptn_provinsi": "Kalimantan Barat",
+    "ptn_wilayah": "Kalimantan",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#16A34A",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://untan.ac.id",
+    "ptn_spmb_url": "https://scmb.untan.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 85,
+      "peminat": 2120,
+      "riwayat_peminat": {
+        "2024": 2120,
+        "2023": 1990,
+        "2022": 1890
+      },
+      "keketatan_persen": 4.01,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 145,
+      "peminat": 3380,
+      "riwayat_peminat": {
+        "2024": 3380,
+        "2023": 3180,
+        "2022": 3020
+      },
+      "keketatan_persen": 4.29,
+      "rasio_persaingan": "1 : 23",
+      "rasio_angka": 23,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.3
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "unsrat-ilmu-hukum",
+    "kode_prodi": "712004",
+    "nama_prodi": "Ilmu Hukum",
+    "nama_prodi_en": "Law / Legal Studies",
+    "jenjang": "S1",
+    "rumpun": "Soshum",
+    "ptn_id": "UNSRAT",
+    "ptn_nama": "Universitas Sam Ratulangi",
+    "ptn_nama_en": "Sam Ratulangi University",
+    "ptn_singkatan": "UNSRAT",
+    "ptn_kota": "Manado",
+    "ptn_provinsi": "Sulawesi Utara",
+    "ptn_wilayah": "Sulawesi",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
+    "ptn_klaster": "PTN-BLU",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unsrat.ac.id",
+    "ptn_spmb_url": "https://pmb.unsrat.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 80,
+      "peminat": 1980,
+      "riwayat_peminat": {
+        "2024": 1980,
+        "2023": 1860,
+        "2022": 1760
+      },
+      "keketatan_persen": 4.04,
+      "rasio_persaingan": "1 : 25",
+      "rasio_angka": 25,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.5
+    },
+    "snbt": {
+      "daya_tampung": 135,
+      "peminat": 3150,
+      "riwayat_peminat": {
+        "2024": 3150,
+        "2023": 2960,
+        "2022": 2810
+      },
+      "keketatan_persen": 4.29,
+      "rasio_persaingan": "1 : 23",
+      "rasio_angka": 23,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.4
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Penguasaan sistem hukum nasional dan internasional, litigasi, kontrak bisnis, hukum perdata, pidana, dan tata negara.",
+        "en": "Mastery of national and international legal systems, litigation, corporate contracts, civil, criminal, and constitutional law."
+      },
+      "fokus": {
+        "id": [
+          "Hukum Bisnis & Korporasi",
+          "Hukum Pidana & Acara Pidana",
+          "Hukum Perdata & Kontrak",
+          "Hukum Tata Negara & HAM"
+        ],
+        "en": [
+          "Business & Corporate Law",
+          "Criminal Law & Procedure",
+          "Civil & Contract Law",
+          "Constitutional Law & Human Rights"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Corporate Legal Counsel",
+          "Advokat / Pengacara",
+          "Hakim & Jaksa",
+          "Diplomat Hukum",
+          "Konsultan Kebijakan Publik"
+        ],
+        "en": [
+          "Corporate Legal Counsel",
+          "Advocate / Lawyer",
+          "Judge & Public Prosecutor",
+          "Legal Diplomat",
+          "Public Policy Consultant"
+        ]
+      }
+    }
+  },
+  {
+    "id": "binus-sistem-informasi",
+    "kode_prodi": "031002",
+    "nama_prodi": "Sistem Informasi",
+    "nama_prodi_en": "Information Systems",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "BINUS",
+    "ptn_nama": "Bina Nusantara University",
+    "ptn_nama_en": "Bina Nusantara University",
+    "ptn_singkatan": "BINUS",
+    "ptn_kota": "Jakarta Barat",
+    "ptn_provinsi": "DKI Jakarta",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#EA580C",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://binus.ac.id",
+    "ptn_spmb_url": "https://binus.ac.id/admissions",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 110,
+      "peminat": 2890,
+      "riwayat_peminat": {
+        "2024": 2890,
+        "2023": 2730,
+        "2022": 2580
+      },
+      "keketatan_persen": 3.81,
+      "rasio_persaingan": "1 : 26",
+      "rasio_angka": 26,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.9
+    },
+    "snbt": {
+      "daya_tampung": 220,
+      "peminat": 5120,
+      "riwayat_peminat": {
+        "2024": 5120,
+        "2023": 4850,
+        "2022": 4600
+      },
+      "keketatan_persen": 4.3,
+      "rasio_persaingan": "1 : 23",
+      "rasio_angka": 23,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 5.6
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Integrasi teknologi informasi dengan strategi bisnis, tata kelola TI perusahaan, rekayasa kebutuhan, dan analisis data bisnis.",
+        "en": "Integration of information technology with business strategy, enterprise IT governance, requirements engineering, and business data analytics."
+      },
+      "fokus": {
+        "id": [
+          "Analisis & Perancangan Sistem",
+          "Enterprise Resource Planning",
+          "Manajemen Basis Data",
+          "Business Intelligence"
+        ],
+        "en": [
+          "Systems Analysis & Design",
+          "Enterprise Resource Planning",
+          "Database Management",
+          "Business Intelligence"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ],
+        "en": [
+          "Product Manager",
+          "Business Analyst",
+          "IT Consultant",
+          "Database Administrator",
+          "Enterprise Architect"
+        ]
+      }
+    }
+  },
+  {
     "id": "undip-ilmu-hukum",
     "kode_prodi": "351005",
     "nama_prodi": "Ilmu Hukum",
@@ -9613,6 +26812,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNDIP",
     "ptn_kota": "Semarang",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#1E40AF",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://undip.ac.id",
@@ -9688,6 +26890,94 @@ window.PTN_KEKETATAN_DATA = [
     }
   },
   {
+    "id": "unpar-teknik-sipil",
+    "kode_prodi": "042002",
+    "nama_prodi": "Teknik Sipil",
+    "nama_prodi_en": "Civil Engineering",
+    "jenjang": "S1",
+    "rumpun": "Saintek",
+    "ptn_id": "UNPAR",
+    "ptn_nama": "Universitas Katolik Parahyangan",
+    "ptn_nama_en": "Parahyangan Catholic University",
+    "ptn_singkatan": "UNPAR",
+    "ptn_kota": "Bandung",
+    "ptn_provinsi": "Jawa Barat",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTS",
+    "ptn_warna": "#0369A1",
+    "ptn_klaster": "PTS Unggul",
+    "ptn_akreditasi": "Unggul",
+    "ptn_website": "https://unpar.ac.id",
+    "ptn_spmb_url": "https://pmb.unpar.ac.id",
+    "akreditasi_prodi": "Unggul",
+    "snbp": {
+      "daya_tampung": 50,
+      "peminat": 1120,
+      "riwayat_peminat": {
+        "2024": 1120,
+        "2023": 1050,
+        "2022": 990
+      },
+      "keketatan_persen": 4.46,
+      "rasio_persaingan": "1 : 22",
+      "rasio_angka": 22,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.7
+    },
+    "snbt": {
+      "daya_tampung": 100,
+      "peminat": 2240,
+      "riwayat_peminat": {
+        "2024": 2240,
+        "2023": 2110,
+        "2022": 2000
+      },
+      "keketatan_persen": 4.46,
+      "rasio_persaingan": "1 : 22",
+      "rasio_angka": 22,
+      "kategori": "Ketat",
+      "kategori_en": "Competitive",
+      "badge_class": "badge-ketat",
+      "tren_pertumbuhan_persen": 6.2
+    },
+    "profil": {
+      "deskripsi": {
+        "id": "Perencanaan, perancangan struktur, konstruksi, dan pemeliharaan infrastruktur transportasi, jembatan, gedung, dan rekayasa air.",
+        "en": "Planning, structural design, construction, and maintenance of transport infrastructure, bridges, buildings, and water engineering."
+      },
+      "fokus": {
+        "id": [
+          "Struktur Beton & Baja",
+          "Geoteknik & Mekanika Tanah",
+          "Manajemen Proyek Konstruksi",
+          "Rekayasa Sumber Daya Air"
+        ],
+        "en": [
+          "Concrete & Steel Structures",
+          "Geotechnical & Soil Mechanics",
+          "Construction Project Management",
+          "Water Resources Engineering"
+        ]
+      },
+      "karir": {
+        "id": [
+          "Structural Engineer",
+          "Project Manager Konstruksi",
+          "Geotechnical Specialist",
+          "Konsultan Infrastruktur"
+        ],
+        "en": [
+          "Structural Engineer",
+          "Construction Project Manager",
+          "Geotechnical Specialist",
+          "Infrastructure Consultant"
+        ]
+      }
+    }
+  },
+  {
     "id": "uns-ilmu-hukum",
     "kode_prodi": "352006",
     "nama_prodi": "Ilmu Hukum",
@@ -9700,6 +26990,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNS",
     "ptn_kota": "Surakarta",
     "ptn_provinsi": "Jawa Tengah",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#0284C7",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://uns.ac.id",
@@ -9787,6 +27080,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UB",
     "ptn_kota": "Malang",
     "ptn_provinsi": "Jawa Timur",
+    "ptn_wilayah": "Jawa",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#2563EB",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://ub.ac.id",
@@ -9874,6 +27170,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNUD",
     "ptn_kota": "Badung / Denpasar",
     "ptn_provinsi": "Bali",
+    "ptn_wilayah": "Bali-Nusa Tenggara",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#9333EA",
     "ptn_klaster": "PTN-BLU",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unud.ac.id",
@@ -9961,6 +27260,9 @@ window.PTN_KEKETATAN_DATA = [
     "ptn_singkatan": "UNAND",
     "ptn_kota": "Padang",
     "ptn_provinsi": "Sumatera Barat",
+    "ptn_wilayah": "Sumatera",
+    "ptn_tipe": "PTN",
+    "ptn_warna": "#15803D",
     "ptn_klaster": "PTN-BH",
     "ptn_akreditasi": "Unggul",
     "ptn_website": "https://unand.ac.id",
