@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Indeks &amp; Kalkulator Keketatan PTN Top Indonesia | SNBP &amp; SNBT</title>
-  <meta name="description" content="Basis data analitis dan kalkulator strategi keketatan program studi pada PTN top Indonesia jalur SNBP dan SNBT. Data resmi daya tampung, peminat, dan rasio persaingan.">
-  <meta name="keywords" content="keketatan ptn, snbp, snbt, daya tampung ptn, peminat snbt, kalkulator snbt, ui, itb, ugm, unair, its, undip, unpad, ub, uns">
+  <title>Indeks &amp; Kalkulator Keketatan Top 50 Universitas Indonesia | PTN &amp; PTS</title>
+  <meta name="description" content="Basis data analitis dan kalkulator strategi keketatan program studi pada Top 50 perguruan tinggi negeri dan swasta terbaik di Indonesia (35 PTN &amp; 15 PTS). Data resmi daya tampung, peminat, dan rasio persaingan.">
+  <meta name="keywords" content="keketatan ptn, keketatan pts, top 50 universitas indonesia, snbp, snbt, spmb, daya tampung ptn, peminat snbt, kalkulator snbt, ui, itb, ugm, binus, telkom university">
   <meta name="author" content="izu">
 
   <!-- Open Graph / Social Meta Tags -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Indeks &amp; Kalkulator Keketatan PTN Top Indonesia">
-  <meta property="og:description" content="Eksplorasi data daya tampung, peminat, tingkat keketatan, dan simulator strategi pilihan 1 &amp; 2 SNBP/SNBT untuk 15 PTN terbaik di Indonesia.">
+  <meta property="og:title" content="Indeks &amp; Kalkulator Keketatan Top 50 Universitas Indonesia | PTN &amp; PTS">
+  <meta property="og:description" content="Eksplorasi data daya tampung, peminat, tingkat keketatan, dan simulator strategi pilihan 1 &amp; 2 untuk 50 perguruan tinggi terbaik di Indonesia (35 PTN &amp; 15 PTS).">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -66,6 +66,16 @@
       color: #86198f;
       border: 1px solid #f5d0fe;
     }
+    .badge-ptn {
+      background-color: #eff6ff;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+    }
+    .badge-pts {
+      background-color: #faf5ff;
+      color: #7e22ce;
+      border: 1px solid #e9d5ff;
+    }
     .tab-active {
       border-bottom-color: #0284c7;
       color: #0284c7;
@@ -80,10 +90,10 @@
     <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
       <div class="flex items-center space-x-2">
         <span class="inline-block w-2 h-2 rounded-full bg-emerald-400"></span>
-        <span id="announcement-text">Basis Data Resmi SNPMB BPPP Kemendikbudristek &bull; 15 PTN Klaster Utama</span>
+        <span id="announcement-text">Basis Data Resmi Top 50 Perguruan Tinggi Indonesia &bull; 35 PTN &bull; 15 PTS &bull; 5 Wilayah Nusantara</span>
       </div>
       <div class="flex items-center space-x-4">
-        <span class="text-slate-400" id="announcement-updated">Diperbarui: 02 Oktober 2026</span>
+        <span class="text-slate-400" id="announcement-updated">Diperbarui: 03 Oktober 2026</span>
         <button id="lang-toggle-btn" class="inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition" title="Ganti Bahasa / Switch Language">
           <svg class="w-3.5 h-3.5 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/></svg>
           <span id="lang-label-id" class="font-bold text-sky-400">ID</span>
@@ -99,15 +109,15 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center space-x-3">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-700 to-sky-500 flex items-center justify-center text-white shadow-sm font-black text-lg tracking-wider">
-            PTN
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-700 to-sky-500 flex items-center justify-center text-white shadow-sm font-black text-sm tracking-tight text-center leading-none">
+            TOP<br>50
           </div>
           <div>
             <h1 id="nav-title" class="text-base sm:text-lg font-extrabold text-slate-900 leading-tight">
-              Indeks Keketatan PTN Top Indonesia
+              Indeks Keketatan Top 50 Kampus Indonesia
             </h1>
             <p id="nav-subtitle" class="text-xs text-slate-500 hidden sm:block">
-              Analisis Daya Tampung &bull; Peminat &bull; Kalkulator Strategi Portofolio
+              Analisis Daya Tampung &bull; Peminat &bull; Kalkulator Strategi 35 PTN &amp; 15 PTS Se-Nusantara
             </p>
           </div>
         </div>
@@ -128,45 +138,45 @@
       <div class="max-w-3xl mb-6">
         <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-sky-100 text-sky-800 border border-sky-200 mb-3">
           <span class="w-1.5 h-1.5 rounded-full bg-sky-600"></span>
-          <span id="hero-pill">Seleksi Nasional Penerimaan Mahasiswa Baru</span>
+          <span id="hero-pill">Seleksi Nasional &amp; Penerimaan Mahasiswa Baru Mandiri</span>
         </div>
         <h2 id="hero-title" class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
-          Panduan Keketatan &amp; Peluang Masuk PTN Favorit
+          Panduan Keketatan &amp; Peluang Masuk Top 50 Kampus Indonesia
         </h2>
         <p id="hero-desc" class="mt-2 text-sm sm:text-base text-slate-600 leading-relaxed">
-          Ketahui tingkat persaingan riil program studi impian Anda di 15 universitas negeri terkemuka. Hitung rasio persaingan (1 : N), persentase keketatan, dan uji kombinasi strategi pilihan Anda secara objektif.
+          Ketahui tingkat persaingan riil program studi impian Anda di 50 universitas terkemuka di Indonesia (35 PTN &amp; 15 PTS). Hitung rasio persaingan (1 : N), persentase keketatan, dan uji kombinasi strategi pilihan Anda secara objektif lintas wilayah Nusantara.
         </p>
       </div>
 
       <!-- Quick Metrics Cards -->
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
-          <p id="stat-ptn-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Cakupan PTN</p>
+          <p id="stat-ptn-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Cakupan Kampus</p>
           <div class="mt-1 flex items-baseline space-x-2">
-            <span class="text-2xl sm:text-3xl font-extrabold text-slate-900" id="stat-ptn-val">15</span>
-            <span class="text-xs text-slate-500">Kampus Unggulan</span>
+            <span class="text-2xl sm:text-3xl font-extrabold text-slate-900" id="stat-ptn-val">50</span>
+            <span class="text-xs text-slate-500">35 PTN &bull; 15 PTS</span>
           </div>
         </div>
         <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
           <p id="stat-prodi-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Total Program Studi</p>
           <div class="mt-1 flex items-baseline space-x-2">
-            <span class="text-2xl sm:text-3xl font-extrabold text-sky-700" id="stat-prodi-val">113</span>
+            <span class="text-2xl sm:text-3xl font-extrabold text-sky-700" id="stat-prodi-val">295</span>
             <span class="text-xs text-slate-500">Jurusan Favorit</span>
           </div>
         </div>
         <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
-          <p id="stat-extreme-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Keketatan Tertinggi</p>
+          <p id="stat-extreme-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Cakupan Wilayah</p>
           <div class="mt-1 flex items-baseline space-x-2">
-            <span class="text-2xl sm:text-3xl font-extrabold text-rose-600" id="stat-extreme-val">&lt; 1.3%</span>
-            <span class="text-xs text-slate-500" id="stat-extreme-sub">Rasio 1 : 80</span>
+            <span class="text-2xl sm:text-3xl font-extrabold text-emerald-600" id="stat-extreme-val">5</span>
+            <span class="text-xs text-slate-500" id="stat-extreme-sub">Zona Nusantara</span>
           </div>
         </div>
         <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
           <p id="stat-track-lbl" class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Jalur Seleksi</p>
           <div class="mt-1 flex items-baseline space-x-2">
-            <span class="text-xl sm:text-2xl font-extrabold text-slate-800">SNBP &bull; SNBT</span>
+            <span class="text-xl sm:text-2xl font-extrabold text-slate-800">SNBP &bull; SNBT &bull; SPMB</span>
           </div>
-          <p class="text-[11px] text-slate-400 mt-0.5">Prestasi &amp; Tes Tertulis UTBK</p>
+          <p class="text-[11px] text-slate-400 mt-0.5">Prestasi, UTBK, &amp; Seleksi Mandiri</p>
         </div>
       </div>
     </div>
@@ -373,17 +383,38 @@
       
       <!-- Filter Bar -->
       <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-4">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3">
           <!-- Search input -->
-          <div>
+          <div class="sm:col-span-2 lg:col-span-2">
             <label id="dir-lbl-search" class="block text-xs font-semibold text-slate-600 mb-1">Cari Jurusan / Kampus:</label>
-            <input type="text" id="dir-search" oninput="renderDirectory()" placeholder="Contoh: Kedokteran, UI, Bandung..." class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs focus:outline-none focus:ring-2 focus:ring-sky-500">
+            <input type="text" id="dir-search" oninput="renderDirectory()" placeholder="Contoh: Kedokteran, BINUS, Surabaya..." class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs focus:outline-none focus:ring-2 focus:ring-sky-500">
           </div>
-          <!-- Filter PTN -->
+          <!-- Filter Wilayah -->
+          <div>
+            <label id="dir-lbl-wilayah" class="block text-xs font-semibold text-slate-600 mb-1">Wilayah:</label>
+            <select id="dir-wilayah-select" onchange="renderDirectory()" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-sky-500">
+              <option value="ALL">Semua Wilayah</option>
+              <option value="Jawa">Jawa</option>
+              <option value="Sumatera">Sumatera</option>
+              <option value="Kalimantan">Kalimantan</option>
+              <option value="Sulawesi">Sulawesi</option>
+              <option value="Bali-Nusa Tenggara">Bali-Nusa Tenggara</option>
+            </select>
+          </div>
+          <!-- Filter Tipe (PTN / PTS) -->
+          <div>
+            <label id="dir-lbl-tipe" class="block text-xs font-semibold text-slate-600 mb-1">Tipe Kampus:</label>
+            <select id="dir-tipe-select" onchange="renderDirectory()" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-sky-500">
+              <option value="ALL">Semua Jenis</option>
+              <option value="PTN">PTN (Negeri)</option>
+              <option value="PTS">PTS (Swasta)</option>
+            </select>
+          </div>
+          <!-- Filter Kampus -->
           <div>
             <label id="dir-lbl-ptn" class="block text-xs font-semibold text-slate-600 mb-1">Perguruan Tinggi:</label>
             <select id="dir-ptn-select" onchange="renderDirectory()" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-sky-500">
-              <option value="ALL">Semua Kampus (15 PTN)</option>
+              <option value="ALL">Semua Kampus</option>
               <!-- Dynamically populated -->
             </select>
           </div>
@@ -394,17 +425,6 @@
               <option value="ALL">Semua Rumpun</option>
               <option value="Saintek">Saintek (IPA)</option>
               <option value="Soshum">Soshum (IPS)</option>
-            </select>
-          </div>
-          <!-- Filter Kategori Keketatan -->
-          <div>
-            <label id="dir-lbl-cat" class="block text-xs font-semibold text-slate-600 mb-1">Tingkat Keketatan:</label>
-            <select id="dir-cat-select" onchange="renderDirectory()" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-sky-500">
-              <option value="ALL">Semua Tingkat</option>
-              <option value="Sangat Ketat">Sangat Ketat (&lt; 2.5%)</option>
-              <option value="Ketat">Ketat (2.5% - 5%)</option>
-              <option value="Sedang">Sedang (5% - 10%)</option>
-              <option value="Terbuka">Terbuka (&gt; 10%)</option>
             </select>
           </div>
         </div>
@@ -597,29 +617,29 @@
     // I18N Dictionary
     const I18N = {
       id: {
-        announcement_text: "Basis Data Resmi SNPMB BPPP Kemendikbudristek • 15 PTN Klaster Utama",
-        announcement_updated: "Diperbarui: 02 Oktober 2026",
-        nav_title: "Indeks Keketatan PTN Top Indonesia",
-        nav_subtitle: "Analisis Daya Tampung • Peminat • Kalkulator Strategi Portofolio",
-        hero_pill: "Seleksi Nasional Penerimaan Mahasiswa Baru",
-        hero_title: "Panduan Keketatan & Peluang Masuk PTN Favorit",
-        hero_desc: "Ketahui tingkat persaingan riil program studi impian Anda di 15 universitas negeri terkemuka. Hitung rasio persaingan (1 : N), persentase keketatan, dan uji kombinasi strategi pilihan Anda secara objektif.",
-        stat_ptn_lbl: "Cakupan PTN",
+        announcement_text: "Basis Data Resmi Top 50 Perguruan Tinggi Indonesia • 35 PTN • 15 PTS • 5 Wilayah Nusantara",
+        announcement_updated: "Diperbarui: 03 Oktober 2026",
+        nav_title: "Indeks Keketatan Top 50 Kampus Indonesia",
+        nav_subtitle: "Analisis Daya Tampung • Peminat • Kalkulator Strategi 35 PTN & 15 PTS Se-Nusantara",
+        hero_pill: "Seleksi Nasional & Penerimaan Mahasiswa Baru Mandiri",
+        hero_title: "Panduan Keketatan & Peluang Masuk Top 50 Kampus Indonesia",
+        hero_desc: "Ketahui tingkat persaingan riil program studi impian Anda di 50 universitas terkemuka di Indonesia (35 PTN & 15 PTS). Hitung rasio persaingan (1 : N), persentase keketatan, dan uji kombinasi strategi pilihan Anda secara objektif lintas wilayah Nusantara.",
+        stat_ptn_lbl: "Cakupan Kampus",
         stat_prodi_lbl: "Total Program Studi",
-        stat_extreme_lbl: "Keketatan Tertinggi",
+        stat_extreme_lbl: "Cakupan Wilayah",
         stat_track_lbl: "Jalur Seleksi",
         tab_leaderboard: "Peringkat Terketat Nasional",
         tab_compare: "Komparasi Antar-Kampus",
         tab_simulator: "Kalkulator Strategi Pilihan",
         tab_directory: "Direktori Semua Jurusan",
         lb_title: "Peringkat Program Studi Paling Ketat di Indonesia",
-        lb_subtitle: "Diurutkan berdasarkan persentase keketatan terendah (rasio persaingan tertinggi).",
+        lb_subtitle: "Diurutkan berdasarkan persentase keketatan terendah (rasio persaingan tertinggi) pada 50 perguruan tinggi top.",
         comp_title: "Komparasi Prodi Sejenis Lintas Kampus",
-        comp_subtitle: "Bandingkan daya tampung, rasio peminat, dan keketatan jurusan yang sama di berbagai PTN top Indonesia.",
+        comp_subtitle: "Bandingkan daya tampung, rasio peminat, dan keketatan jurusan yang sama di 50 PTN dan PTS terkemuka di Indonesia.",
         comp_lbl_select: "Pilih Program Studi:",
         comp_lbl_track: "Jalur Seleksi:",
         sim_title: "Simulator Portofolio Pilihan 1 & Pilihan 2",
-        sim_subtitle: "Uji kelayakan kombinasi pilihan jurusan Anda. Algoritma kami menganalisis tingkat risiko agar peluang lolos Anda optimal.",
+        sim_subtitle: "Uji kelayakan kombinasi pilihan jurusan Anda. Algoritma kami menganalisis tingkat risiko agar peluang lolos Anda optimal pada PTN maupun PTS.",
         sim_btn_analyze: "Analisis Portofolio Sekarang",
         toast_copied: "Tautan permanen berhasil disalin!",
         toast_failed: "Gagal menyalin tautan",
@@ -629,29 +649,29 @@
         risk_terbuka: "Terbuka"
       },
       en: {
-        announcement_text: "Official BPPP SNPMB Indonesian Ministry of Education Data • Top 15 Universities",
-        announcement_updated: "Updated: October 02, 2026",
-        nav_title: "Indonesian Top Universities Selectivity Index",
-        nav_subtitle: "Quota Analysis • Applicant Analytics • Choice Portfolio Simulator",
-        hero_pill: "National Selection for Higher Education Admission",
-        hero_title: "Selectivity & Admission Probability Guide",
-        hero_desc: "Explore real-world competition rates across 15 premier Indonesian public universities. Evaluate applicant-to-quota ratios (1 : N), selectivity percentages, and simulate two-choice strategies objectively.",
+        announcement_text: "Official Data for Top 50 Indonesian Universities • 35 PTN • 15 PTS • 5 Archipelago Regions",
+        announcement_updated: "Updated: October 03, 2026",
+        nav_title: "Indonesian Top 50 Universities Selectivity Index",
+        nav_subtitle: "Quota Analysis • Applicant Analytics • Strategy Simulator for 35 PTN & 15 PTS Nationwide",
+        hero_pill: "National Selection & Autonomous Higher Education Admission",
+        hero_title: "Selectivity & Admission Probability Guide for Top 50 Campuses",
+        hero_desc: "Explore real-world competition rates across 50 premier Indonesian universities (35 public PTN & 15 private PTS). Evaluate applicant-to-quota ratios (1 : N), selectivity percentages, and simulate two-choice strategies objectively across all Indonesian regions.",
         stat_ptn_lbl: "Top Universities",
         stat_prodi_lbl: "Flagship Programs",
-        stat_extreme_lbl: "Peak Selectivity",
+        stat_extreme_lbl: "Archipelago Regions",
         stat_track_lbl: "Admission Tracks",
         tab_leaderboard: "National Leaderboard",
         tab_compare: "Multi-Campus Comparison",
         tab_simulator: "Choice Strategy Simulator",
         tab_directory: "Full Directory",
         lb_title: "Most Competitive Study Programs in Indonesia",
-        lb_subtitle: "Ranked by lowest selectivity percentage (highest competition ratio).",
+        lb_subtitle: "Ranked by lowest selectivity percentage (highest competition ratio) across 50 top universities.",
         comp_title: "Cross-Campus Program Comparison",
-        comp_subtitle: "Side-by-side comparison of quotas, applicants, and competition ratios for equivalent majors across top universities.",
+        comp_subtitle: "Side-by-side comparison of quotas, applicants, and competition ratios for equivalent majors across 50 leading public & private universities.",
         comp_lbl_select: "Select Program:",
         comp_lbl_track: "Admission Track:",
         sim_title: "Choice 1 & Choice 2 Portfolio Simulator",
-        sim_subtitle: "Evaluate your study program choice pair. Our algorithm inspects risk balance to optimize your overall admission chances.",
+        sim_subtitle: "Evaluate your study program choice pair. Our algorithm inspects risk balance to optimize your overall admission chances across public and private universities.",
         sim_btn_analyze: "Analyze Portfolio Now",
         toast_copied: "Permalink copied to clipboard!",
         toast_failed: "Failed to copy link",
@@ -1096,8 +1116,11 @@
     function populateFilterDropdowns() {
       const ptnSelect = document.getElementById('dir-ptn-select');
       const ptnKeys = Object.keys(ptnCatalog);
-      ptnSelect.innerHTML = `<option value="ALL">Semua Kampus (15 PTN)</option>` + 
-        ptnKeys.map(k => `<option value="${k}">${k} - ${ptnCatalog[k].nama}</option>`).join('');
+      ptnSelect.innerHTML = `<option value="ALL">Semua Kampus (50 Kampus)</option>` + 
+        ptnKeys.map(k => {
+          const u = ptnCatalog[k];
+          return `<option value="${k}">${k} - ${u.nama} (${u.tipe || 'PTN'})</option>`;
+        }).join('');
     }
 
     function setDirView(view) {
@@ -1116,17 +1139,19 @@
 
     function resetDirFilters() {
       document.getElementById('dir-search').value = '';
+      if (document.getElementById('dir-wilayah-select')) document.getElementById('dir-wilayah-select').value = 'ALL';
+      if (document.getElementById('dir-tipe-select')) document.getElementById('dir-tipe-select').value = 'ALL';
       document.getElementById('dir-ptn-select').value = 'ALL';
       document.getElementById('dir-rumpun-select').value = 'ALL';
-      document.getElementById('dir-cat-select').value = 'ALL';
       renderDirectory();
     }
 
     function renderDirectory() {
       const q = document.getElementById('dir-search').value.toLowerCase().trim();
+      const wilayah = document.getElementById('dir-wilayah-select') ? document.getElementById('dir-wilayah-select').value : 'ALL';
+      const tipe = document.getElementById('dir-tipe-select') ? document.getElementById('dir-tipe-select').value : 'ALL';
       const ptn = document.getElementById('dir-ptn-select').value;
       const rumpun = document.getElementById('dir-rumpun-select').value;
-      const cat = document.getElementById('dir-cat-select').value;
 
       let filtered = ptnData.filter(item => {
         if (q) {
@@ -1134,12 +1159,14 @@
           const matchEn = item.nama_prodi_en.toLowerCase().includes(q);
           const matchPtn = item.ptn_nama.toLowerCase().includes(q) || item.ptn_singkatan.toLowerCase().includes(q);
           const matchCity = item.ptn_kota.toLowerCase().includes(q);
-          if (!matchName && !matchEn && !matchPtn && !matchCity) return false;
+          const matchRegion = (item.ptn_wilayah || '').toLowerCase().includes(q);
+          if (!matchName && !matchEn && !matchPtn && !matchCity && !matchRegion) return false;
         }
 
+        if (wilayah !== 'ALL' && item.ptn_wilayah !== wilayah) return false;
+        if (tipe !== 'ALL' && item.ptn_tipe !== tipe) return false;
         if (ptn !== 'ALL' && item.ptn_id !== ptn) return false;
         if (rumpun !== 'ALL' && item.rumpun !== rumpun) return false;
-        if (cat !== 'ALL' && item.snbt.kategori !== cat) return false;
 
         return true;
       });
@@ -1158,9 +1185,17 @@
           <div onclick="openProdiModal('${item.id}')" class="bg-white rounded-2xl border border-slate-200/90 shadow-sm hover:shadow-md hover:border-sky-300 transition p-5 flex flex-col justify-between group cursor-pointer">
             <div>
               <div class="flex items-center justify-between gap-2 mb-2.5">
-                <span class="px-2.5 py-0.5 rounded-md text-xs font-bold text-white" style="background-color: ${ptnCatalog[item.ptn_id]?.warna || '#0284c7'}">
-                  ${item.ptn_singkatan}
-                </span>
+                <div class="flex items-center space-x-1.5 flex-wrap gap-y-1">
+                  <span class="px-2.5 py-0.5 rounded-md text-xs font-bold text-white" style="background-color: ${ptnCatalog[item.ptn_id]?.warna || '#0284c7'}">
+                    ${item.ptn_singkatan}
+                  </span>
+                  <span class="px-2 py-0.5 rounded text-[10px] font-bold ${item.ptn_tipe === 'PTN' ? 'badge-ptn' : 'badge-pts'}">
+                    ${item.ptn_tipe}
+                  </span>
+                  <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-100 text-slate-600 border border-slate-200">
+                    ${item.ptn_wilayah}
+                  </span>
+                </div>
                 <span class="px-2 py-0.5 rounded text-[11px] font-bold ${m.badge_class}">${kat}</span>
               </div>
 
@@ -1197,7 +1232,13 @@
           <tr onclick="openProdiModal('${item.id}')" class="hover:bg-sky-50/50 cursor-pointer transition">
             <td class="p-3 text-center text-slate-400 font-mono">${idx + 1}</td>
             <td class="p-3 font-bold text-slate-900">${prodiName}</td>
-            <td class="p-3 font-semibold text-slate-700">${item.ptn_singkatan}</td>
+            <td class="p-3 font-semibold text-slate-700">
+              <span class="inline-flex items-center space-x-1">
+                <span>${item.ptn_singkatan}</span>
+                <span class="text-[10px] px-1.5 py-0.5 rounded font-bold ${item.ptn_tipe === 'PTN' ? 'badge-ptn' : 'badge-pts'}">${item.ptn_tipe}</span>
+              </span>
+              <div class="text-[10px] text-slate-400">${item.ptn_wilayah}</div>
+            </td>
             <td class="p-3"><span class="px-1.5 py-0.5 rounded text-[10px] font-semibold ${item.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}">${item.rumpun}</span></td>
             <td class="p-3 text-right font-medium">${m.daya_tampung}</td>
             <td class="p-3 text-right font-bold">${m.peminat.toLocaleString()}</td>
