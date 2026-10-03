@@ -20,215 +20,308 @@ import datetime
 
 # 1. Metadata 15 PTN Top Indonesia
 PTN_CATALOG = {
+    # --- 35 PTN (Negeri) ---
     "UI": {
-        "id": "UI",
-        "nama": "Universitas Indonesia",
-        "nama_en": "University of Indonesia",
-        "singkatan": "UI",
-        "kota": "Depok",
-        "provinsi": "Jawa Barat / DKI Jakarta",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1849,
-        "website": "https://www.ui.ac.id",
-        "spmb_url": "https://penerimaan.ui.ac.id",
-        "warna": "#FACC15"
+        "id": "UI", "nama": "Universitas Indonesia", "nama_en": "University of Indonesia",
+        "singkatan": "UI", "kota": "Depok", "provinsi": "Jawa Barat / DKI Jakarta",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1849, "website": "https://www.ui.ac.id", "spmb_url": "https://penerimaan.ui.ac.id", "warna": "#FACC15"
     },
     "ITB": {
-        "id": "ITB",
-        "nama": "Institut Teknologi Bandung",
-        "nama_en": "Bandung Institute of Technology",
-        "singkatan": "ITB",
-        "kota": "Bandung",
-        "provinsi": "Jawa Barat",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1920,
-        "website": "https://www.itb.ac.id",
-        "spmb_url": "https://admission.itb.ac.id",
-        "warna": "#0284C7"
+        "id": "ITB", "nama": "Institut Teknologi Bandung", "nama_en": "Bandung Institute of Technology",
+        "singkatan": "ITB", "kota": "Bandung", "provinsi": "Jawa Barat",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1920, "website": "https://www.itb.ac.id", "spmb_url": "https://admission.itb.ac.id", "warna": "#0284C7"
     },
     "UGM": {
-        "id": "UGM",
-        "nama": "Universitas Gadjah Mada",
-        "nama_en": "Gadjah Mada University",
-        "singkatan": "UGM",
-        "kota": "Sleman / Yogyakarta",
-        "provinsi": "D.I. Yogyakarta",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1949,
-        "website": "https://ugm.ac.id",
-        "spmb_url": "https://um.ugm.ac.id",
-        "warna": "#EAB308"
+        "id": "UGM", "nama": "Universitas Gadjah Mada", "nama_en": "Gadjah Mada University",
+        "singkatan": "UGM", "kota": "Sleman / Yogyakarta", "provinsi": "D.I. Yogyakarta",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1949, "website": "https://ugm.ac.id", "spmb_url": "https://um.ugm.ac.id", "warna": "#EAB308"
     },
     "IPB": {
-        "id": "IPB",
-        "nama": "IPB University",
-        "nama_en": "IPB University",
-        "singkatan": "IPB",
-        "kota": "Bogor",
-        "provinsi": "Jawa Barat",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1963,
-        "website": "https://ipb.ac.id",
-        "spmb_url": "https://admisi.ipb.ac.id",
-        "warna": "#1D4ED8"
+        "id": "IPB", "nama": "IPB University", "nama_en": "IPB University",
+        "singkatan": "IPB", "kota": "Bogor", "provinsi": "Jawa Barat",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1963, "website": "https://ipb.ac.id", "spmb_url": "https://admisi.ipb.ac.id", "warna": "#1D4ED8"
     },
     "UNAIR": {
-        "id": "UNAIR",
-        "nama": "Universitas Airlangga",
-        "nama_en": "Airlangga University",
-        "singkatan": "UNAIR",
-        "kota": "Surabaya",
-        "provinsi": "Jawa Timur",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1954,
-        "website": "https://unair.ac.id",
-        "spmb_url": "https://ppmemb.unair.ac.id",
-        "warna": "#F59E0B"
+        "id": "UNAIR", "nama": "Universitas Airlangga", "nama_en": "Airlangga University",
+        "singkatan": "UNAIR", "kota": "Surabaya", "provinsi": "Jawa Timur",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1954, "website": "https://unair.ac.id", "spmb_url": "https://ppmemb.unair.ac.id", "warna": "#F59E0B"
     },
     "ITS": {
-        "id": "ITS",
-        "nama": "Institut Teknologi Sepuluh Nopember",
-        "nama_en": "Sepuluh Nopember Institute of Technology",
-        "singkatan": "ITS",
-        "kota": "Surabaya",
-        "provinsi": "Jawa Timur",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1957,
-        "website": "https://www.its.ac.id",
-        "spmb_url": "https://admission.its.ac.id",
-        "warna": "#0284C7"
+        "id": "ITS", "nama": "Institut Teknologi Sepuluh Nopember", "nama_en": "Sepuluh Nopember Institute of Technology",
+        "singkatan": "ITS", "kota": "Surabaya", "provinsi": "Jawa Timur",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1957, "website": "https://www.its.ac.id", "spmb_url": "https://admission.its.ac.id", "warna": "#0284C7"
     },
     "UNDIP": {
-        "id": "UNDIP",
-        "nama": "Universitas Diponegoro",
-        "nama_en": "Diponegoro University",
-        "singkatan": "UNDIP",
-        "kota": "Semarang",
-        "provinsi": "Jawa Tengah",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1957,
-        "website": "https://undip.ac.id",
-        "spmb_url": "https://pmb.undip.ac.id",
-        "warna": "#1E40AF"
+        "id": "UNDIP", "nama": "Universitas Diponegoro", "nama_en": "Diponegoro University",
+        "singkatan": "UNDIP", "kota": "Semarang", "provinsi": "Jawa Tengah",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1957, "website": "https://undip.ac.id", "spmb_url": "https://pmb.undip.ac.id", "warna": "#1E40AF"
     },
     "UB": {
-        "id": "UB",
-        "nama": "Universitas Brawijaya",
-        "nama_en": "Brawijaya University",
-        "singkatan": "UB",
-        "kota": "Malang",
-        "provinsi": "Jawa Timur",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1963,
-        "website": "https://ub.ac.id",
-        "spmb_url": "https://selma.ub.ac.id",
-        "warna": "#2563EB"
+        "id": "UB", "nama": "Universitas Brawijaya", "nama_en": "Brawijaya University",
+        "singkatan": "UB", "kota": "Malang", "provinsi": "Jawa Timur",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1963, "website": "https://ub.ac.id", "spmb_url": "https://selma.ub.ac.id", "warna": "#2563EB"
     },
     "UNPAD": {
-        "id": "UNPAD",
-        "nama": "Universitas Padjadjaran",
-        "nama_en": "Padjadjaran University",
-        "singkatan": "UNPAD",
-        "kota": "Sumedang / Bandung",
-        "provinsi": "Jawa Barat",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1957,
-        "website": "https://unpad.ac.id",
-        "spmb_url": "https://smup.unpad.ac.id",
-        "warna": "#F97316"
+        "id": "UNPAD", "nama": "Universitas Padjadjaran", "nama_en": "Padjadjaran University",
+        "singkatan": "UNPAD", "kota": "Sumedang / Bandung", "provinsi": "Jawa Barat",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1957, "website": "https://unpad.ac.id", "spmb_url": "https://smup.unpad.ac.id", "warna": "#F97316"
     },
     "UNS": {
-        "id": "UNS",
-        "nama": "Universitas Sebelas Maret",
-        "nama_en": "Sebelas Maret University",
-        "singkatan": "UNS",
-        "kota": "Surakarta",
-        "provinsi": "Jawa Tengah",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1976,
-        "website": "https://uns.ac.id",
-        "spmb_url": "https://spmb.uns.ac.id",
-        "warna": "#0284C7"
+        "id": "UNS", "nama": "Universitas Sebelas Maret", "nama_en": "Sebelas Maret University",
+        "singkatan": "UNS", "kota": "Surakarta", "provinsi": "Jawa Tengah",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1976, "website": "https://uns.ac.id", "spmb_url": "https://spmb.uns.ac.id", "warna": "#0284C7"
     },
     "UPI": {
-        "id": "UPI",
-        "nama": "Universitas Pendidikan Indonesia",
-        "nama_en": "Indonesia University of Education",
-        "singkatan": "UPI",
-        "kota": "Bandung",
-        "provinsi": "Jawa Barat",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1954,
-        "website": "https://upi.edu",
-        "spmb_url": "https://pmb.upi.edu",
-        "warna": "#DC2626"
+        "id": "UPI", "nama": "Universitas Pendidikan Indonesia", "nama_en": "Indonesia University of Education",
+        "singkatan": "UPI", "kota": "Bandung", "provinsi": "Jawa Barat",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1954, "website": "https://upi.edu", "spmb_url": "https://pmb.upi.edu", "warna": "#DC2626"
+    },
+    "UNSOED": {
+        "id": "UNSOED", "nama": "Universitas Jenderal Soedirman", "nama_en": "Jenderal Soedirman University",
+        "singkatan": "UNSOED", "kota": "Purwokerto", "provinsi": "Jawa Tengah",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1963, "website": "https://unsoed.ac.id", "spmb_url": "https://spmb.unsoed.ac.id", "warna": "#EAB308"
+    },
+    "UNY": {
+        "id": "UNY", "nama": "Universitas Negeri Yogyakarta", "nama_en": "Yogyakarta State University",
+        "singkatan": "UNY", "kota": "Yogyakarta", "provinsi": "D.I. Yogyakarta",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1964, "website": "https://uny.ac.id", "spmb_url": "https://pmb.uny.ac.id", "warna": "#0284C7"
+    },
+    "UNNES": {
+        "id": "UNNES", "nama": "Universitas Negeri Semarang", "nama_en": "Semarang State University",
+        "singkatan": "UNNES", "kota": "Semarang", "provinsi": "Jawa Tengah",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1965, "website": "https://unnes.ac.id", "spmb_url": "https://spmb.unnes.ac.id", "warna": "#EAB308"
+    },
+    "UNESA": {
+        "id": "UNESA", "nama": "Universitas Negeri Surabaya", "nama_en": "Surabaya State University",
+        "singkatan": "UNESA", "kota": "Surabaya", "provinsi": "Jawa Timur",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1964, "website": "https://unesa.ac.id", "spmb_url": "https://admisi.unesa.ac.id", "warna": "#2563EB"
+    },
+    "UM": {
+        "id": "UM", "nama": "Universitas Negeri Malang", "nama_en": "State University of Malang",
+        "singkatan": "UM", "kota": "Malang", "provinsi": "Jawa Timur",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1954, "website": "https://um.ac.id", "spmb_url": "https://seleksi.um.ac.id", "warna": "#1D4ED8"
+    },
+    "UNJ": {
+        "id": "UNJ", "nama": "Universitas Negeri Jakarta", "nama_en": "State University of Jakarta",
+        "singkatan": "UNJ", "kota": "Jakarta Timur", "provinsi": "DKI Jakarta",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1964, "website": "https://unj.ac.id", "spmb_url": "https://penmaba.unj.ac.id", "warna": "#16A34A"
+    },
+    "UPNVJ": {
+        "id": "UPNVJ", "nama": "UPN Veteran Jakarta", "nama_en": "UPN Veteran Jakarta",
+        "singkatan": "UPNVJ", "kota": "Jakarta Selatan", "provinsi": "DKI Jakarta",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1967, "website": "https://upnvj.ac.id", "spmb_url": "https://penmaru.upnvj.ac.id", "warna": "#16A34A"
+    },
+    "UPNVYK": {
+        "id": "UPNVYK", "nama": "UPN Veteran Yogyakarta", "nama_en": "UPN Veteran Yogyakarta",
+        "singkatan": "UPNVYK", "kota": "Sleman", "provinsi": "D.I. Yogyakarta",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1958, "website": "https://upnyk.ac.id", "spmb_url": "https://pmb.upnyk.ac.id", "warna": "#15803D"
+    },
+    "UPNVJT": {
+        "id": "UPNVJT", "nama": "UPN Veteran Jawa Timur", "nama_en": "UPN Veteran East Java",
+        "singkatan": "UPNVJT", "kota": "Surabaya", "provinsi": "Jawa Timur",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1959, "website": "https://upnjatim.ac.id", "spmb_url": "https://simaba.upnjatim.ac.id", "warna": "#166534"
+    },
+    "UNTIRTA": {
+        "id": "UNTIRTA", "nama": "Universitas Sultan Ageng Tirtayasa", "nama_en": "Sultan Ageng Tirtayasa University",
+        "singkatan": "UNTIRTA", "kota": "Serang", "provinsi": "Banten",
+        "wilayah": "Jawa", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1981, "website": "https://untirta.ac.id", "spmb_url": "https://spmb.untirta.ac.id", "warna": "#B45309"
     },
     "USU": {
-        "id": "USU",
-        "nama": "Universitas Sumatera Utara",
-        "nama_en": "University of North Sumatra",
-        "singkatan": "USU",
-        "kota": "Medan",
-        "provinsi": "Sumatera Utara",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1952,
-        "website": "https://usu.ac.id",
-        "spmb_url": "https://penerimaan.usu.ac.id",
-        "warna": "#16A34A"
-    },
-    "UNHAS": {
-        "id": "UNHAS",
-        "nama": "Universitas Hasanuddin",
-        "nama_en": "Hasanuddin University",
-        "singkatan": "UNHAS",
-        "kota": "Makassar",
-        "provinsi": "Sulawesi Selatan",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1956,
-        "website": "https://unhas.ac.id",
-        "spmb_url": "https://regpmb.unhas.ac.id",
-        "warna": "#DC2626"
+        "id": "USU", "nama": "Universitas Sumatera Utara", "nama_en": "University of North Sumatra",
+        "singkatan": "USU", "kota": "Medan", "provinsi": "Sumatera Utara",
+        "wilayah": "Sumatera", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1952, "website": "https://usu.ac.id", "spmb_url": "https://penerimaan.usu.ac.id", "warna": "#16A34A"
     },
     "UNAND": {
-        "id": "UNAND",
-        "nama": "Universitas Andalas",
-        "nama_en": "Andalas University",
-        "singkatan": "UNAND",
-        "kota": "Padang",
-        "provinsi": "Sumatera Barat",
-        "klaster": "PTN-BH",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1955,
-        "website": "https://unand.ac.id",
-        "spmb_url": "https://pmb.unand.ac.id",
-        "warna": "#16A34A"
+        "id": "UNAND", "nama": "Universitas Andalas", "nama_en": "Andalas University",
+        "singkatan": "UNAND", "kota": "Padang", "provinsi": "Sumatera Barat",
+        "wilayah": "Sumatera", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1955, "website": "https://unand.ac.id", "spmb_url": "https://pmb.unand.ac.id", "warna": "#15803D"
+    },
+    "UNSRI": {
+        "id": "UNSRI", "nama": "Universitas Sriwijaya", "nama_en": "Sriwijaya University",
+        "singkatan": "UNSRI", "kota": "Palembang / Indralaya", "provinsi": "Sumatera Selatan",
+        "wilayah": "Sumatera", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1960, "website": "https://unsri.ac.id", "spmb_url": "https://usm.unsri.ac.id", "warna": "#D97706"
+    },
+    "UNILA": {
+        "id": "UNILA", "nama": "Universitas Lampung", "nama_en": "Lampung University",
+        "singkatan": "UNILA", "kota": "Bandar Lampung", "provinsi": "Lampung",
+        "wilayah": "Sumatera", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1965, "website": "https://unila.ac.id", "spmb_url": "https://simanila.unila.ac.id", "warna": "#2563EB"
+    },
+    "UNP": {
+        "id": "UNP", "nama": "Universitas Negeri Padang", "nama_en": "Padang State University",
+        "singkatan": "UNP", "kota": "Padang", "provinsi": "Sumatera Barat",
+        "wilayah": "Sumatera", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1954, "website": "https://unp.ac.id", "spmb_url": "https://spmb.unp.ac.id", "warna": "#E11D48"
+    },
+    "USK": {
+        "id": "USK", "nama": "Universitas Syiah Kuala", "nama_en": "Syiah Kuala University",
+        "singkatan": "USK", "kota": "Banda Aceh", "provinsi": "Aceh",
+        "wilayah": "Sumatera", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1961, "website": "https://usk.ac.id", "spmb_url": "https://penerimaan.usk.ac.id", "warna": "#F59E0B"
+    },
+    "UNRI": {
+        "id": "UNRI", "nama": "Universitas Riau", "nama_en": "Riau University",
+        "singkatan": "UNRI", "kota": "Pekanbaru", "provinsi": "Riau",
+        "wilayah": "Sumatera", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1962, "website": "https://unri.ac.id", "spmb_url": "https://um.unri.ac.id", "warna": "#0D9488"
+    },
+    "UNMUL": {
+        "id": "UNMUL", "nama": "Universitas Mulawarman", "nama_en": "Mulawarman University",
+        "singkatan": "UNMUL", "kota": "Samarinda", "provinsi": "Kalimantan Timur",
+        "wilayah": "Kalimantan", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1962, "website": "https://unmul.ac.id", "spmb_url": "https://spmb.unmul.ac.id", "warna": "#0284C7"
+    },
+    "ULM": {
+        "id": "ULM", "nama": "Universitas Lambung Mangkurat", "nama_en": "Lambung Mangkurat University",
+        "singkatan": "ULM", "kota": "Banjarmasin", "provinsi": "Kalimantan Selatan",
+        "wilayah": "Kalimantan", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1958, "website": "https://ulm.ac.id", "spmb_url": "https://admisi.ulm.ac.id", "warna": "#EAB308"
+    },
+    "UNTAN": {
+        "id": "UNTAN", "nama": "Universitas Tanjungpura", "nama_en": "Tanjungpura University",
+        "singkatan": "UNTAN", "kota": "Pontianak", "provinsi": "Kalimantan Barat",
+        "wilayah": "Kalimantan", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1959, "website": "https://untan.ac.id", "spmb_url": "https://scmb.untan.ac.id", "warna": "#16A34A"
+    },
+    "UNHAS": {
+        "id": "UNHAS", "nama": "Universitas Hasanuddin", "nama_en": "Hasanuddin University",
+        "singkatan": "UNHAS", "kota": "Makassar", "provinsi": "Sulawesi Selatan",
+        "wilayah": "Sulawesi", "tipe": "PTN", "klaster": "PTN-BH", "akreditasi": "Unggul",
+        "tahun_berdiri": 1956, "website": "https://unhas.ac.id", "spmb_url": "https://regpmb.unhas.ac.id", "warna": "#DC2626"
+    },
+    "UNSRAT": {
+        "id": "UNSRAT", "nama": "Universitas Sam Ratulangi", "nama_en": "Sam Ratulangi University",
+        "singkatan": "UNSRAT", "kota": "Manado", "provinsi": "Sulawesi Utara",
+        "wilayah": "Sulawesi", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1965, "website": "https://unsrat.ac.id", "spmb_url": "https://pmb.unsrat.ac.id", "warna": "#2563EB"
     },
     "UNUD": {
-        "id": "UNUD",
-        "nama": "Universitas Udayana",
-        "nama_en": "Udayana University",
-        "singkatan": "UNUD",
-        "kota": "Badung / Denpasar",
-        "provinsi": "Bali",
-        "klaster": "PTN-BLU",
-        "akreditasi": "Unggul",
-        "tahun_berdiri": 1962,
-        "website": "https://unud.ac.id",
-        "spmb_url": "https://utbk.unud.ac.id",
-        "warna": "#9333EA"
+        "id": "UNUD", "nama": "Universitas Udayana", "nama_en": "Udayana University",
+        "singkatan": "UNUD", "kota": "Badung / Denpasar", "provinsi": "Bali",
+        "wilayah": "Bali-Nusa Tenggara", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1962, "website": "https://unud.ac.id", "spmb_url": "https://utbk.unud.ac.id", "warna": "#9333EA"
+    },
+    "UNRAM": {
+        "id": "UNRAM", "nama": "Universitas Mataram", "nama_en": "University of Mataram",
+        "singkatan": "UNRAM", "kota": "Mataram", "provinsi": "Nusa Tenggara Barat",
+        "wilayah": "Bali-Nusa Tenggara", "tipe": "PTN", "klaster": "PTN-BLU", "akreditasi": "Unggul",
+        "tahun_berdiri": 1962, "website": "https://unram.ac.id", "spmb_url": "https://pmb.unram.ac.id", "warna": "#0284C7"
+    },
+
+    # --- 15 PTS (Swasta) ---
+    "TELKOM": {
+        "id": "TELKOM", "nama": "Telkom University", "nama_en": "Telkom University",
+        "singkatan": "TELKOM", "kota": "Bandung", "provinsi": "Jawa Barat",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1990, "website": "https://telkomuniversity.ac.id", "spmb_url": "https://smb.telkomuniversity.ac.id", "warna": "#DC2626"
+    },
+    "BINUS": {
+        "id": "BINUS", "nama": "Bina Nusantara University", "nama_en": "Bina Nusantara University",
+        "singkatan": "BINUS", "kota": "Jakarta Barat", "provinsi": "DKI Jakarta",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1981, "website": "https://binus.ac.id", "spmb_url": "https://binus.ac.id/admissions", "warna": "#EA580C"
+    },
+    "UII": {
+        "id": "UII", "nama": "Universitas Islam Indonesia", "nama_en": "Universitas Islam Indonesia",
+        "singkatan": "UII", "kota": "Sleman", "provinsi": "D.I. Yogyakarta",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1945, "website": "https://uii.ac.id", "spmb_url": "https://pmb.uii.ac.id", "warna": "#1D4ED8"
+    },
+    "UMY": {
+        "id": "UMY", "nama": "Universitas Muhammadiyah Yogyakarta", "nama_en": "Muhammadiyah University of Yogyakarta",
+        "singkatan": "UMY", "kota": "Bantul", "provinsi": "D.I. Yogyakarta",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1981, "website": "https://umy.ac.id", "spmb_url": "https://admisi.umy.ac.id", "warna": "#CA8A04"
+    },
+    "UNPAR": {
+        "id": "UNPAR", "nama": "Universitas Katolik Parahyangan", "nama_en": "Parahyangan Catholic University",
+        "singkatan": "UNPAR", "kota": "Bandung", "provinsi": "Jawa Barat",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1955, "website": "https://unpar.ac.id", "spmb_url": "https://pmb.unpar.ac.id", "warna": "#0369A1"
+    },
+    "ATMAJAYA": {
+        "id": "ATMAJAYA", "nama": "Unika Atma Jaya", "nama_en": "Atma Jaya Catholic University of Indonesia",
+        "singkatan": "ATMAJAYA", "kota": "Jakarta Selatan", "provinsi": "DKI Jakarta",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1960, "website": "https://atmajaya.ac.id", "spmb_url": "https://pmb.atmajaya.ac.id", "warna": "#1E3A8A"
+    },
+    "UPH": {
+        "id": "UPH", "nama": "Universitas Pelita Harapan", "nama_en": "Pelita Harapan University",
+        "singkatan": "UPH", "kota": "Tangerang", "provinsi": "Banten",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1994, "website": "https://uph.edu", "spmb_url": "https://admission.uph.edu", "warna": "#1D4ED8"
+    },
+    "TRISAKTI": {
+        "id": "TRISAKTI", "nama": "Universitas Trisakti", "nama_en": "Trisakti University",
+        "singkatan": "TRISAKTI", "kota": "Jakarta Barat", "provinsi": "DKI Jakarta",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1965, "website": "https://trisakti.ac.id", "spmb_url": "https://spmb.trisakti.ac.id", "warna": "#0284C7"
+    },
+    "UNTAR": {
+        "id": "UNTAR", "nama": "Universitas Tarumanagara", "nama_en": "Tarumanagara University",
+        "singkatan": "UNTAR", "kota": "Jakarta Barat", "provinsi": "DKI Jakarta",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1959, "website": "https://untar.ac.id", "spmb_url": "https://admisi.untar.ac.id", "warna": "#B91C1C"
+    },
+    "UMN": {
+        "id": "UMN", "nama": "Universitas Multimedia Nusantara", "nama_en": "Multimedia Nusantara University",
+        "singkatan": "UMN", "kota": "Tangerang", "provinsi": "Banten",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 2006, "website": "https://umn.ac.id", "spmb_url": "https://pmb.umn.ac.id", "warna": "#0284C7"
+    },
+    "PETRA": {
+        "id": "PETRA", "nama": "Universitas Kristen Petra", "nama_en": "Petra Christian University",
+        "singkatan": "PETRA", "kota": "Surabaya", "provinsi": "Jawa Timur",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1961, "website": "https://petra.ac.id", "spmb_url": "https://admission.petra.ac.id", "warna": "#1E40AF"
+    },
+    "UMS": {
+        "id": "UMS", "nama": "Universitas Muhammadiyah Surakarta", "nama_en": "Muhammadiyah University of Surakarta",
+        "singkatan": "UMS", "kota": "Surakarta", "provinsi": "Jawa Tengah",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1981, "website": "https://ums.ac.id", "spmb_url": "https://pmb.ums.ac.id", "warna": "#2563EB"
+    },
+    "PRESUNIV": {
+        "id": "PRESUNIV", "nama": "President University", "nama_en": "President University",
+        "singkatan": "PRESUNIV", "kota": "Cikarang", "provinsi": "Jawa Barat",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 2001, "website": "https://president.ac.id", "spmb_url": "https://admission.president.ac.id", "warna": "#991B1B"
+    },
+    "USD": {
+        "id": "USD", "nama": "Universitas Sanata Dharma", "nama_en": "Sanata Dharma University",
+        "singkatan": "USD", "kota": "Sleman / Yogyakarta", "provinsi": "D.I. Yogyakarta",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1955, "website": "https://usd.ac.id", "spmb_url": "https://pmb.usd.ac.id", "warna": "#047857"
+    },
+    "MERCU": {
+        "id": "MERCU", "nama": "Universitas Mercu Buana", "nama_en": "Mercu Buana University",
+        "singkatan": "MERCU", "kota": "Jakarta Barat", "provinsi": "DKI Jakarta",
+        "wilayah": "Jawa", "tipe": "PTS", "klaster": "PTS Unggul", "akreditasi": "Unggul",
+        "tahun_berdiri": 1985, "website": "https://mercubuana.ac.id", "spmb_url": "https://pendaftaran.mercubuana.ac.id", "warna": "#0369A1"
     }
 }
 
@@ -731,6 +824,9 @@ def build_dataset():
             "ptn_singkatan": ptn_info["singkatan"],
             "ptn_kota": ptn_info["kota"],
             "ptn_provinsi": ptn_info["provinsi"],
+            "ptn_wilayah": ptn_info.get("wilayah", "Jawa"),
+            "ptn_tipe": ptn_info.get("tipe", "PTN"),
+            "ptn_warna": ptn_info.get("warna", "#0284C7"),
             "ptn_klaster": ptn_info["klaster"],
             "ptn_akreditasi": ptn_info["akreditasi"],
             "ptn_website": ptn_info["website"],
@@ -753,15 +849,20 @@ def build_dataset():
 def export_files(records):
     os.makedirs("data", exist_ok=True)
     
+    total_ptn = len([k for k, v in PTN_CATALOG.items() if v.get("tipe") == "PTN"])
+    total_pts = len([k for k, v in PTN_CATALOG.items() if v.get("tipe") == "PTS"])
+    
     metadata = {
         "title": "Indonesian Top Universities Selectivity & Quota Index",
-        "description": "Basis data komprehensif tingkat keketatan, daya tampung, dan riwayat peminat SNBP dan SNBT PTN top Indonesia.",
+        "description": "Basis data komprehensif tingkat keketatan, daya tampung, dan riwayat peminat SNBP dan SNBT PTN dan PTS top Indonesia.",
         "last_updated_iso": datetime.datetime.now().isoformat(),
         "last_updated_date": datetime.datetime.now().strftime("%d %B %Y"),
         "total_prodi": len(records),
-        "total_ptn": len(PTN_CATALOG),
+        "total_universitas": len(PTN_CATALOG),
+        "total_ptn": total_ptn,
+        "total_pts": total_pts,
         "ptn_list": list(PTN_CATALOG.keys()),
-        "source": "Balai Pengelolaan Pengujian Pendidikan (BPPP) Kemendikbudristek & Portal Resmi PTN",
+        "source": "Balai Pengelolaan Pengujian Pendidikan (BPPP) Kemendikbudristek & Portal Resmi Perguruan Tinggi",
         "license": "Open Data Commons / Educational Public Use"
     }
     
@@ -787,7 +888,7 @@ def export_files(records):
         writer = csv.writer(f)
         writer.writerow([
             "id", "kode_prodi", "nama_prodi", "nama_prodi_en", "jenjang", "rumpun",
-            "ptn_id", "ptn_nama", "ptn_kota", "ptn_provinsi", "ptn_klaster", "akreditasi",
+            "ptn_id", "ptn_nama", "ptn_kota", "ptn_provinsi", "ptn_wilayah", "ptn_tipe", "ptn_klaster", "akreditasi",
             "snbp_daya_tampung", "snbp_peminat_2024", "snbp_peminat_2023", "snbp_peminat_2022",
             "snbp_keketatan_persen", "snbp_rasio", "snbp_kategori",
             "snbt_daya_tampung", "snbt_peminat_2024", "snbt_peminat_2023", "snbt_peminat_2022",
@@ -796,7 +897,7 @@ def export_files(records):
         for r in records:
             writer.writerow([
                 r["id"], r["kode_prodi"], r["nama_prodi"], r["nama_prodi_en"], r["jenjang"], r["rumpun"],
-                r["ptn_id"], r["ptn_nama"], r["ptn_kota"], r["ptn_provinsi"], r["ptn_klaster"], r["akreditasi_prodi"],
+                r["ptn_id"], r["ptn_nama"], r["ptn_kota"], r["ptn_provinsi"], r.get("ptn_wilayah", "Jawa"), r.get("ptn_tipe", "PTN"), r["ptn_klaster"], r["akreditasi_prodi"],
                 r["snbp"]["daya_tampung"], r["snbp"]["riwayat_peminat"]["2024"], r["snbp"]["riwayat_peminat"]["2023"], r["snbp"]["riwayat_peminat"]["2022"],
                 r["snbp"]["keketatan_persen"], r["snbp"]["rasio_persaingan"], r["snbp"]["kategori"],
                 r["snbt"]["daya_tampung"], r["snbt"]["riwayat_peminat"]["2024"], r["snbt"]["riwayat_peminat"]["2023"], r["snbt"]["riwayat_peminat"]["2022"],
