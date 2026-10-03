@@ -495,7 +495,7 @@
       <div class="bg-gradient-to-r from-slate-900 to-sky-950 text-white p-6 rounded-2xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-4 mt-6">
         <div>
           <h4 class="text-base font-bold">Unduh Dataset Terbuka (Open Data)</h4>
-          <p class="text-xs text-slate-300 mt-1">Data lengkap 113 program studi pada 15 PTN utama tersedia secara gratis dalam format terbuka untuk riset dan edukasi.</p>
+          <p class="text-xs text-slate-300 mt-1">Data lengkap 295 program studi pada 50 perguruan tinggi (35 PTN &amp; 15 PTS) se-Nusantara tersedia secara gratis dalam format terbuka untuk riset dan edukasi.</p>
         </div>
         <div class="flex items-center space-x-2.5 shrink-0">
           <a href="data/ptn_keketatan.json" download class="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold text-xs transition inline-flex items-center space-x-1.5">
@@ -528,6 +528,8 @@
         <div class="pr-8 space-y-1.5">
           <div class="flex items-center space-x-2 flex-wrap gap-y-1">
             <span id="modal-ptn-badge" class="px-2.5 py-0.5 rounded-md text-xs font-bold text-white bg-sky-700"></span>
+            <span id="modal-tipe-badge" class="px-2 py-0.5 rounded text-[11px] font-bold"></span>
+            <span id="modal-wilayah-badge" class="px-2 py-0.5 rounded text-[11px] font-medium bg-slate-100 text-slate-700 border border-slate-200"></span>
             <span id="modal-kode" class="text-xs font-mono text-slate-400"></span>
             <span id="modal-rumpun" class="px-2 py-0.5 rounded text-[11px] font-semibold"></span>
           </div>
@@ -623,7 +625,7 @@
   <!-- Footer -->
   <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500 mt-auto">
     <div class="max-w-7xl mx-auto px-4 space-y-1.5">
-      <p id="footer-source">Data dihimpun dari portal resmi <strong>BPPP Kemendikbudristek (SNPMB)</strong> dan pusat penerimaan 15 PTN utama.</p>
+      <p id="footer-source">Data dihimpun dari portal resmi <strong>BPPP Kemendikbudristek (SNPMB)</strong> dan pusat penerimaan mahasiswa baru 50 perguruan tinggi terkemuka di Indonesia.</p>
       <p class="text-slate-400"><span id="footer-license">Dirilis untuk kepentingan publik dan edukasi calon mahasiswa baru se-Indonesia.</span></p>
     </div>
   </footer>
@@ -1327,7 +1329,22 @@
       const prodiName = currentLang === 'en' ? item.nama_prodi_en : item.nama_prodi;
       document.getElementById('modal-prodi-name').textContent = prodiName;
       document.getElementById('modal-ptn-full').textContent = `${item.ptn_nama} (${item.ptn_kota}, ${item.ptn_provinsi})`;
-      document.getElementById('modal-ptn-badge').textContent = item.ptn_singkatan;
+      
+      const ptnBadge = document.getElementById('modal-ptn-badge');
+      ptnBadge.textContent = item.ptn_singkatan;
+      ptnBadge.style.backgroundColor = ptnCatalog[item.ptn_id]?.warna || '#0284c7';
+
+      const tipeBadge = document.getElementById('modal-tipe-badge');
+      if (tipeBadge) {
+        tipeBadge.textContent = item.ptn_tipe || 'PTN';
+        tipeBadge.className = `px-2 py-0.5 rounded text-[11px] font-bold ${item.ptn_tipe === 'PTN' ? 'badge-ptn' : 'badge-pts'}`;
+      }
+
+      const wilayahBadge = document.getElementById('modal-wilayah-badge');
+      if (wilayahBadge) {
+        wilayahBadge.textContent = item.ptn_wilayah || 'Jawa';
+      }
+
       document.getElementById('modal-kode').textContent = item.kode_prodi ? `#${item.kode_prodi}` : '';
       
       const rumpunBadge = document.getElementById('modal-rumpun');
