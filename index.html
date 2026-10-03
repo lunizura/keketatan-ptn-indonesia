@@ -326,6 +326,12 @@
           <button onclick="applySimPreset('balanced')" class="px-2.5 py-1 rounded-lg text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200 hover:bg-emerald-100 transition">
             Psikologi &amp; Komunikasi (UGM + UNS) &bull; Seimbang
           </button>
+          <button onclick="applySimPreset('hybrid_it')" class="px-2.5 py-1 rounded-lg text-xs font-medium bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100 transition">
+            Informatika (UI + TELKOM) &bull; Hibrida PTN &amp; PTS
+          </button>
+          <button onclick="applySimPreset('hybrid_med')" class="px-2.5 py-1 rounded-lg text-xs font-medium bg-indigo-50 text-indigo-700 border border-indigo-200 hover:bg-indigo-100 transition">
+            Kedokteran (UGM + UII) &bull; Mitigasi Swasta Unggul
+          </button>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -336,7 +342,7 @@
               <span class="text-xs text-sky-800 font-semibold" id="sim-p1-ptn-count"></span>
             </div>
             <div>
-              <label id="sim-lbl-p1-ptn" class="block text-xs font-medium text-slate-700 mb-1">Perguruan Tinggi (PTN):</label>
+              <label id="sim-lbl-p1-ptn" class="block text-xs font-medium text-slate-700 mb-1">Perguruan Tinggi (PTN / PTS):</label>
               <select id="sim-p1-ptn" onchange="updateSimProdiOptions(1)" class="w-full px-3 py-2 rounded-xl border border-slate-200 bg-white text-xs font-medium shadow-sm"></select>
             </div>
             <div>
@@ -355,7 +361,7 @@
               <span class="text-xs text-slate-600 font-semibold" id="sim-p2-ptn-count"></span>
             </div>
             <div>
-              <label id="sim-lbl-p2-ptn" class="block text-xs font-medium text-slate-700 mb-1">Perguruan Tinggi (PTN):</label>
+              <label id="sim-lbl-p2-ptn" class="block text-xs font-medium text-slate-700 mb-1">Perguruan Tinggi (PTN / PTS):</label>
               <select id="sim-p2-ptn" onchange="updateSimProdiOptions(2)" class="w-full px-3 py-2 rounded-xl border border-slate-200 bg-white text-xs font-medium shadow-sm"></select>
             </div>
             <div>
@@ -990,8 +996,8 @@
       const selP1 = document.getElementById('sim-p1-ptn');
       const selP2 = document.getElementById('sim-p2-ptn');
 
-      selP1.innerHTML = ptnKeys.map(k => `<option value="${k}">${k} - ${ptnCatalog[k].nama}</option>`).join('');
-      selP2.innerHTML = ptnKeys.map(k => `<option value="${k}">${k} - ${ptnCatalog[k].nama}</option>`).join('');
+      selP1.innerHTML = ptnKeys.map(k => `<option value="${k}">${k} - ${ptnCatalog[k].nama} (${ptnCatalog[k].tipe || 'PTN'})</option>`).join('');
+      selP2.innerHTML = ptnKeys.map(k => `<option value="${k}">${k} - ${ptnCatalog[k].nama} (${ptnCatalog[k].tipe || 'PTN'})</option>`).join('');
 
       // Default selections: P1 UI, P2 UGM
       selP1.value = 'UI';
@@ -1039,6 +1045,22 @@
         document.getElementById('sim-p2-ptn').value = 'UNS';
         updateSimProdiOptions(2);
         document.getElementById('sim-p2-prodi').value = 'uns-ilmu-komunikasi';
+      } else if (preset === 'hybrid_it') {
+        document.getElementById('sim-p1-ptn').value = 'UI';
+        updateSimProdiOptions(1);
+        document.getElementById('sim-p1-prodi').value = 'ui-teknik-informatika';
+
+        document.getElementById('sim-p2-ptn').value = 'TELKOM';
+        updateSimProdiOptions(2);
+        document.getElementById('sim-p2-prodi').value = 'telkom-teknik-informatika';
+      } else if (preset === 'hybrid_med') {
+        document.getElementById('sim-p1-ptn').value = 'UGM';
+        updateSimProdiOptions(1);
+        document.getElementById('sim-p1-prodi').value = 'ugm-kedokteran';
+
+        document.getElementById('sim-p2-ptn').value = 'UII';
+        updateSimProdiOptions(2);
+        document.getElementById('sim-p2-prodi').value = 'uii-kedokteran';
       }
       runSimulation();
     }
@@ -1078,15 +1100,26 @@
       let statusDesc = "Kombinasi pilihan Anda memiliki struktur portofolio yang baik. Pilihan 1 menargetkan prodi prioritas, sementara Pilihan 2 memberikan mitigasi peluang yang lebih rasional.";
       let recommendations = [];
 
-      // Case 1: Inverted selectivity (Choice 2 harder than Choice 1)
-      if (m2.keketatan_persen < m1.keketatan_persen) {
+      const isHybrid = (p1.ptn_tipe === 'PTN' && p2.ptn_tipe === 'PTS');
+
+      // Case 1: Hybrid PTN + PTS
+      if (isHybrid) {
+        statusColor = "purple";
+        statusTitle = "Strategi Hibrida Cerdas: Menembus PTN &amp; Mengamankan PTS Unggul";
+        statusDesc = `Kombinasi Pilihan 1 di ${p1.ptn_singkatan} (${p1.ptn_tipe}) dan Pilihan 2 di ${p2.ptn_singkatan} (${p2.ptn_tipe}) merupakan strategi mitigasi ideal. Anda menargetkan kampus negeri impian sembari memiliki jaring pengaman perguruan tinggi swasta berakreditasi Unggul.`;
+        recommendations.push("Daftarkan diri pada jalur prestasi atau gelombang awal SPMB di " + p2.ptn_singkatan + " sebagai garansi kepastian studi.");
+        recommendations.push("Fokus belajar intensif UTBK untuk memaksimalkan peluang tembus di " + p1.ptn_singkatan + ".");
+        recommendations.push("Pantau jadwal pengumuman agar pembayaran uang muka / daftar ulang di PTS dapat diselaraskan dengan hasil seleksi.");
+      }
+      // Case 2: Inverted selectivity (Choice 2 harder than Choice 1)
+      else if (m2.keketatan_persen < m1.keketatan_persen) {
         statusColor = "amber";
         statusTitle = "Peringatan: Urutan Keketatan Terbalik (Inverted Selectivity)";
         statusDesc = `Pilihan 2 (${p2.nama_prodi} di ${p2.ptn_singkatan}) memiliki tingkat persaingan lebih ketat (${m2.keketatan_persen}%) dibandingkan Pilihan 1 (${m1.keketatan_persen}%).`;
-        recommendations.push("Pada sistem seleksi nasional, jika Anda tidak lolos di Pilihan 1, шанс cadangan di Pilihan 2 yang lebih ketat akan jauh lebih kecil.");
+        recommendations.push("Pada sistem seleksi nasional, jika Anda tidak lolos di Pilihan 1, peluang cadangan di Pilihan 2 yang lebih ketat akan jauh lebih kecil.");
         recommendations.push("Tukar posisi: Letakkan prodi dengan keketatan lebih tinggi di Pilihan 1, dan prodi yang relatif lebih terbuka di Pilihan 2.");
       }
-      // Case 2: Extreme Risk (Both < 2.5%)
+      // Case 3: Extreme Risk (Both < 2.5%)
       else if (m1.keketatan_persen < 2.5 && m2.keketatan_persen < 2.5) {
         statusColor = "rose";
         statusTitle = "Risiko Ekstrem: Kedua Pilihan Sangat Ketat (High Risk Portfolio)";
@@ -1094,11 +1127,11 @@
         recommendations.push("Pertahankan Pilihan 1 untuk memperjuangkan prodi impian Anda.");
         recommendations.push("Pertimbangkan mengganti Pilihan 2 dengan prodi yang memiliki persentase keketatan moderat/sedang (> 5% atau rasio < 1:20) sebagai jaring pengaman realistis.");
       }
-      // Case 3: Balanced
+      // Case 4: Balanced
       else {
         statusColor = "emerald";
         statusTitle = "Strategi Ideal: Target Ambisius &amp; Jaring Pengaman Tersedia";
-        statusDesc = "Portofolio pilihan Anda terdistribusi sehat. Pilihan 1 menampung aspirasi tinggi, sedangkan Pilihan 2 berfungsi efektif sebagai penyelamat peluang masuk perguruan tinggi negeri.";
+        statusDesc = "Portofolio pilihan Anda terdistribusi sehat. Pilihan 1 menampung aspirasi tinggi, sedangkan Pilihan 2 berfungsi efektif sebagai penyelamat peluang masuk perguruan tinggi.";
         recommendations.push("Fokus maksimalkan persiapan skor UTBK atau bobot portofolio prestasi Anda.");
         recommendations.push("Pastikan linieritas mata pelajaran pendukung tetap terpenuhi untuk kedua jurusan.");
       }
