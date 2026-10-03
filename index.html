@@ -900,7 +900,7 @@
       const multiCampus = Object.keys(prodiCounts).filter(k => prodiCounts[k] >= 2).sort();
       const sel = document.getElementById('compare-prodi-select');
       sel.innerHTML = multiCampus.map(name => {
-        return `<option value="${name}">${name} (${prodiCounts[name]} PTN)</option>`;
+        return `<option value="${name}">${name} (${prodiCounts[name]} Kampus)</option>`;
       }).join('');
     }
 
@@ -920,7 +920,7 @@
           <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-100 pb-3 gap-2">
             <div>
               <h4 class="text-lg font-bold text-slate-900">${selectedName}</h4>
-              <p class="text-xs text-slate-500">Tersedia di ${matched.length} PTN terkemuka &bull; Jalur ${compTrack.toUpperCase()}</p>
+              <p class="text-xs text-slate-500">Tersedia di ${matched.length} perguruan tinggi (PTN &amp; PTS) &bull; Jalur ${compTrack.toUpperCase()}</p>
             </div>
             <div class="flex items-center space-x-2 flex-wrap gap-y-1">
               <span class="px-2.5 py-1 rounded text-xs font-semibold ${matched[0]?.rumpun === 'Saintek' ? 'badge-saintek' : 'badge-soshum'}">${matched[0]?.rumpun}</span>
@@ -939,12 +939,15 @@
               return `
                 <div onclick="openProdiModal('${item.id}')" class="p-4 rounded-xl border border-slate-200 hover:border-sky-300 hover:shadow-md transition cursor-pointer bg-slate-50/50">
                   <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
-                    <div class="flex items-center space-x-2">
+                    <div class="flex items-center space-x-2 flex-wrap gap-y-1">
                       <span class="px-2.5 py-1 rounded-md text-xs font-bold text-white" style="background-color: ${ptn?.warna || '#0284c7'}">
                         ${item.ptn_singkatan}
                       </span>
+                      <span class="px-1.5 py-0.5 rounded text-[10px] font-bold ${item.ptn_tipe === 'PTN' ? 'badge-ptn' : 'badge-pts'}">
+                        ${item.ptn_tipe}
+                      </span>
                       <strong class="text-sm text-slate-900">${item.ptn_nama}</strong>
-                      <span class="text-xs text-slate-400">(${item.ptn_kota})</span>
+                      <span class="text-xs text-slate-400">(${item.ptn_kota}, ${item.ptn_wilayah})</span>
                     </div>
                     <div class="flex items-center space-x-2">
                       <span class="px-2.5 py-0.5 rounded text-xs font-bold ${m.badge_class}">${kat}</span>
